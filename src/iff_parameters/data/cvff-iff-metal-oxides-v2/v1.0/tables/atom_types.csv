@@ -1,0 +1,281 @@
+atom_type,element,mass_amu,vdw_style,lj_a,lj_b,notes
+Ac,Ac,227,lj_ab_12_6,67550000,41940,0 Actinium metal
+Ag,Ag,107.86799621582031,lj_ab_12_6,2021000,6072,0 Silver metal
+Al,Al,26.982000350952148,lj_ab_12_6,1577000,5035,0 Aluminium metal
+Alcu,Al,26.982000350952148,lj_ab_12_6,848621.67830000003,2913.1111860000001,0 Aluminium metal in AlCu alloy
+Au,Au,196.96699523925781,lj_ab_12_6,2307000,6987,0 Gold metal (non-polarizable)
+Auc,Au,195.96699523925781,lj_ab_12_6,1495800,4576,1 Gold nucleus in polarizable LJ model (+1.0e)
+Aue,Au,1,lj_ab_12_6,85470,261.5,1 Gold electron in polarizable LJ model (-1.0e)
+Br,Br,79.903999328613281,lj_ab_12_6,34375640,3517.8445999999999,1 Bromide ion Br-
+CA,C,10.011150360107422,lj_ab_12_6,1140850.6880000001,557.05600000000004,4 C in benzene
+CT3,C,12.01099967956543,lj_ab_12_6,1659650.189,719.59075800000005,4 CHARMM CT3
+Ca,Ca,40.077999114990234,lj_ab_12_6,60750000,28570,0 Calcium metal (alpha)
+Ce,Ce,140.11599731445312,lj_ab_12_6,46870000,34590,0 Cerium metal (gamma)
+Cr,Cr,51.995998382568359,lj_ab_12_6,589600,3730,0 Chromium metal
+Cu,Cu,63.546001434326172,lj_ab_12_6,484800,3026,0 Copper metal
+Cual,Cu,63.546001434326172,lj_ab_12_6,291572.89390000002,1931.872936,0 Copper metal in AlCu alloy
+Es,Es,252,lj_ab_12_6,71540000,28710,0 Einsteinium metal (beta)
+Fe,Fe,55.847000122070312,lj_ab_12_6,596800,3950,0 Iron metal (bcc and fcc)
+HA3,H,1.0080000162124634,lj_ab_12_6,3294.7978210000001,17.7848416,1 CHARMM HA3
+IHOY,H,1.0079699754714966,lj_ab_12_6,0.0001,0.0001,"1 Hydrogen atom in (Al,Mg,Si)OH and OH- group in clay, silica"
+Ir,Ir,192.21699523925781,lj_ab_12_6,2003000,8586,0 Iridium metal
+K,K,39.102001190185547,lj_ab_12_6,24856948.194200002,23280.483199999999,0 Potassium metal
+Li,Li,6.940000057220459,lj_ab_12_6,5192358.6600000001,9916.8176800000001,0 Lithium metal
+Mo,Mo,95.94000244140625,lj_ab_12_6,5869689.0344000002,21298.663039999999,0 Molybdenum metal
+NCH2,N,14.006999969482422,lj_ab_12_6,1316590.4010000001,1026.2905639999999,"3 N,N-dimethylaniline, N with connection to benzene ring C"
+NN,N,14.006999969482422,lj_ab_12_6,1353809.4180000001,570.01250889999994,"2 for N=N bond in Azobenzene Compounds, or 1,2-diphenylhydrazine"
+Na,Na,22.989799499511719,lj_ab_12_6,14000,300,1 Sodium ion
+Na,Na,22.989999771118164,lj_ab_12_6,14000,300,0 Sodium metal
+Ni,Ni,58.709999084472656,lj_ab_12_6,431100,3121,0 Nickel metal
+Ni2,Ni,58.709999084472656,lj_ab_12_6,431100,3121,0 Nickel metal for O-chemisorbed surfaces
+OC,O,15.99940013885498,lj_ab_12_6,286370.48200000002,370.75305980000002,1 CHARMM carboxylate oxygen
+Pb,Pb,207.19999694824219,lj_ab_12_6,12350000,12030,0 Lead metal
+Pd,Pd,106.40000152587891,lj_ab_12_6,1549000,6173,0 Palladium metal
+Pt,Pt,195.08999633789062,lj_ab_12_6,2193000,8272,0 Platinum metal
+Rh,Rh,102.90550231933594,lj_ab_12_6,1512000,6886,0 Rhodium metal
+S,S,32.060001373291016,lj_ab_12_6,7549747.2000000002,3686.4000000000001,"4 CHARMM sulphur, benzene sulfonic acid anion, og, cgenff, N-Phenylbenzenesulfonamide, Benzenesulfonate"
+Sn,Sn,118.69000244140625,lj_ab_12_6,,,0 Tin metal
+Sr,Sr,87.620002746582031,lj_ab_12_6,169000000,47950,0 Strontium metal (alpha)
+Th,Th,232.03770446777344,lj_ab_12_6,52760000,42280,0 Thorium metal (alpha)
+W,W,183.85000610351562,lj_ab_12_6,7876811.6339999996,27853.239150000001,0 Tungsten metal
+Yb,Yb,173.04499816894531,lj_ab_12_6,38160000,20340,0 Ytterbium metal (beta)
+ac1,Al,26.981529235839844,lj_ab_12_6,44881000,9474,4 Aluminum atom in aluminate ring in Ca3Al2O6 (+1.2
+al,Al,26.982000350952148,lj_ab_12_6,11422865,2282.9660600000002,0 Aluminium in alumino-silicate
+alo1,Al,26.982000350952148,lj_ab_12_6,301.69,23.300000000000001,"0 Aluminium in alumina phases, bulk and surface (+1.62, +1.48 in AlO-)"
+aot1,O,15.99940013885498,lj_ab_12_6,12672860.01,1743.98578,"3 O in anatase TiO2, -0.5e"
+aot2,O,15.99940013885498,lj_ab_12_6,12672860.01,1743.98578,"3 O in anatase TiO2, -0.5e"
+aot3,O,15.99940013885498,lj_ab_12_6,12672860.01,1743.98578,"3 O in anatase TiO2, -0.5e"
+aot4,O,15.99940013885498,lj_ab_12_6,12672860.01,1743.98578,"3 O in anatase TiO2, -0.5e"
+ar,Ar,39.948001861572266,lj_ab_12_6,2312930,1484.0920000000001,0 Argon atom
+ato1,Ti,47.867000579833984,lj_ab_12_6,102337003.40000001,5722.57294,"6 Ti in anatase TiO2, 1.0e"
+ato2,Ti,47.867000579833984,lj_ab_12_6,102337003.40000001,5722.57294,"6 Ti in anatase TiO2, 1.0e"
+ato3,Ti,47.867000579833984,lj_ab_12_6,102337003.40000001,5722.57294,"6 Ti in anatase TiO2, 1.0e"
+atoh,O,15.99940013885498,lj_ab_12_6,371803.5466,425.95789789999998,3 surface OH in anatase TiO2
+ay1,Al,26.981538772583008,lj_ab_12_6,1506500,548.89999999999998,6 Aluminum atom (+1.45) or magnesium defect (+1.1) in octahedral aluminate sheet
+ay2,Al,26.981538772583008,lj_ab_12_6,,,6 Aluminum atom (+1.45) or magnesium defect (+1.1) in octahedral aluminate sheet
+ayt1,Al,26.981538772583008,lj_ab_12_6,1506500,548.89999999999998,4 Aluminum defect of sy1 (+0.8)
+ayt2,Al,26.981538772583008,lj_ab_12_6,,,4 Aluminum defect of sy2 (+0.8)
+az,Al,26.982000350952148,lj_ab_12_6,,,0 Aluminium in alumino-silicate
+ba2+,Ba,137.32699584960938,lj_ab_12_6,714049,1014.02,0 Barium ion in water (+2.0)
+be2+,Be,9.0121803283691406,lj_ab_12_6,0.01259,0.0070959999999999999,0 Beryllium ion in water (+2.0)
+br,Br,79.90899658203125,lj_ab_12_6,3572030,1195,1 Bromine bonded to a carbon
+br-,Br,79.903999328613281,lj_ab_12_6,69827100,10302.299999999999,0 Bromide ion in water (-1.0)
+c,C,12.011150360107422,lj_ab_12_6,1981049.2250000001,1125.998,4 Sp3 aliphatic carbon
+"c""",C,12.011150360107422,lj_ab_12_6,,,"3 Carbon in carbonyl group, non_amides"
+c$,C,12.011150360107422,lj_ab_12_6,,,4 Carbon atom for automatic parameter assignment
+c',C,12.011150360107422,lj_ab_12_6,2968753.3590000002,1325.7081000000001,3 Sp2 carbon in carbonyl (C=O) group
+c*,C,12.011150360107422,lj_ab_12_6,,,"3 Carbon in carbonyl group, non_amides"
+c+,C,12.011150360107422,lj_ab_12_6,,,3 C in guanidinium group
+c-,C,12.011150360107422,lj_ab_12_6,,,3 Carbon in charged carboxylate (COO-) group
+c1,C,12.011150360107422,lj_ab_12_6,,,"4 Sp3 carbon bonded to 1 H, 3 Heavy atoms"
+c2,C,12.011150360107422,lj_ab_12_6,,,"4 Sp3 carbon bonded to 2 H's, 2 heavy atoms"
+c3,C,12.011150360107422,lj_ab_12_6,,,4 Sp3 carbon in methyl (CH3) group
+c3h,C,12.011150360107422,lj_ab_12_6,,,4 Sp3 carbon in 3-membered ring with hydrogens
+c3m,C,12.011150360107422,lj_ab_12_6,,,4 Sp3 carbon in 3-membered ring
+c4h,C,12.011150360107422,lj_ab_12_6,,,4 Sp3 carbon in 4-membered ring with hydrogens
+c4m,C,12.011150360107422,lj_ab_12_6,,,4 Sp3 carbon in 4-membered ring
+c5,C,12.011150360107422,lj_ab_12_6,,,3 Sp2 aromatic carbon in five membered ring
+c=,C,12.011150360107422,lj_ab_12_6,,,3 Non-aromatic end doubly bonded carbon
+c=1,C,12.011150360107422,lj_ab_12_6,,,"3 Non-aromatic, next to end doubly bonded carbon"
+c=2,C,12.011150360107422,lj_ab_12_6,,,3 Non-aromatic doubly bonded carbon
+ca,C,12.011150360107422,lj_ab_12_6,,,4 General amino acid alpha carbon (sp3)
+ca+,Ca,40.079799652099609,lj_ab_12_6,119025,240.25,"Calcium ion Ca2+, mass = mass of Ca - 2*electron mass."
+ca++,Ca,40.080001831054688,lj_ab_12_6,579343,819.77999999999997,0 Calcium ion in Ca3SiO5 (+1.5) and organic salts
+ca+a,Ca,40.080001831054688,lj_ab_12_6,250183,387.44,0 Calcium ion in Ca3Al2O6 (+1.5)
+ca+h,Ca,40.080001831054688,lj_ab_12_6,216826,335.77999999999997,0 Calcium ion in hydroxyapatite (+1.5)
+ca2+,Ca,40.077999114990234,lj_ab_12_6,32150.900000000001,168.20500000000001,0 Calcium ion in water (+2.0)
+cae,H,1.0080000162124634,lj_ab_12_6,0.0001,0.0024575999999999999,1 Pi electron in benzene and other aromatic molecule
+ce1,C,12.011150360107422,lj_ab_12_6,1006600,491.51999999999998,4 Carbon atom in backbone or terminal group in PEO
+cg,C,12.011150360107422,lj_ab_12_6,1790340.7239999999,528.4819,4 Sp3 alpha carbon in glycine
+cg1,H,10.011150360107422,lj_ab_12_6,731775.46580000001,449.41075710000001,4 Pi electron in graphite
+cge,H,1.0080000162124634,lj_ab_12_6,1.0000000000000001e-05,0.0001,1 Pi electron in graphite
+ci,C,12.011150360107422,lj_ab_12_6,,,3 Aromatic carbon in a charged imidazole ring (HIS+)
+ci,C,12.011150360107422,lj_ab_12_6,,,3 Sp2 aromatic carbon in charged imidazole ring (His+)
+cl,Cl,35.452999114990234,lj_ab_12_6,1059166,541,1 Chlorine bonded to a carbon
+cl-,Cl,35.450000762939453,lj_ab_12_6,9989907.6989999991,3160.6815000000001,"0 Chloride ion in water (-1.0), updated (newer than Jamil)"
+cn,C,12.011150360107422,lj_ab_12_6,,,4 Sp3 Carbon bonded to N
+co,C,12.011150360107422,lj_ab_12_6,,,4 Sp3 carbon in acetals
+coh,C,12.011150360107422,lj_ab_12_6,,,4 Sp3 carbon in acetals with hydrogen
+cp,C,12.011150360107422,lj_ab_12_6,,,3 Sp2 aromatic carbon (partial double bonds)
+cr,C,12.011150360107422,lj_ab_12_6,,,3 Carbon in guanidinium group (HN=C(NH2)2)
+cs,C,12.011150360107422,lj_ab_12_6,,,3 Sp2 carbon involved in thiophene
+cs+,Cs,132.90550231933594,lj_ab_12_6,6197080,2945.4899999999998,0 Caesium ion water (+1.0)
+ct,C,12.011150360107422,lj_ab_12_6,,,2 Sp carbon involved in triple bond
+d,D,2.0139999389648438,lj_ab_12_6,,,1 General Deuterium Atom
+dw,D,2.0139999389648438,lj_ab_12_6,,,1 Deuterium in heavy water
+et5,Lp,0.5,lj_ab_12_6,0.001,0.002,1 Electron pair in TIP5P water/ether model (shown as He)
+f,F,18.99839973449707,lj_ab_12_6,201106,235.19999999999999,1 Fluorine bonded to a carbon
+f-,F,18.99839973449707,lj_ab_12_6,509481.79999999999,699.35900000000004,0 Fluoride ion in water (-1.0)
+fft1,F,18.998403549194336,lj_ab_12_6,509481.79999999999,699.35900000000004,1 F in H2TiF6
+fft2,F,18.998403549194336,lj_ab_12_6,509481.79999999999,699.35900000000004,1 F in H2TiF6
+fft3,F,18.998403549194336,lj_ab_12_6,509481.79999999999,699.35900000000004,1 F in H2TiF6
+ffz1,F,18.998403549194336,lj_ab_12_6,509481.79999999999,699.35900000000004,1 F in H2ZrF6
+ffz2,F,18.998403549194336,lj_ab_12_6,509481.79999999999,699.35900000000004,1 F in H2ZrF6
+ffz3,F,18.998403549194336,lj_ab_12_6,509481.79999999999,699.35900000000004,1 F in H2ZrF6
+h,H,1.0079699754714966,lj_ab_12_6,7108.4660000000003,32.870759999999997,1 Hydrogen bonded to C. Masses from CRC 1973/74 pages B-250.
+h$,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen atom for automatic parameter assignment
+h*,H,1.0079699754714966,lj_ab_12_6,1e-08,1.0000000000000001e-05,1 Hydrogen in water molecule
+h+,H,1.0079699754714966,lj_ab_12_6,,,1 Charged hydrogen in cations
+ha1,H,1.0079699754714966,lj_ab_12_6,1e-08,0,1 Hydrogen atom in terminal OH group in PEO (+0.4)
+hc,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen bonded to carbon
+he,He,4.0026001930236816,lj_ab_12_6,6315.5582000000004,22.649529999999999,0 Helium atom
+he1,H,1.0079699754714966,lj_ab_12_6,7483,34.600000000000001,1 Hydrogen atom in backbone or terminal group in PEO
+hi,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen in charged imidazole ring
+hiff,H,1.0080000162124634,lj_ab_12_6,20194.758000000002,55.404000000000003,1 H in benzene
+hn,H,1.0079699754714966,lj_ab_12_6,1e-08,0,1 Hydrogen bonded to N
+ho,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen bonded to O
+hoc,H,1.0079699754714966,lj_ab_12_6,0.039899999999999998,0.048899999999999999,1 Hydrogen atom in OH group of ettringite (+0.35) and in superficial hydroxide ions (+0.3)
+hok,H,1.0080000162124634,lj_ab_12_6,0.039899999999999998,0.048899999999999999,1 Hydrogen atom in AlOH surface group in kaolinite (0.2)
+hop,H,1.0080000162124634,lj_ab_12_6,1e-08,0,1 Hydrogen atom in hydrogenphosphate and in hydroxide ion in apatite (+0.4 and +0.2)
+hoy,H,1.0080000162124634,lj_ab_12_6,0.039899999999999998,0.048899999999999999,"1 Hydrogen atom in (Al,Mg,Si)OH and OH- groups in clay, silica, cement (excl. ettr)"
+hp,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen bonded to P
+hs,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen bonded to S
+hspc,H,1.0079699754714966,lj_ab_12_6,1e-08,1.0000000000000001e-05,1 Hydrogen in SPC water molecule
+ht5,H,1.0079699754714966,lj_ab_12_6,0.001,0.002,1 Hydrogen atom in TIP5P water model
+htip,H,1.0079699754714966,lj_ab_12_6,1e-08,1.0000000000000001e-05,1 Hydrogen in TIP water molecule
+hw,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen in water molecule
+i,I,126.90450286865234,lj_ab_12_6,,,1 Covalently bound Iodine
+i-,I,126.90450286865234,lj_ab_12_6,321812000,23251.700000000001,0 Iodide ion in water (-1.0)
+icao,Ca,40.080001831054688,lj_ab_12_6,125109.19,387.47000000000003,0 Calcium in CaO (non-bond oxide model)
+icch,Ca,40.080001831054688,lj_ab_12_6,230584.29999999999,429.5,0 Calcium in Ca(OH)2 (non-bond oxide model)
+icro,Cr,51.995998382568359,lj_ab_12_6,1124.97,39.689999999999998,0 Chromium in alpha-Cr2O3 (non-bond oxide model)
+ifeo,Fe,55.847000122070312,lj_ab_12_6,1967.3499999999999,48.590000000000003,0 Iron in alpha-Fe2O3 (non-bond oxide model)
+ihch,H,1.0079699754714966,lj_ab_12_6,0,9.9999999999999995e-07,1 Hydrogen in Ca(OH)2 (non-bond oxide model)
+ihnh,H,1.0079699754714966,lj_ab_12_6,0,9.9999999999999995e-07,1 Hydrogen in Ni(OH)2 (non-bond oxide model)
+imgo,Mg,24.305000305175781,lj_ab_12_6,2335.9699999999998,61.140000000000001,0 Magnesium in MgO (non-bond oxide model)
+inio,Ni,58.709999084472656,lj_ab_12_6,1057.99,38.490000000000002,0 Nickel in NiO (non-bond oxide model)
+innh,Ni,58.709999084472656,lj_ab_12_6,2306.2399999999998,48.020000000000003,0 Nickel in Ni(OH)2 (non-bond oxide model)
+ioam,O,15.99940013885498,lj_ab_12_6,465165.37,747.13,2 Oxygen in Al2MgO4 (non-bond spinel)
+ioca,O,15.99940013885498,lj_ab_12_6,464805.02000000002,681.76999999999998,2 Oxygen in CaO (non-bond oxide model)
+ioch,O,15.99940013885498,lj_ab_12_6,925262.76000000001,745.09000000000003,2 Oxygen in Ca(OH)2 (non-bond oxide model)
+iocr,O,15.99940013885498,lj_ab_12_6,662932.70999999996,814.21000000000004,2 Oxygen in alpha-Cr2O3 (non-bond oxide model)
+iofe,O,15.99940013885498,lj_ab_12_6,699383.52000000002,748,2 Oxygen in alpha-Fe2O3 (non-bond oxide model)
+iomg,O,15.99940013885498,lj_ab_12_6,599320.22999999998,848.04999999999995,2 Oxygen in MgO (non-bond oxide model)
+ionh,O,15.99940013885498,lj_ab_12_6,748732.10999999999,773.94000000000005,2 Oxygen in Ni(OH)2 (non-bond oxide model)
+ioni,O,15.99940013885498,lj_ab_12_6,954568.27000000002,1235.8399999999999,2 Oxygen in NiO (non-bond oxide model)
+k+,K,39.098300933837891,lj_ab_12_6,477639,655.64800000000002,"0 Potassium ion in mica, montmorillonite, and other clays (+1.0)"
+li+,Li,6.940000057220459,lj_ab_12_6,207.696,6.1143999999999998,0 Lithium ion in water (+1.0)
+lp,L,0.0010969999711960554,lj_ab_12_6,,,1 Lone Pair (massless)
+lp,L,1,lj_ab_12_6,,,1 Lone Pair
+mg,mg,100,lj_ab_12_6,3149175,710,0 Magnesium
+mg2+,Mg,24.305000305175781,lj_ab_12_6,786.75099999999998,12.2905,0 Magnesium ion ni water (+2.0)
+n,N,14.006699562072754,lj_ab_12_6,2266872.3999999999,1230.557,"3 Sp2 nitrogen with 1 H, 2 heavy atoms (amide group)"
+n$,N,14.006699562072754,lj_ab_12_6,,,3 Nitrogen atom for automatic parameter assignment
+n+,N,14.006699562072754,lj_ab_12_6,,,4 Sp3 nitrogen in protonated amines
+n1,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen in charged arginine
+n2,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen (NH2 in the guanidinium group (HN=C(NH2)2))
+n3,N,14.006699562072754,lj_ab_12_6,,,3 Sp3 nitrogen with three substituents
+n3m,N,14.006699562072754,lj_ab_12_6,,,3 Sp3 nitrogen in 3- membered ring
+n3n,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen in 3- membered ring
+n4,N,14.006699562072754,lj_ab_12_6,,,4 Sp3 nitrogen with four substituents
+n4m,N,14.006699562072754,lj_ab_12_6,,,3 Sp3 nitrogen in 4- membered ring
+n4n,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen in 4- membered ring
+n=,N,14.006699562072754,lj_ab_12_6,,,2 Non-aromatic end double bonded nitrogen
+n=1,N,14.006699562072754,lj_ab_12_6,,,"2 Non-aromatic, next to end doubly bonded carbon"
+n=2,N,14.006699562072754,lj_ab_12_6,,,2 Non-aromatic doubly bonded nitrogen
+na,N,14.006699562072754,lj_ab_12_6,,,3 Sp3 nitrogen in amines
+na+,Na,22.989770889282227,lj_ab_12_6,96792,190.77000000000001,"0 Sodium ion in silica, clays, solution, and organic salts (+1.0)"
+nb,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen in aromatic amines
+nh,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen in 5-or 6- membered ring with hydrogen attached
+nh+,N,14.006699562072754,lj_ab_12_6,,,3 Protonated nitrogen in 6- membered ring with hydrogen attached
+nho,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen in 6- membered ring next to a carbonyl group and with a hydrogen
+ni,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen in a charged imidazole ring (HIS+)
+nn,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen in aromatic amines
+no,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen in nitro group
+np,N,14.006699562072754,lj_ab_12_6,,,2 Sp2 aromatic nitrogen (partial double bonds)
+npc,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen in 5- or 6- membered ring bonded to a heavy atom
+nr,N,14.006699562072754,lj_ab_12_6,,,3 Sp2 nitrogen (NH2) in guanidinium group (HN=C(NH2)2)
+nt,N,14.006699562072754,lj_ab_12_6,,,1 Sp nitrogen involved in triple bond
+nu,D,12,lj_ab_12_6,1e-08,0,NULL atom for relative free energy
+nz,N,14.006699562072754,lj_ab_12_6,,,1 Sp nitrogen in N2
+o,O,15.99940013885498,lj_ab_12_6,,,2 Sp3 oxygen in ether or ester groups
+o$,O,15.99940013885498,lj_ab_12_6,,,2 Oxygen atom for automatic parameter assignment
+o',O,15.99940013885498,lj_ab_12_6,272894.78460000001,498.87880000000001,1 Oxygen in carbonyl (C=O) group
+o*,O,15.99940013885498,lj_ab_12_6,629358,625.5,2 Oxygen in water molecule
+o-,O,15.99940013885498,lj_ab_12_6,,,1 Oxygen in charged carboxylate (COO-) group
+o00,O,15.99940013885498,lj_ab_12_6,954568,1236,2 Oxygen atom chemisorbed on Ni 100 surface p2x2 and c2x2
+o10,O,15.99940013885498,lj_ab_12_6,954568,1236,2 Oxygen atom chemisorbed on Ni 110 surface c2x1
+o11,O,15.99940013885498,lj_ab_12_6,954568,1236,2 Oxygen atom chemisorbed on Ni 111 surface p2x2
+o1a,O,15.99940013885498,lj_ab_12_6,618006,786,2 Oxygen atom chemisorbed on Al 111 surface p1x1
+o2,O,15.99940013885498,lj_ab_12_6,172732,269,2 oxygen gas molecule parameter (Shiyi Wang et al.)
+o3e,O,15.99940013885498,lj_ab_12_6,,,2 Sp3 oxygen in three membered ring
+o4e,O,15.99940013885498,lj_ab_12_6,,,2 Sp3 oxygen in four membered ring
+oa1,O,15.99940013885498,lj_ab_12_6,348200,613.20000000000005,2 Oxygen atom in terminal OH group in PEO (-0.6)
+oal1,O,15.99940013885498,lj_ab_12_6,583761.32999999996,904.02999999999997,"0 Oxygen in alumina phases, bulk (-1.08)"
+oal2,O,15.99940013885498,lj_ab_12_6,371803.5466,425.95789789999998,"1 Oxygen in alumina phases, AlOH bulk and surface groups (-0.7, -0.84, and -1.26 in AlO-)"
+oap1,O,15.99940013885498,lj_ab_12_6,167049,216.27000000000001,1 Oxygen atom in (hydrogen)phosphate ion in hydroxyapatite (-0.8 to -0.6)
+oap2,O,15.99940013885498,lj_ab_12_6,526636,410.51999999999998,1 Oxygen atom in hydroxide ion in hydroxyapatite (-1.1)
+oat5,O,14.99940013885498,lj_ab_12_6,272900,498.89999999999998,2 Oxygen atom in terminal OH group in PEO with lone pairs et5 attached (et5=-0.18)
+oc,O,15.99940013885498,lj_ab_12_6,,,2 Sp3 oxygen in ether or acetals
+oc1,O,15.99940013885498,lj_ab_12_6,66807,136.77000000000001,1 Oxygen atom silicate ion in Ca3SiO5 (-1.0)
+oc2,O,15.99940013885498,lj_ab_12_6,236545,257.36000000000001,0 Oxide ion in Ca3SiO5 (-1.5)
+oc23,O,15.99940013885498,lj_ab_12_6,164569,188.53999999999999,2 Oxygen atom in bulk silica (-0.55)
+oc24,O,15.99940013885498,lj_ab_12_6,371804,425.95999999999998,"2 Oxygen atom on silica surface and clay edges (-0.675 in Si-OH, -0.9 in SiO-)"
+oc3,O,15.99940013885498,lj_ab_12_6,270338,294.12,2 Oxygen atom in aluminate ring in Ca3Al2O6 (-0.75)
+oc4,O,15.99940013885498,lj_ab_12_6,190914,247.16999999999999,1 Oxygen atom in apical position in Ca3Al2O6 (-1.35)
+oc5,O,15.99940013885498,lj_ab_12_6,365708,418.97000000000003,"2 Oxygen atom in ettringite, Al(OH)6 unit (-0.9) and in superficial hydroxide ions (-1.05)"
+oe,O,15.99940013885498,lj_ab_12_6,,,2 Sp3 oxygen in ester
+oe1,O,15.99940013885498,lj_ab_12_6,272894.78460000001,498.87880000000001,2 Oxygen atom in PEO backbone
+oet5,O,14.99940013885498,lj_ab_12_6,,,2 Oxygen atom in PEO backbone with lone pairs et5 attached (et5=-0.12)
+of,O,15.99940013885498,lj_ab_12_6,,,2 Oxygen
+oh,O,15.99940013885498,lj_ab_12_6,,,2 Oxygen in hydroxyl (OH) group
+op,O,15.99940013885498,lj_ab_12_6,,,2 Oxygen in aromatic rings. e.g. furan
+ospc,O,15.99940013885498,lj_ab_12_6,629358,625.5,2 Oxygen in SPC water molecule
+ot5,O,14.99940013885498,lj_ab_12_6,454935,539.59000000000003,2 Oxygen atom in TIP5P water model
+otip,O,15.99940013885498,lj_ab_12_6,582000,595,2 Oxygen in TIP3P water molecule
+oy1,O,15.99940013885498,lj_ab_12_6,84480,91.900000000000006,"2 Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)"
+oy2,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)"
+oy3,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)"
+oy4,O,15.99940013885498,lj_ab_12_6,84480,91.900000000000006,"3 Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)"
+oy5,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)"
+oy6,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.683, -0.792 if next to Mg defect)"
+oy7,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)"
+oy8,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)"
+oy9,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.683, -0.792 if next to Mg defect)"
+oz,O,15.99940013885498,lj_ab_12_6,272894.78460000001,498.87880000000001,1 Oxygen in Zeolite
+ozr1,O,15.99940013885498,lj_ab_12_6,6283361.1169999996,1326.4015649999999,3 1st Oxygen atom in zirconia (-0.46e)
+ozr2,O,15.99940013885498,lj_ab_12_6,6283361.1169999996,1326.4015649999999,3 2nd Oxygen atom in zirconia (-0.46e)
+ozr3,O,15.99940013885498,lj_ab_12_6,6283361.1169999996,1326.4015649999999,3 3rd Oxygen atom in zirconia (-0.46e)
+ozr4,O,15.99940013885498,lj_ab_12_6,6283361.1169999996,1326.4015649999999,3 4th Oxygen atom in zirconia (-0.46e)
+ozr5,O,15.99940013885498,lj_ab_12_6,6283361.1169999996,1326.4015649999999,3 5th Oxygen atom in zirconia (-0.46e)
+ozr6,O,15.99940013885498,lj_ab_12_6,6283361.1169999996,1326.4015649999999,3 6th Oxygen atom in zirconia (-0.46e)
+ozr7,O,15.99940013885498,lj_ab_12_6,6283361.1169999996,1326.4015649999999,3 7th Oxygen atom in zirconia (-0.46e)
+ozr8,O,15.99940013885498,lj_ab_12_6,6283361.1169999996,1326.4015649999999,3 8th Oxygen atom in zirconia (-0.46e)
+p,P,30.973800659179688,lj_ab_12_6,6025894,2195.5999999999999,4 General phosphorous atom
+p$,P,30.973800659179688,lj_ab_12_6,,,4 Phosphorous atom for automatic parameter assignment
+pap,P,30.973800659179688,lj_ab_12_6,11188700,3540,4 Phosphorus atom in (hydrogen)phosphate ion in hydroxyapatite (+1.0)
+pz,P,30.973800659179688,lj_ab_12_6,,,1 Phosphorous atom in ALPO type structure
+rb+,Rb,85.467796325683594,lj_ab_12_6,883301,994.63400000000001,0 Rubidium ion in water (+1.0)
+rot1,O,15.99940013885498,lj_ab_12_6,5385738.0999999996,1136.915628,"3 O in anatase TiO2, -0.5e"
+rot2,O,15.99940013885498,lj_ab_12_6,5385738.0999999996,1136.915628,"3 O in anatase TiO2, -0.5e"
+rot3,O,15.99940013885498,lj_ab_12_6,5385738.0999999996,1136.915628,"3 O in anatase TiO2, -0.5e"
+rto1,Ti,47.867000579833984,lj_ab_12_6,49183010.090000004,3967.1858069999998,"6 Ti in Rutile bulk TI, 1.0e"
+rto2,Ti,47.867000579833984,lj_ab_12_6,49183010.090000004,3967.1858069999998,6 Ti in Rutile surface Ti near OH
+rto3,Ti,47.867000579833984,lj_ab_12_6,49183010.090000004,3967.1858069999998,6 Ti in Rutile sub surface Ti
+rtoh,O,15.99940013885498,lj_ab_12_6,371803.5466,425.95789789999998,3 surface OH in rutile TiO2
+s,S,32.063999176025391,lj_ab_12_6,365906.40000000002,250.80000000000001,2 Sulfur in methionine (C-S-C) group
+s$,S,32.063999176025391,lj_ab_12_6,,,2 Sulfur atom for automatic parameter assignment
+s',S,32.063999176025391,lj_ab_12_6,1395550.1000000001,956.80799999999999,2 Sulfur in thioketone (>C=S) group
+s-,S,32.063999176025391,lj_ab_12_6,,,1 Partial double sulfur bonded to something then bonded to another
+s1,S,32.063999176025391,lj_ab_12_6,,,2 Sulfur involved in S-S disulfide bond
+s3e,S,32.063999176025391,lj_ab_12_6,,,2 Sulfur in three membered ring
+s4e,S,32.063999176025391,lj_ab_12_6,,,2 Sulfur in four membered ring
+sc,S,32.063999176025391,lj_ab_12_6,,,2 Sp3 sulfur in methionines (C-S-C) group
+sc1,Si,28.086000442504883,lj_ab_12_6,40152000,9050.3999999999996,4 Silicon atom in silicate ion in Ca3SiO5 (+1.0)
+sc4,Si,28.086000442504883,lj_ab_12_6,2426940,950.16999999999996,"4 Silicon atom in silica (+1.1 in bulk SiO2 or SiOH, +0.725 in SiO-)"
+sh,S,32.063999176025391,lj_ab_12_6,,,2 Sulfur in sulfhydryl (-SH) group
+si,Si,28.086000442504883,lj_ab_12_6,3149175,710,4 Silicon
+sp,S,32.063999176025391,lj_ab_12_6,,,2 Sulfur in thiophene
+sr2+,Sr,87.620002746582031,lj_ab_12_6,288067.5,597.66499999999996,0 Strontium ion in water (+2.0)
+sy1,Si,28.086000442504883,lj_ab_12_6,838900,409.60000000000002,4 Silicon atom in tetrahedral silicate sheet (+1.1)
+sy2,Si,28.086000442504883,lj_ab_12_6,,,4 Silicon atom in tetrahedral silicate sheet (+1.1)
+sz,Si,28.086000442504883,lj_ab_12_6,3149175,710,1 Silicon atom in a Zeolite or Silicate
+tft,Ti,47.867000579833984,lj_ab_12_6,54934859.020000003,4192.7502699999995,6 Ti in H2TiF6
+zfz,Zr,91.2239990234375,lj_ab_12_6,6895252.3550000004,1660.7531200000001,6 Zr in H2ZrF6
+zn2+,Zn,65.379997253417969,lj_ab_12_6,202.744,12.082000000000001,0 Zinc ion in water (+2.0)
+zoh1,O,15.99940013885498,lj_ab_12_6,371803.5466,425.95789789999998,"3 surface OH in monoclinic ZrO2 001, upper layer, -0.56e"
+zoh2,O,15.99940013885498,lj_ab_12_6,371803.5466,425.95789789999998,"3 surface OH in monoclinic ZrO2 001, lower layer, -0.56e"
+zr1,Zr,91.2239990234375,lj_ab_12_6,61478762.619999997,4958.9822590000003,7 1st Zirconium in zirconia (+0.92e)
+zr2,Zr,91.2239990234375,lj_ab_12_6,61478762.619999997,4958.9822590000003,7 2nd Zirconium in zirconia (+0.92e)
+zr3,Zr,91.2239990234375,lj_ab_12_6,61478762.619999997,4958.9822590000003,7 3rd Zirconium in zirconia (+0.92e)
+zr4,Zr,91.2239990234375,lj_ab_12_6,61478762.619999997,4958.9822590000003,7 4th Zirconium in zirconia (+0.92e)

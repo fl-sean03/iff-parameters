@@ -1,0 +1,144 @@
+{
+  "created_utc": "2026-03-24T20:52:03Z",
+  "features": [],
+  "name": "cvff-iff-metal-oxides-v2",
+  "nonbonded": {
+    "form": "12-6",
+    "mixing": "geometric",
+    "style": "A-B"
+  },
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2013-01-01",
+    "ingested_utc": "2026-03-24T20:52:03Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "Al2O3",
+      "SiO2",
+      "clays",
+      "alumina"
+    ],
+    "notes": "IFF metal oxides v2 \u2014 Al2O3, SiO2, clays",
+    "parent_ff": "cvff_interface_v1_5",
+    "publication_doi": "10.1021/la3038846",
+    "source_file": "cvff_IFF_metal_oxides_v2.frc",
+    "source_sha256": "1e0a93866504faa983b669e606710c858352735b7540656deba70a280947608f"
+  },
+  "schema_version": "upm-1.0",
+  "sources": [
+    {
+      "path": "raw/source.frc",
+      "sha256": "1e0a93866504faa983b669e606710c858352735b7540656deba70a280947608f"
+    },
+    {
+      "path": "raw/unknown_sections.json",
+      "sha256": "15894da85309ac03284dd7fe5c59f4f6f2870df0abed014c646a4f645d4d5887"
+    }
+  ],
+  "tables": {
+    "angles": {
+      "dtypes": {
+        "k": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "theta0_deg": "Float64"
+      },
+      "path": "tables/angles.csv",
+      "rows": 999,
+      "sha256": "43d510b0dbd28b43d830ed5cc8196dc32e3ff3193fd4e885596c665841868829"
+    },
+    "atom_types": {
+      "dtypes": {
+        "atom_type": "string",
+        "element": "string",
+        "lj_a": "Float64",
+        "lj_b": "Float64",
+        "mass_amu": "Float32",
+        "notes": "string",
+        "vdw_style": "string"
+      },
+      "path": "tables/atom_types.csv",
+      "rows": 280,
+      "sha256": "9f2c1d21e924d6efe21d65548792dbb9ce203aff3614d97ccbe4cd7af9399435"
+    },
+    "bond_increments": {
+      "dtypes": {
+        "delta_ij": "float64",
+        "delta_ji": "float64",
+        "t1": "object",
+        "t2": "object"
+      },
+      "path": "tables/bond_increments.csv",
+      "rows": 698,
+      "sha256": "6652b3165fcaeb1c9cf4562b2f5bf5ea81caa97d17b5fc9ecf815d82ea87827f"
+    },
+    "bonds": {
+      "dtypes": {
+        "k": "Float64",
+        "r0": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string"
+      },
+      "path": "tables/bonds.csv",
+      "rows": 931,
+      "sha256": "db9a0e0b6bdd554759aa25a2611671ecd1cc38b5fbf3aa8fb18e2ce3cb8c9bfd"
+    },
+    "equivalences": {
+      "dtypes": {
+        "angle": "string",
+        "atom_type": "string",
+        "bond": "string",
+        "nonb": "string",
+        "oop": "string",
+        "torsion": "string"
+      },
+      "path": "tables/equivalences.csv",
+      "rows": 276,
+      "sha256": "83c9710bb4332ad54031acbe225e4dbeb549122487729bfe87cc4351468642cd"
+    },
+    "out_of_plane": {
+      "dtypes": {
+        "chi0": "Float64",
+        "kchi": "Float64",
+        "n": "Int32",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "t4": "string"
+      },
+      "path": "tables/out_of_plane.csv",
+      "rows": 49,
+      "sha256": "7be0da7a1002217fd589b08c35d22fa9b32d4ae64cbf4d7c065509dea2f6e1d1"
+    },
+    "torsions": {
+      "dtypes": {
+        "kphi": "Float64",
+        "n": "Int32",
+        "phi0": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "t4": "string"
+      },
+      "path": "tables/torsions.csv",
+      "rows": 454,
+      "sha256": "b91b3c0568b3b3df018e153a29f0105549aeffda03b497a095d09bf1b5c60f40"
+    }
+  },
+  "units": {
+    "angle": "degree",
+    "energy": "kcal/mol",
+    "length": "angstrom",
+    "mass": "amu"
+  },
+  "version": "v1.0"
+}

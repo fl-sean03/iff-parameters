@@ -1,0 +1,143 @@
+{
+  "created_utc": "2026-03-24T20:52:03Z",
+  "features": [],
+  "name": "cvff-iff-ils",
+  "nonbonded": {
+    "form": "12-6",
+    "mixing": "geometric",
+    "style": "A-B"
+  },
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2018-01-01",
+    "ingested_utc": "2026-03-24T20:52:03Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "ionic_liquids",
+      "CO2",
+      "MOFs"
+    ],
+    "notes": "Ionic liquids, CO2, and MOF parameters",
+    "parent_ff": "cvff_interface_v1_5",
+    "publication_doi": null,
+    "source_file": "cvff_iff_ILs.frc",
+    "source_sha256": "3b42dfcd6c0e8de0f84d99b9851a819e9ba558c4e2dc06457c7cd0e2dd4f4d3c"
+  },
+  "schema_version": "upm-1.0",
+  "sources": [
+    {
+      "path": "raw/source.frc",
+      "sha256": "3b42dfcd6c0e8de0f84d99b9851a819e9ba558c4e2dc06457c7cd0e2dd4f4d3c"
+    },
+    {
+      "path": "raw/unknown_sections.json",
+      "sha256": "ad9113d6bd391d31dd9beb461aee74027b141a5f1c05e8146e46f06509c4d97a"
+    }
+  ],
+  "tables": {
+    "angles": {
+      "dtypes": {
+        "k": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "theta0_deg": "Float64"
+      },
+      "path": "tables/angles.csv",
+      "rows": 803,
+      "sha256": "376d4b6d05c59cf004c2f604b54e82bea6e1d364866d2c65dadc9421b904c942"
+    },
+    "atom_types": {
+      "dtypes": {
+        "atom_type": "string",
+        "element": "string",
+        "lj_a": "Float64",
+        "lj_b": "Float64",
+        "mass_amu": "Float32",
+        "notes": "string",
+        "vdw_style": "string"
+      },
+      "path": "tables/atom_types.csv",
+      "rows": 224,
+      "sha256": "629149f6c11ba8c81a07b80c13c1672a5468aeb9ad4b947efc41426e14415d78"
+    },
+    "bond_increments": {
+      "dtypes": {
+        "delta_ij": "float64",
+        "delta_ji": "float64",
+        "t1": "object",
+        "t2": "object"
+      },
+      "path": "tables/bond_increments.csv",
+      "rows": 701,
+      "sha256": "89923fa8961d9ca24e911465db97c67f6db24bbbff4c9ed5d854362267eaa1ca"
+    },
+    "bonds": {
+      "dtypes": {
+        "k": "Float64",
+        "r0": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string"
+      },
+      "path": "tables/bonds.csv",
+      "rows": 861,
+      "sha256": "5ed1e38ea9032e434b724b057a99b38dff2ea6f4a789a410974c62a912054df4"
+    },
+    "equivalences": {
+      "dtypes": {
+        "angle": "string",
+        "atom_type": "string",
+        "bond": "string",
+        "nonb": "string",
+        "oop": "string",
+        "torsion": "string"
+      },
+      "path": "tables/equivalences.csv",
+      "rows": 220,
+      "sha256": "2c879b6a51fa0140c2fa639fabe7bca81d40caa77dda8332bb9ea519dc94c6fb"
+    },
+    "out_of_plane": {
+      "dtypes": {
+        "chi0": "Float64",
+        "kchi": "Float64",
+        "n": "Int32",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "t4": "string"
+      },
+      "path": "tables/out_of_plane.csv",
+      "rows": 65,
+      "sha256": "9b813e50d644daba5b35a0e3d8dc082b7591d814423f7a6788912deb70c74bf1"
+    },
+    "torsions": {
+      "dtypes": {
+        "kphi": "Float64",
+        "n": "Int32",
+        "phi0": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "t4": "string"
+      },
+      "path": "tables/torsions.csv",
+      "rows": 373,
+      "sha256": "45a17bb104075c8b0441be2e6b9c975c1d76d20a19f5b27a35a6d510b8fbf2bd"
+    }
+  },
+  "units": {
+    "angle": "degree",
+    "energy": "kcal/mol",
+    "length": "angstrom",
+    "mass": "amu"
+  },
+  "version": "v1.0"
+}
