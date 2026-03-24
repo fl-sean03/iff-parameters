@@ -6,12 +6,17 @@ from pathlib import Path
 import pandas as pd
 import pytest
 
+try:
+    from usm.core.model import USM
+    _HAS_USM = True
+except ImportError:
+    _HAS_USM = False
 
+
+@pytest.mark.skipif(not _HAS_USM, reason="USM not installed")
 def test_full_pipeline_usm_to_iff_parameters() -> None:
     """End-to-end: create structure → extract types → search → load bundle → verify."""
     # 1. Create a minimal USM structure with gold atoms
-    from usm.core.model import USM
-
     atoms = pd.DataFrame([
         {"aid": 0, "name": "Au1", "element": "Au", "atom_type": "Au", "charge": 0.0,
          "x": 0.0, "y": 0.0, "z": 0.0, "mol_label": "SLAB", "mol_index": 1, "mol_block_name": "METAL"},
