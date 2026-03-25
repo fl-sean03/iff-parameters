@@ -118,7 +118,35 @@ Browse parameters interactively with the built-in Streamlit dashboard:
 cd dashboard && streamlit run app.py
 ```
 
-Features: search by atom type or material, tabbed table browser, side-by-side bundle comparison, multi-format download (CVFF .frc, CHARMM .prm, CSV).
+<p align="center">
+  <img src="docs/screenshots/home.png" alt="Home — metrics and bundle overview" width="100%">
+  <br><em>Home — parameter set overview with metrics and materials coverage</em>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/search.png" alt="Search — find Au across all bundles" width="100%">
+  <br><em>Search — find atom types across all bundles (showing Au results)</em>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/browse.png" alt="Browse — tabbed table viewer" width="100%">
+  <br><em>Browse — detailed parameter tables with filtering and CSV export</em>
+</p>
+
+<details>
+<summary><strong>More screenshots</strong></summary>
+
+<p align="center">
+  <img src="docs/screenshots/compare.png" alt="Compare — side-by-side bundle diff" width="100%">
+  <br><em>Compare — side-by-side diff showing +90 added, -34 removed, ~59 changed parameters</em>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/download.png" alt="Download — multi-format export" width="100%">
+  <br><em>Download — export as CVFF .frc, CHARMM .prm, or CSV with table selection</em>
+</p>
+
+</details>
 
 ---
 
