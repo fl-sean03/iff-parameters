@@ -13,7 +13,7 @@
 
 <p align="center">
   Searchable, version-controlled force field parameters from the
-  <a href="https://www.colorado.edu/lab/heinz/">Heinz Lab</a> at CU Boulder.<br>
+  <a href="https://bionanostructures.com/">Heinz Lab</a> at CU Boulder.<br>
   Built on <a href="https://github.com/fl-sean03/upm">UPM v2.0</a> — the Unified Parameter Model toolkit.
 </p>
 
@@ -256,5 +256,5 @@ Individual bundles may have additional citations — check `manifest.json → pr
 ---
 
 <p align="center">
-  <sub>Developed at the <a href="https://www.colorado.edu/lab/heinz/">Heinz Lab</a>, University of Colorado Boulder</sub>
+  <sub>Developed at the <a href="https://bionanostructures.com/">Heinz Lab</a>, University of Colorado Boulder</sub>
 </p>
