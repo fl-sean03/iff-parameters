@@ -24,13 +24,12 @@ if not _DATA_DIR.is_dir():
             break
 
 
-@st.cache_data(ttl=3600)
 def get_data_dir() -> str:
     """Get the path to the data directory."""
     return str(_DATA_DIR)
 
 
-@st.cache_data(ttl=3600)
+@st.cache_data(ttl=60)
 def list_bundles() -> list[dict[str, Any]]:
     """List all available bundles by scanning manifest files."""
     data_dir = Path(get_data_dir())
@@ -96,7 +95,7 @@ def get_all_atom_types() -> pd.DataFrame:
     return pd.concat(rows, ignore_index=True)
 
 
-@st.cache_data(ttl=3600)
+@st.cache_data(ttl=60)
 def get_bundle_stats() -> dict[str, Any]:
     """Compute aggregate statistics across all bundles."""
     bundles = list_bundles()
