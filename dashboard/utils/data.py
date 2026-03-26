@@ -2,30 +2,68 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 from typing import Any
 
 import pandas as pd
 import streamlit as st
 
+# Ensure the repo's src/ is on the path so iff_parameters is importable
+# without pip install (needed for Streamlit Cloud deployment)
+_REPO_ROOT = Path(__file__).resolve().parents[2].parent  # dashboard/utils/data.py -> repo root
+_SRC_DIR = _REPO_ROOT / "src"
+if str(_SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(_SRC_DIR))
+
 
 @st.cache_data(ttl=3600)
 def get_data_dir() -> str:
-    from iff_parameters import get_data_dir as _get
-    return str(_get())
+    """Get the path to the data directory."""
+    data_dir = _SRC_DIR / "iff_parameters" / "data"
+    return str(data_dir)
 
 
 @st.cache_data(ttl=3600)
 def list_bundles() -> list[dict[str, Any]]:
-    from iff_parameters import list_available
-    return list_available()
+    """List all available bundles by scanning manifest files."""
+    data_dir = Path(get_data_dir())
+    results: list[dict[str, Any]] = []
+    if not data_dir.is_dir():
+        return results
+
+    for manifest_path in sorted(data_dir.rglob("manifest.json")):
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            provenance = manifest.get("provenance", {})
+            source_file = provenance.get("source_file", "")
+            fmt = "cvff" if source_file.endswith(".frc") else "charmm" if source_file.endswith(".prm") else "unknown"
+            results.append({
+                "name": manifest.get("name", "unknown"),
+                "version": manifest.get("version", "unknown"),
+                "materials": provenance.get("materials", []),
+                "format": fmt,
+                "source_file": source_file,
+                "author": provenance.get("author", ""),
+                "doi": provenance.get("publication_doi"),
+                "path": str(manifest_path.parent),
+            })
+        except Exception:
+            continue
+    return results
 
 
 @st.cache_data(ttl=3600)
 def load_bundle_tables(bundle_path: str) -> dict[str, pd.DataFrame]:
-    from upm.bundle.io import load_package
-    bundle = load_package(Path(bundle_path))
-    return bundle.tables
+    """Load all CSV tables from a bundle directory."""
+    tables_dir = Path(bundle_path) / "tables"
+    tables: dict[str, pd.DataFrame] = {}
+    if not tables_dir.is_dir():
+        return tables
+    for csv_file in sorted(tables_dir.glob("*.csv")):
+        name = csv_file.stem
+        tables[name] = pd.read_csv(csv_file)
+    return tables
 
 
 @st.cache_data(ttl=3600)
