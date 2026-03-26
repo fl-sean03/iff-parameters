@@ -9,10 +9,10 @@ from typing import Any
 import pandas as pd
 import streamlit as st
 
-# Ensure the repo's src/ is on the path so iff_parameters is importable
-# without pip install (needed for Streamlit Cloud deployment)
-_REPO_ROOT = Path(__file__).resolve().parents[2].parent  # dashboard/utils/data.py -> repo root
+# Resolve repo root: dashboard/utils/data.py → dashboard/utils → dashboard → repo root
+_REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 _SRC_DIR = _REPO_ROOT / "src"
+_DATA_DIR = _SRC_DIR / "iff_parameters" / "data"
 if str(_SRC_DIR) not in sys.path:
     sys.path.insert(0, str(_SRC_DIR))
 
@@ -20,8 +20,7 @@ if str(_SRC_DIR) not in sys.path:
 @st.cache_data(ttl=3600)
 def get_data_dir() -> str:
     """Get the path to the data directory."""
-    data_dir = _SRC_DIR / "iff_parameters" / "data"
-    return str(data_dir)
+    return str(_DATA_DIR)
 
 
 @st.cache_data(ttl=3600)
