@@ -148,6 +148,11 @@ cd dashboard && streamlit run app.py
   <br><em>Download — export as CVFF .frc, CHARMM .prm, or CSV with table selection</em>
 </p>
 
+<p align="center">
+  <img src="docs/screenshots/upload.png" alt="Upload — drag-and-drop file ingestion" width="100%">
+  <br><em>Upload — drag-and-drop .frc/.prm files with auto-parsing, similarity detection, and one-click ingest</em>
+</p>
+
 </details>
 
 ---
