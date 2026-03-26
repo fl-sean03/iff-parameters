@@ -62,10 +62,3 @@ if all_materials:
 
 st.markdown("---")
 st.caption("Powered by UPM v2.0 | Data: iff-parameters v0.1.0")
-
-# Debug: show data path resolution (remove after deployment is verified)
-from utils.data import get_data_dir as _gdd
-from pathlib import Path as _P
-with st.expander("Debug: path resolution"):
-    dd = _gdd()
-    st.code(f"Data dir: {dd}\nExists: {_P(dd).is_dir()}\nContents: {list(_P(dd).iterdir()) if _P(dd).is_dir() else 'N/A'}")

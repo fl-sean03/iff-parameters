@@ -112,7 +112,9 @@ print(diff.summary())
 
 ## Web Dashboard
 
-Browse parameters interactively with the built-in Streamlit dashboard:
+**Live:** [iff-parameters-hhl.streamlit.app](https://iff-parameters-hhl.streamlit.app)
+
+Or run locally:
 
 ```bash
 cd dashboard && streamlit run app.py
