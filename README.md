@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://iff-parameters-hhl.streamlit.app"><img src="https://img.shields.io/badge/Dashboard-Live-brightgreen?logo=streamlit" alt="Dashboard"></a>
   <a href="https://github.com/fl-sean03/iff-parameters/actions"><img src="https://github.com/fl-sean03/iff-parameters/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://img.shields.io/badge/python-3.10%2B-blue"><img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python"></a>
   <a href="https://img.shields.io/badge/code%20style-ruff-261230"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff"></a>
@@ -114,6 +115,15 @@ print(diff.summary())
 
 **Live:** [iff-parameters-hhl.streamlit.app](https://iff-parameters-hhl.streamlit.app)
 
+| Page | What it does |
+|------|-------------|
+| **Home** | Overview — 4 bundles, 923 atom types, 16 materials |
+| **Search** | Find parameters by atom type or material across all bundles |
+| **Browse** | Explore parameter tables with filtering and CSV export |
+| **Compare** | Side-by-side diff showing added, removed, and changed parameters |
+| **Download** | Export as CVFF .frc, CHARMM .prm, or CSV ZIP |
+| **Upload** | Drag-and-drop ingestion with auto-parsing and similarity detection |
+
 Or run locally:
 
 ```bash
@@ -159,7 +169,24 @@ cd dashboard && streamlit run app.py
 
 ## Adding New Parameters
 
-### Single File Ingest
+### Via Web Dashboard (Recommended)
+
+The easiest way to add parameters is through the **Upload** page on the [live dashboard](https://iff-parameters-hhl.streamlit.app/Upload):
+
+1. Drag and drop your `.frc` or `.prm` file (single or multiple)
+2. Review the auto-parsed summary (atom types, bonds, angles)
+3. Check the similarity report against existing bundles
+4. Fill in metadata (name, version, author, materials)
+5. Click **Ingest**
+
+The dashboard handles parsing, similarity detection, provenance tracking, and validation — no command line needed.
+
+### Via CLI (Advanced)
+
+<details>
+<summary>Click to expand CLI instructions</summary>
+
+#### Single File Ingest
 
 ```bash
 python scripts/ingest.py \
@@ -180,7 +207,7 @@ Similarity Analysis (2 similar bundle(s) found):
     → RECOMMENDATION: This extends cvff-interface-v1-5.
 ```
 
-### Batch Ingest (Scan a Directory)
+#### Batch Ingest (Scan a Directory)
 
 ```bash
 # Preview what would be ingested
@@ -190,12 +217,14 @@ python scripts/batch_ingest.py --scan-dir ~/Dropbox/forcefields/ --dry-run
 python scripts/batch_ingest.py --scan-dir ~/Dropbox/forcefields/
 ```
 
-### Validate All Bundles
+#### Validate All Bundles
 
 ```bash
 python scripts/validate.py
 # All 4 bundle(s) passed.
 ```
+
+</details>
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution workflow (branch → PR → CI → review).
 
