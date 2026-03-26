@@ -10,11 +10,18 @@ import pandas as pd
 import streamlit as st
 
 # Resolve repo root: dashboard/utils/data.py → dashboard/utils → dashboard → repo root
-_REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-_SRC_DIR = _REPO_ROOT / "src"
-_DATA_DIR = _SRC_DIR / "iff_parameters" / "data"
-if str(_SRC_DIR) not in sys.path:
-    sys.path.insert(0, str(_SRC_DIR))
+_THIS_FILE = Path(__file__).resolve()
+_REPO_ROOT = _THIS_FILE.parent.parent.parent  # utils → dashboard → repo root
+_DATA_DIR = _REPO_ROOT / "src" / "iff_parameters" / "data"
+
+# Fallback: scan upward for src/iff_parameters/data if direct path fails
+if not _DATA_DIR.is_dir():
+    for parent in _THIS_FILE.parents:
+        candidate = parent / "src" / "iff_parameters" / "data"
+        if candidate.is_dir():
+            _DATA_DIR = candidate
+            _REPO_ROOT = parent
+            break
 
 
 @st.cache_data(ttl=3600)
