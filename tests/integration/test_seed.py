@@ -113,6 +113,11 @@ def test_s7_seed_is_idempotent_minus_timestamps(tmp_path):
     so we hash only the tables/ and raw/ subtrees for idempotency.
     """
     _require_seeded("parameters")
+    canonical = REPO_ROOT / "canonical_sources" / "INTERFACE_FF_1_5" / "FORCE_FIELDS"
+    if not canonical.is_dir():
+        pytest.skip(
+            "canonical_sources/INTERFACE_FF_1_5/ not present (CI doesn't ship it)"
+        )
 
     import hashlib
 
