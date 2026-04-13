@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "iff-parameters"
-version = "0.1.0"
-description = "INTERFACE Force Field parameter bundles for UPM"
+version = "0.2.0"
+description = "Central library of INTERFACE Force Field parameters and pre-parameterized structures"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
