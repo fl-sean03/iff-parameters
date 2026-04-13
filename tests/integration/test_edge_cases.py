@@ -9,13 +9,12 @@ EC-21 (unicode), EC-24 (circular supersedes), EC-25 (empty table).
 from __future__ import annotations
 
 import json
-from pathlib import Path
 
 import pandas as pd
 import pytest
 
 from iff_parameters.entries import (
-    Entry, find_parameter_entry, iter_entries, list_structure_entries,
+    find_parameter_entry, iter_entries, list_structure_entries,
 )
 
 

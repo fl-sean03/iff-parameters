@@ -1,249 +1,193 @@
 <h1 align="center">IFF Parameters</h1>
 
 <p align="center">
-  <strong>Curated, versioned parameter bundles for the INTERFACE Force Field</strong>
+  <strong>Central library of force-field parameters + pre-parameterized structures for the INTERFACE Force Field</strong>
 </p>
 
 <p align="center">
   <a href="https://iff-parameters-hhl.streamlit.app"><img src="https://img.shields.io/badge/Dashboard-Live-brightgreen?logo=streamlit" alt="Dashboard"></a>
   <a href="https://github.com/fl-sean03/iff-parameters/actions"><img src="https://github.com/fl-sean03/iff-parameters/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://img.shields.io/badge/python-3.10%2B-blue"><img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python"></a>
-  <a href="https://img.shields.io/badge/code%20style-ruff-261230"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff"></a>
   <a href="https://doi.org/10.1021/la3038846"><img src="https://img.shields.io/badge/IFF%20Paper-Langmuir%202013-green" alt="Paper"></a>
 </p>
 
 <p align="center">
-  Searchable, version-controlled force field parameters from the
-  <a href="https://bionanostructures.com/">Heinz Lab</a> at CU Boulder.<br>
-  Built on <a href="https://github.com/fl-sean03/upm">UPM v2.0</a> — the Unified Parameter Model toolkit.
+  Single, versioned, git-tracked database of IFF parameter sets and the
+  structures they were used to parameterize.<br>
+  Built on <a href="https://github.com/fl-sean03/upm">UPM v2.1</a> (parameter toolkit) and
+  <a href="https://github.com/fl-sean03/usm">USM</a> (structure toolkit).
 </p>
 
 ---
 
-## Why IFF Parameters?
+## What's in the library
 
-The [INTERFACE Force Field (IFF)](https://github.com/hendrikheinz/INTERFACE-force-field-and-surface-models) provides thermodynamically consistent parameters for metals, minerals, and organic-inorganic interfaces — covering materials that standard force fields (CHARMM, AMBER, OPLS) don't handle well.
+The library holds two kinds of **entries**:
 
-**This package solves three problems:**
+- **Parameter entries** — `.frc` / `.prm` force field files, parsed into
+  canonical CSV tables + raw source + provenance.
+- **Structure entries** — pre-parameterized molecular geometries (one or
+  more `.car` / `.mdf` / `.pdb` files) with per-atom FF types and charges,
+  pinned to exact parameter versions.
 
-| Problem | Solution |
-|---------|----------|
-| Parameter files scattered across laptops, Dropbox, HPC clusters | Single versioned repository with SHA256 integrity |
-| "Which .frc file should I use for gold?" | `search_by_material("Au")` returns matching bundles |
-| "What changed between v1 and v2 of the alumina parameters?" | `diff_tables(old, new)` shows exact parameter changes |
+Every entry is an immutable versioned directory. New versions create new
+directories; existing versions never change after publish. This gives you
+reproducibility + history for free without a database backend.
+
+### Seeded from INTERFACE_FF_1_5
+
+The baseline is the Hendrik Heinz INTERFACE Force Field v1.5 distribution:
+
+| Parameter family | Format | Atom types | Notes |
+|---|---|---|---|
+| `cvff-interface/v1.5` | CVFF | 180 | canonical CVFF-based IFF |
+| `pcff-interface/v1.5` | PCFF | 214 | partial roundtrip — 9-6 nonbond and cross-term sections preserved as raw |
+| `charmm27-interface/v1.5` | CHARMM | 166 | for NAMD / OpenMM |
+
+Plus **133 pre-parameterized structures** across 7 material classes:
+silica (24), metals (32), cement (28), clay (24), hydroxyapatite (20),
+Ca-sulfate (3), PEO (2).
 
 ---
 
-## Included Parameter Sets
+## Mental model
 
-| Bundle | Format | Materials | Atom Types | Reference |
-|--------|--------|-----------|------------|-----------|
-| `cvff-interface-v1-5` | CVFF | Ag, Al, Au, Cu, Ni, Pb, Pd, Pt, silica, clays | 180 | [Heinz 2013](https://doi.org/10.1021/la3038846) |
-| `cvff-iff-metal-oxides-v2` | CVFF | Al₂O₃, SiO₂, clays, alumina | 280 | [Heinz 2013](https://doi.org/10.1021/la3038846) |
-| `cvff-iff-ils` | CVFF | Ionic liquids, CO₂, MOFs | 224 | — |
-| `iff-charmm36-metal-alumina-v8` | CHARMM | FCC metals, Al₂O₃, alumina | 239 | — |
+### Pull operations
 
-> **923 total atom types** across 4 bundles, covering **16 materials** in both CVFF (.frc for LAMMPS) and CHARMM (.prm for NAMD/OpenMM) formats.
+When someone wants a structure plus its parameters, three operations are
+defined:
+
+| Operation | Returns |
+|---|---|
+| `pull_latest(structure)` | structure + newest non-deprecated compatible version of its FF family. **Default.** Auto-applies renames; walks backward on incompatibility. |
+| `pull_original(structure)` | structure + exact `parameterized_with` pin. Historical fidelity. |
+| `pull_version(structure, fam, ver)` | explicit; no silent fallback. |
+
+A structure pins to the exact FF version it was built against. When the
+FF gets refined (e.g., `v1.0 → v1.1` with better bond values, same atom
+type names), `pull_latest` picks up those improvements automatically.
+When atom types are renamed, the target FF declares a `renames` map and
+the pull auto-applies it. When something incompatible happens, the pull
+either falls back (`pull_latest`) or fails loudly (`pull_version`).
+
+### What triggers a new version
+
+| Change | New FF version? | New structure version? |
+|---|---|---|
+| FF refined values (same atom-type names) | ✅ | ❌ |
+| FF renamed atom types (declared in `renames`) | ✅ | ❌ (auto-migrated) |
+| FF removed an atom type the structure uses | ✅ | only if you relabel |
+| Structure geometry changed | ❌ | ✅ |
+| Structure atom labels changed | ❌ | ✅ |
+| Structure atomic charges re-fitted | ❌ | ✅ |
+
+Charges live with the structure file, not the FF. The FF updates values
+behind atom-type labels; structures own the charge assignments.
+
+### Conflict detection
+
+When you upload a new parameter entry, the dashboard parses it, compares
+against every existing entry, and shows:
+
+- **Harmless duplicates** (same key, identical values) — noted, no action.
+- **Real disagreements** (same key, different values) — flagged. You
+  declare intent: new family / new version / intentional override / fork.
+
+See `docs/USE_CASES.md` for all 14 use cases + 25 edge cases, and
+`docs/ARCHITECTURE.md` for the full spec.
 
 ---
 
-## Quick Start
-
-### Install
+## Quick start
 
 ```bash
-pip install git+https://github.com/fl-sean03/upm.git
-pip install git+https://github.com/fl-sean03/iff-parameters.git
+pip install "git+https://github.com/fl-sean03/upm.git@main"
+pip install "git+https://github.com/fl-sean03/usm.git@main"   # optional
+pip install -e .
+
+# Seed the library from INTERFACE_FF_1_5 (if you have the distribution)
+python scripts/seed_from_interface_ff15_parameters.py
+python scripts/seed_from_interface_ff15_structures.py
+
+# Launch the dashboard
+streamlit run dashboard/app.py
 ```
 
-### Find Parameters for Your Material
+### Find parameters for a material
 
 ```python
 from iff_parameters import search_by_material
-
-# "I need parameters for gold"
-for result in search_by_material("Au"):
-    print(f"{result['name']} ({result['format']}) — {result['materials']}")
-```
-```
-cvff-interface-v1-5 (cvff) — ['Ag', 'Al', 'Au', 'Cu', 'Ni', 'Pb', 'Pd', 'Pt', 'silica', 'clays']
-iff-charmm36-metal-alumina-v8 (charmm) — ['Ag', 'Al', 'Au', 'Cu', 'Ni', 'Pb', 'Pd', 'Pt', 'Al2O3', 'alumina']
+for r in search_by_material("silica"):
+    print(f"{r['type']:10}  {r['ref']}  ({r['format']})")
 ```
 
-### Browse All Available Parameters
+### Browse parameter + structure entries
 
 ```python
-from iff_parameters import list_available
-
-for entry in list_available():
-    print(f"{entry['name']}@{entry['version']} — {len(entry['materials'])} materials")
+from iff_parameters.entries import list_parameter_entries, list_structure_entries
+print(f"Parameters: {len(list_parameter_entries())}")
+print(f"Structures: {len(list_structure_entries())}")
 ```
 
-### Search by Atom Type (Cross-Bundle)
+### Pull a structure with latest compatible parameters
 
 ```python
-from upm.registry import discover_local_packages, PackageIndex
-from iff_parameters import get_data_dir
+from iff_parameters.entries import iter_entries
+from iff_parameters.pull import pull_latest
 
-index = PackageIndex(discover_local_packages(get_data_dir()))
-results = index.search_atom_type("Au")
-
-for r in results:
-    print(f"  {r.package_name}: LJ_A={float(r.row['lj_a']):.0f}")
+for s in iter_entries("structure"):
+    r = pull_latest(s)
+    print(f"{s.ref():40}  {r.status}  resolved={list(r.parameters)}")
+    break
 ```
 
-### Compare Two Parameter Sets
-
-```python
-from upm.registry import diff_tables
-from upm.bundle.io import load_package
-from iff_parameters import get_data_dir
-
-pkg1 = load_package(get_data_dir() / "cvff-interface-v1-5" / "v1.0")
-pkg2 = load_package(get_data_dir() / "cvff-iff-metal-oxides-v2" / "v1.0")
-
-diff = diff_tables(pkg1.tables, pkg2.tables)
-print(diff.summary())
-# Added types (101): AC1, ALO1, FE_2, OC23, SC4, ...
-# Changed parameters (10):
-#   atom_types[Cr].lj_a: 589600.0 → 1222517.4
-```
-
----
-
-## Web Dashboard
-
-**Live:** [iff-parameters-hhl.streamlit.app](https://iff-parameters-hhl.streamlit.app)
-
-| Page | What it does |
-|------|-------------|
-| **Home** | Overview — 4 bundles, 923 atom types, 16 materials |
-| **Search** | Find parameters by atom type or material across all bundles |
-| **Browse** | Explore parameter tables with filtering and CSV export |
-| **Compare** | Side-by-side diff showing added, removed, and changed parameters |
-| **Download** | Export as CVFF .frc, CHARMM .prm, or CSV ZIP |
-| **Upload** | Drag-and-drop ingestion with auto-parsing and similarity detection |
-
-Or run locally:
-
-```bash
-cd dashboard && streamlit run app.py
-```
-
-<p align="center">
-  <img src="docs/screenshots/home.png" alt="Home — metrics and bundle overview" width="100%">
-  <br><em>Home — parameter set overview with metrics and materials coverage</em>
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/search.png" alt="Search — find Au across all bundles" width="100%">
-  <br><em>Search — find atom types across all bundles (showing Au results)</em>
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/browse.png" alt="Browse — tabbed table viewer" width="100%">
-  <br><em>Browse — detailed parameter tables with filtering and CSV export</em>
-</p>
-
-<details>
-<summary><strong>More screenshots</strong></summary>
-
-<p align="center">
-  <img src="docs/screenshots/compare.png" alt="Compare — side-by-side bundle diff" width="100%">
-  <br><em>Compare — side-by-side diff showing +90 added, -34 removed, ~59 changed parameters</em>
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/download.png" alt="Download — multi-format export" width="100%">
-  <br><em>Download — export as CVFF .frc, CHARMM .prm, or CSV with table selection</em>
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/upload.png" alt="Upload — drag-and-drop file ingestion" width="100%">
-  <br><em>Upload — drag-and-drop .frc/.prm files with auto-parsing, similarity detection, and one-click ingest</em>
-</p>
-
-</details>
-
----
-
-## Adding New Parameters
-
-### Via Web Dashboard (Recommended)
-
-The easiest way to add parameters is through the **Upload** page on the [live dashboard](https://iff-parameters-hhl.streamlit.app/Upload):
-
-1. Drag and drop your `.frc` or `.prm` file (single or multiple)
-2. Review the auto-parsed summary (atom types, bonds, angles)
-3. Check the similarity report against existing bundles
-4. Fill in metadata (name, version, author, materials)
-5. Click **Ingest**
-
-The dashboard handles parsing, similarity detection, provenance tracking, and validation — no command line needed.
-
-### Via CLI (Advanced)
-
-<details>
-<summary>Click to expand CLI instructions</summary>
-
-#### Single File Ingest
-
-```bash
-python scripts/ingest.py \
-    --path my_forcefield.frc \
-    --name my-ff-name \
-    --version v1.0 \
-    --author "Your Name" \
-    --materials "Au,Cu,SiO2" \
-    --notes "Optimized for solvation free energy"
-```
-
-The script automatically compares against existing bundles and flags near-duplicates:
-
-```
-Similarity Analysis (2 similar bundle(s) found):
-  cvff-interface-v1-5@v1.0: 91.4% overlap
-    Common: 170 types | Added: +10 | Changed: ~3
-    → RECOMMENDATION: This extends cvff-interface-v1-5.
-```
-
-#### Batch Ingest (Scan a Directory)
-
-```bash
-# Preview what would be ingested
-python scripts/batch_ingest.py --scan-dir ~/Dropbox/forcefields/ --dry-run
-
-# Ingest all unique files (duplicates auto-skipped by SHA256)
-python scripts/batch_ingest.py --scan-dir ~/Dropbox/forcefields/
-```
-
-#### Validate All Bundles
+### Validate the library
 
 ```bash
 python scripts/validate.py
-# All 4 bundle(s) passed.
+# runs V-1..V-10 (schema, references, hashes, coverage, cycles, ...)
 ```
 
-</details>
+### Compare two parameter versions
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full contribution workflow (branch → PR → CI → review).
+```python
+from iff_parameters.entries import find_parameter_entry
+from upm.bundle.io import load_package
+from upm.registry.diff import diff_tables
+
+a = load_package(find_parameter_entry("cvff-interface", "v1.5").path)
+b = load_package(find_parameter_entry("pcff-interface", "v1.5").path)
+diff = diff_tables(a.tables, b.tables)
+print(diff.summary())
+```
 
 ---
 
-## Provenance & Integrity
+## Dashboard
 
-Every parameter bundle tracks complete provenance:
+Live: [iff-parameters-hhl.streamlit.app](https://iff-parameters-hhl.streamlit.app)
 
-| Field | Description | Example |
-|-------|-------------|---------|
-| `author` | Who created this set | Hendrik Heinz |
-| `source_sha256` | Cryptographic hash of source file | `9c1f7aff...` |
-| `publication_doi` | Associated publication | `10.1021/la3038846` |
-| `parent_ff` | Base force field extended | `cvff_interface_v1_5` |
-| `materials` | Covered materials | `["Au", "SiO2", "clays"]` |
-| `ingested_utc` | When added to repository | `2026-03-24T21:00:26Z` |
+| Page | What it does |
+|---|---|
+| **Home** | Library metrics + tabbed parameter/structure overview |
+| **Search** | Cross-family search by atom type or material |
+| **Browse** | Parameters ↔ structures cross-linked |
+| **Compare** | Side-by-side diff of two parameter versions |
+| **Download** | `pull_latest` / `pull_original` / `pull_version` of structure + parameters as a zip |
+| **Upload** | Ingest a new `.frc` / `.prm` with conflict preview + intent declaration |
+| **Upload Structure** | Ingest a pre-parameterized `.car` with auto family-detection |
+| **Conflicts** | Cross-entry key collisions that disagree on values |
+| **Coverage** | Materials × families grid, gap + staleness flags |
 
-Bundles are verified on every CI run via `scripts/validate.py` — SHA256 hashes, manifest integrity, and table completeness are checked automatically.
+Local:
+
+```bash
+streamlit run dashboard/app.py
+```
+
+> **Deployed dashboard is read-only for uploads.** Streamlit Community
+> Cloud has an ephemeral filesystem — uploads survive only until the
+> container restarts. For durable writes, clone locally and PR.
 
 ---
 
@@ -252,22 +196,70 @@ Bundles are verified on every CI run via `scripts/validate.py` — SHA256 hashes
 ```
 iff-parameters/
 ├── src/iff_parameters/
-│   ├── __init__.py          # list_available(), search_by_material(), get_data_dir()
-│   ├── _provenance.py       # Provenance schema + canonical defaults
-│   └── data/                # Versioned parameter bundles
-│       └── <name>/<version>/
-│           ├── manifest.json    # SHA256 provenance + metadata
-│           ├── tables/*.csv     # Canonical parameter tables
-│           └── raw/source.frc   # Original source file
+│   ├── __init__.py              # get_data_dir(), list_available(), search_by_material()
+│   ├── entries.py               # Entry + Version + iter_entries + index_family_versions
+│   ├── compat.py                # compatibility_check() with rename-chain composition
+│   ├── pull.py                  # pull_latest / pull_original / pull_version
+│   ├── _provenance.py           # legacy Provenance dataclass (v0.1.x)
+│   └── data/
+│       ├── parameters/
+│       │   └── <family>/<version>/
+│       │       ├── manifest.json     # lineage, overrides, renames, hashes
+│       │       ├── tables/*.csv
+│       │       └── raw/source.{frc,prm}
+│       ├── structures/
+│       │   └── <material>/<model>/<version>/
+│       │       ├── manifest.json     # parameterized_with, lock_to_original
+│       │       ├── atoms.csv
+│       │       └── geometry/source.car
+│       └── archive/                  # v0.1.0 bundles; not discoverable
 ├── scripts/
-│   ├── ingest.py            # Single-file ingest with similarity detection
-│   ├── batch_ingest.py      # Directory scan with SHA256 deduplication
-│   └── validate.py          # Bundle integrity verification
-├── dashboard/               # Streamlit web interface
-└── tests/                   # Unit + integration tests
+│   ├── seed_from_interface_ff15_parameters.py
+│   ├── seed_from_interface_ff15_structures.py
+│   ├── validate.py                   # V-1..V-10 validator
+│   └── check_immutability.py         # PR advisory
+├── dashboard/                        # Streamlit app (app.py + pages/)
+├── docs/
+│   ├── ARCHITECTURE.md               # authoritative spec
+│   ├── USE_CASES.md                  # 14 UCs + 25 ECs with expected behavior
+│   ├── VALIDATION_PLAN.md            # test matrix
+│   └── ACCEPTANCE_CHECKLIST.md       # cutover smoke test
+└── tests/
+    ├── integration/                  # UC/EC/seed/validator/perf tests
+    └── ui/                           # Streamlit AppTest smokes
 ```
 
-Integrates with [UPM v2.0](https://github.com/fl-sean03/upm) via Python entry points (`upm.data_packages` group). UPM's `discover_packages()` auto-discovers installed bundles — no manual configuration required.
+### Provenance captured per entry
+
+| Field | Example |
+|---|---|
+| `author` | Hendrik Heinz |
+| `source_sha256` | `9c1f7aff…` |
+| `publication_doi` | `10.1021/la3038846` |
+| `parent_ff` | `cvff-interface/v1.5` |
+| `supersedes` | `v1.0` |
+| `renames` | `{"ti4f": "ti4fh"}` |
+| `materials` | `["silica", "clays"]` |
+| `ingested_utc` | `2026-04-13T15:47:00Z` |
+
+---
+
+## Adding parameters (or structures)
+
+### Dashboard upload (local clone, then PR)
+
+1. Clone the repo, run `streamlit run dashboard/app.py`
+2. Upload → parse → review the conflict preview (disagreements vs.
+   harmless duplicates) → declare intent → ingest writes to `data/`
+3. Commit the new version directory, open a PR
+4. CI (`validate.py`) gates the merge
+
+### CLI ingest
+
+```bash
+# not yet implemented — see BACKLOG. For now, use the dashboard or
+# call upm.bundle.io.save_package directly from a script.
+```
 
 ---
 
@@ -275,19 +267,23 @@ Integrates with [UPM v2.0](https://github.com/fl-sean03/upm) via Python entry po
 
 If you use these parameters in published work, please cite:
 
-> Heinz, H.; Lin, T.-J.; Mishra, R. K.; Emami, F. S. "Thermodynamically Consistent Force Fields for the Assembly of Inorganic, Organic, and Biological Nanostructures: The INTERFACE Force Field." *Langmuir* **2013**, 29, 1754–1765. [DOI: 10.1021/la3038846](https://doi.org/10.1021/la3038846)
+> Heinz, H.; Lin, T.-J.; Mishra, R. K.; Emami, F. S. "Thermodynamically
+> Consistent Force Fields for the Assembly of Inorganic, Organic, and
+> Biological Nanostructures: The INTERFACE Force Field." *Langmuir*
+> **2013**, 29, 1754–1765. [DOI: 10.1021/la3038846](https://doi.org/10.1021/la3038846)
 
-Individual bundles may have additional citations — check `manifest.json → provenance → publication_doi` for each bundle.
+Individual entries may have additional citations — check
+`manifest.json → provenance → publication_doi`.
 
 ---
 
-## Related Projects
+## Related projects
 
 | Project | Description |
-|---------|-------------|
-| [UPM](https://github.com/fl-sean03/upm) | Unified Parameter Model — toolkit for parsing, validating, and exporting .frc and .prm files |
-| [USM](https://github.com/fl-sean03/usm) | Unified Structure Model — atomistic structure I/O (CAR, MDF, CIF, PDB) |
-| [INTERFACE FF](https://github.com/hendrikheinz/INTERFACE-force-field-and-surface-models) | Official IFF v1.5 parameter files from the Heinz Lab |
+|---|---|
+| [UPM](https://github.com/fl-sean03/upm) | Unified Parameter Model — parses/writes `.frc`/`.prm`, manifests, registry, compose |
+| [USM](https://github.com/fl-sean03/usm) | Unified Structure Model — CAR/MDF/CIF/PDB |
+| [INTERFACE FF](https://github.com/hendrikheinz/INTERFACE-force-field-and-surface-models) | Official IFF v1.5 distribution |
 
 ---
 
