@@ -9,4 +9,5 @@ __pycache__/
 .venv/
 canonical_sources/*.frc
 canonical_sources/*.prm
+canonical_sources/INTERFACE_FF_1_5/
 !canonical_sources/.gitkeep
