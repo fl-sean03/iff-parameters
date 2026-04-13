@@ -6,7 +6,7 @@
     "sha256": "49c849f8b417839af578463ca2b6c3bb9d44de080bdbd90a5aa3ef04faf8b169"
   },
   "charges_source": "structure",
-  "created_utc": "2026-04-13T21:47:26Z",
+  "created_utc": "2026-04-13T22:28:12Z",
   "deprecated": false,
   "geometry": {
     "format": "car",
@@ -23,7 +23,7 @@
   "provenance": {
     "author": "Hendrik Heinz",
     "date_created": "2014-04-14",
-    "ingested_utc": "2026-04-13T21:47:26Z",
+    "ingested_utc": "2026-04-13T22:28:12Z",
     "lab": "Heinz Lab, CU Boulder",
     "materials": [
       "hydroxyapatite"

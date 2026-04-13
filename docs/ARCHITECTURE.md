@@ -134,9 +134,15 @@ Every entry has a `manifest.json` at its root.
     "n_atoms": 120,
     "sha256": "..."
   },
-  "atoms_csv": {"path": "atoms.csv", "rows": 120, "sha256": "..."}
+  "atoms_csv": {"path": "atoms.csv", "rows": 120, "sha256": "..."},
+  "topology_csv": {"path": "topology.csv", "rows": 360, "sha256": "..."}
 }
 ```
+
+> **Note:** `topology_csv` is optional and deferred — the v0.2 seed does
+> not parse `.mdf` connectivity into `topology.csv`. When present, the
+> compatibility check uses it to verify bond/angle/torsion key coverage;
+> when absent, coverage is checked at atom-type granularity only.
 
 ## 5. Pull semantics
 

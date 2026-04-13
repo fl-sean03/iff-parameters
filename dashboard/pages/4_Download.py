@@ -26,9 +26,9 @@ with tabs[0]:
         st.stop()
 
     labels = [f"{e['ref']} ({e['format']})" for e in bundles]
-    idx = st.selectbox("Entry:", range(len(labels)),
-                       format_func=lambda i: labels[i], key="dl_param_sel")
-    entry = bundles[idx]
+    label_to_entry = dict(zip(labels, bundles))
+    chosen = st.selectbox("Entry:", labels, key="dl_param_sel")
+    entry = label_to_entry[chosen]
     tables = load_bundle_tables(entry["path"])
 
     st.markdown("---")
@@ -83,9 +83,9 @@ with tabs[1]:
     sel_class = st.selectbox("Material class:", classes, key="dl_struct_class")
     in_class = [s for s in structs if s["material_class"] == sel_class]
     labels = [f"{s['name']}@{s['version']} ({s['n_atoms']} atoms)" for s in in_class]
-    idx = st.selectbox("Structure:", range(len(labels)),
-                       format_func=lambda i: labels[i], key="dl_struct_sel")
-    s = in_class[idx]
+    label_to_struct = dict(zip(labels, in_class))
+    chosen = st.selectbox("Structure:", labels, key="dl_struct_sel")
+    s = label_to_struct[chosen]
 
     st.write("**Pinned:** " + ", ".join(f"`{p['name']}@{p['version']}`"
                                           for p in s.get("parameterized_with", [])))

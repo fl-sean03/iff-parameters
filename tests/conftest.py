@@ -90,7 +90,11 @@ class LibraryFixture:
             deprecation_reason=deprecation_reason,
             overrides=overrides,
             partial_roundtrip=partial_roundtrip,
-            provenance=provenance or {"author": "Test", "source_file": "test.frc"},
+            provenance=provenance or {
+                "author": "Test",
+                "source_file": "test.frc",
+                "source_sha256": "deadbeef",
+            },
         )
         return root
 

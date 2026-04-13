@@ -36,6 +36,38 @@ def test_clean_library_passes(library):
     assert "errors:   0" in out
 
 
+def test_v1_missing_author_errors(library):
+    """Inv-6: provenance.author is required on parameter entries."""
+    library.add_param("fam", "v1.0",
+                      atom_types=[("a", "A", 1, 1, 1)],
+                      provenance={"source_file": "x.frc", "source_sha256": "abc"})  # no author
+    library.add_structure(
+        "m", "v1.0", material_class="test",
+        atom_type_family="fam",
+        parameterized_with=[{"name": "fam", "version": "v1.0"}],
+        atoms=[(1, "A", "a", 0, 0, 0, 0)],
+    )
+    code, out, _ = _run(library.root)
+    assert code == 1
+    assert "missing provenance.author" in out
+
+
+def test_v1_missing_source_sha256_errors_for_parameters(library):
+    """Parameter entries require source_sha256; structures don't."""
+    library.add_param("fam", "v1.0",
+                      atom_types=[("a", "A", 1, 1, 1)],
+                      provenance={"author": "Me", "source_file": "x.frc"})  # no sha256
+    library.add_structure(
+        "m", "v1.0", material_class="test",
+        atom_type_family="fam",
+        parameterized_with=[{"name": "fam", "version": "v1.0"}],
+        atoms=[(1, "A", "a", 0, 0, 0, 0)],
+    )
+    code, out, _ = _run(library.root)
+    assert code == 1
+    assert "missing provenance.source_sha256" in out
+
+
 def test_v2_forward_ref_errors(library):
     library.add_structure(
         "m", "v1.0", material_class="test",

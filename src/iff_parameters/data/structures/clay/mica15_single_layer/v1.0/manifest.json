@@ -6,7 +6,7 @@
     "sha256": "c6e18ba0d0bcb4f8210b417f2e5e7768e8da6a46132b82a1e1d10bca6239c630"
   },
   "charges_source": "structure",
-  "created_utc": "2026-04-13T21:47:25Z",
+  "created_utc": "2026-04-13T22:28:12Z",
   "deprecated": false,
   "geometry": {
     "format": "car",
@@ -23,7 +23,7 @@
   "provenance": {
     "author": "Hendrik Heinz",
     "date_created": "2014-04-14",
-    "ingested_utc": "2026-04-13T21:47:25Z",
+    "ingested_utc": "2026-04-13T22:28:12Z",
     "lab": "Heinz Lab, CU Boulder",
     "materials": [
       "clay"

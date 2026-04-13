@@ -8,6 +8,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from iff_parameters.conflicts import count_conflicts, detect_collisions
 from utils.data import (
     get_data_dir, list_parameter_entries, load_bundle_tables,
 )
@@ -37,74 +38,24 @@ def _parse(content: str, fmt: str):
     return normalize_tables(tables), raw
 
 
-def _detect_collisions(new_tables: dict, existing_entries: list[dict]) -> tuple[list[dict], list[dict]]:
-    """Return (atom_type_collisions, bond_collisions).
-
-    Each row: entry_ref, key, your_values, their_values, disagreement_cols.
-    """
-    import math
+def _collision_display_rows(collisions: list) -> tuple[list[dict], list[dict]]:
+    """Split detect_collisions output into UI-friendly atom / bond lists."""
     atom_rows, bond_rows = [], []
-    new_at = new_tables.get("atom_types")
-    new_bonds = new_tables.get("bonds")
-    for entry in existing_entries:
-        try:
-            ex = load_bundle_tables(entry["path"])
-        except Exception:
-            continue
-        # atom types
-        if new_at is not None and "atom_types" in ex:
-            ex_at = ex["atom_types"]
-            common = set(new_at["atom_type"].astype(str)) & set(ex_at["atom_type"].astype(str))
-            for t in sorted(common):
-                new_row = new_at[new_at["atom_type"] == t].iloc[0].to_dict()
-                old_row = ex_at[ex_at["atom_type"] == t].iloc[0].to_dict()
-                disagreements = []
-                for col in ("lj_a", "lj_b", "mass_amu"):
-                    nv, ov = new_row.get(col), old_row.get(col)
-                    try:
-                        if nv is None or ov is None:
-                            continue
-                        fnv, fov = float(nv), float(ov)
-                        if math.isnan(fnv) and math.isnan(fov):
-                            continue
-                        if abs(fnv - fov) > 1e-6 * max(abs(fnv), abs(fov), 1.0):
-                            disagreements.append(col)
-                    except (TypeError, ValueError):
-                        if str(nv) != str(ov):
-                            disagreements.append(col)
-                atom_rows.append({
-                    "entry": entry["ref"],
-                    "atom_type": t,
-                    "disagrees_on": ", ".join(disagreements) if disagreements else "—",
-                    "status": "⚠ conflict" if disagreements else "✓ duplicate",
-                })
-        # bonds
-        if new_bonds is not None and "bonds" in ex:
-            ex_bonds = ex["bonds"]
-            new_keys = set(zip(new_bonds["t1"].astype(str), new_bonds["t2"].astype(str)))
-            ex_keys = set(zip(ex_bonds["t1"].astype(str), ex_bonds["t2"].astype(str)))
-            common_bonds = new_keys & ex_keys
-            for k in sorted(common_bonds):
-                new_row = new_bonds[(new_bonds["t1"] == k[0]) & (new_bonds["t2"] == k[1])].iloc[0].to_dict()
-                old_row = ex_bonds[(ex_bonds["t1"] == k[0]) & (ex_bonds["t2"] == k[1])].iloc[0].to_dict()
-                disagreements = []
-                for col in ("k", "r0"):
-                    nv, ov = new_row.get(col), old_row.get(col)
-                    try:
-                        fnv, fov = float(nv), float(ov)
-                        if math.isnan(fnv) and math.isnan(fov):
-                            continue
-                        if abs(fnv - fov) > 1e-6 * max(abs(fnv), abs(fov), 1.0):
-                            disagreements.append(col)
-                    except (TypeError, ValueError):
-                        if str(nv) != str(ov):
-                            disagreements.append(col)
-                bond_rows.append({
-                    "entry": entry["ref"],
-                    "bond": f"{k[0]} — {k[1]}",
-                    "disagrees_on": ", ".join(disagreements) if disagreements else "—",
-                    "status": "⚠ conflict" if disagreements else "✓ duplicate",
-                })
+    for c in collisions:
+        record = {
+            "entry": c.entry,
+            "key": c.key,
+            "disagrees_on": ", ".join(c.disagrees_on) if c.disagrees_on else "—",
+            "status": "⚠ conflict" if c.status == "conflict" else "✓ duplicate",
+        }
+        if c.scope == "atom_types":
+            atom_rows.append({"entry": c.entry, "atom_type": c.key,
+                              "disagrees_on": record["disagrees_on"],
+                              "status": record["status"]})
+        elif c.scope == "bonds":
+            bond_rows.append({"entry": c.entry, "bond": c.key,
+                              "disagrees_on": record["disagrees_on"],
+                              "status": record["status"]})
     return atom_rows, bond_rows
 
 
@@ -130,7 +81,8 @@ for uploaded in uploaded_files:
         st.markdown("---")
         st.subheader("Conflict preview")
         existing = list_parameter_entries()
-        atom_rows, bond_rows = _detect_collisions(tables, existing)
+        collisions = detect_collisions(tables, existing, load_bundle_tables)
+        atom_rows, bond_rows = _collision_display_rows(collisions)
 
         with st.expander(f"Atom-type collisions ({len(atom_rows)})"):
             if atom_rows:
@@ -143,9 +95,7 @@ for uploaded in uploaded_files:
             else:
                 st.write("None.")
 
-        n_conflicts = sum(1 for r in atom_rows if "conflict" in r["status"]) \
-                      + sum(1 for r in bond_rows if "conflict" in r["status"])
-        n_dupes = len(atom_rows) + len(bond_rows) - n_conflicts
+        n_conflicts, n_dupes = count_conflicts(collisions)
         if n_conflicts:
             st.warning(f"{n_conflicts} real disagreement(s) detected. Declare intent below.")
         else:

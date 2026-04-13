@@ -25,8 +25,6 @@ from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 
-import pandas as pd
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CANONICAL_DIR = REPO_ROOT / "canonical_sources" / "INTERFACE_FF_1_5" / "MODEL_DATABASE"
 DATA_DIR = REPO_ROOT / "src" / "iff_parameters" / "data"
@@ -101,78 +99,6 @@ def _detect_family(structure_types: set[str], family_types: dict[str, set[str]])
     return None
 
 
-def _to_atoms_csv(usm_atoms: pd.DataFrame) -> pd.DataFrame:
-    """Convert USM.atoms to our canonical atoms.csv schema."""
-    return pd.DataFrame({
-        "id": usm_atoms["aid"].astype(int) + 1,   # 1-indexed
-        "element": usm_atoms["element"].astype(str),
-        "ff_type": usm_atoms["atom_type"].astype(str),
-        "charge": usm_atoms["charge"].astype(float),
-        "x": usm_atoms["x"].astype(float),
-        "y": usm_atoms["y"].astype(float),
-        "z": usm_atoms["z"].astype(float),
-    })
-
-
-def _fallback_parse_car(text: str) -> pd.DataFrame:
-    """Tolerant .car atom parser for INTERFACE_FF_1_5 files USM can't handle.
-
-    Assumes whitespace-separated columns in the order:
-        name  x  y  z  mol_label  mol_index  atom_type  element  charge
-
-    Skips lines that don't look like atom lines (headers, comments,
-    PBC, 'end', etc.).
-    """
-    rows = []
-    for line in text.splitlines():
-        if not line.strip() or line.startswith("!") or line.startswith("#"):
-            continue
-        if line.strip() in ("end", "END"):
-            continue
-        if line.startswith(("PBC", "Materials Studio", "!DATE")):
-            continue
-        parts = line.split()
-        if len(parts) < 9:
-            continue
-        try:
-            x = float(parts[1]); y = float(parts[2]); z = float(parts[3])
-            charge = float(parts[-1])
-        except ValueError:
-            continue
-        name = parts[0]
-        mol_label = parts[4]
-        mol_index = parts[5]
-        atom_type = parts[6]
-        element = parts[7]
-        rows.append({
-            "aid": len(rows),
-            "name": name,
-            "element": element,
-            "atom_type": atom_type,
-            "charge": charge,
-            "x": x, "y": y, "z": z,
-            "mol_label": mol_label,
-            "mol_index": mol_index,
-        })
-    return pd.DataFrame(rows)
-
-
-def _load_car_resilient(car_path: Path) -> pd.DataFrame:
-    """Try USM first; fall back to our tolerant parser if USM returns nothing."""
-    from usm.io.car import load_car
-    try:
-        usm = load_car(str(car_path))
-        if len(usm.atoms) > 0 and "atom_type" in usm.atoms.columns:
-            return usm.atoms
-    except Exception:
-        pass
-    text = car_path.read_text(encoding="utf-8", errors="replace")
-    atoms = _fallback_parse_car(text)
-    if len(atoms) == 0:
-        raise ValueError("no atoms parsed (tried USM + fallback)")
-    return atoms
-
-
 def seed_one_car(
     car_path: Path,
     material_class: str,
@@ -180,13 +106,14 @@ def seed_one_car(
     *,
     force: bool = False,
 ) -> StructureSeed | None:
-    usm_atoms = _load_car_resilient(car_path)
-    if "atom_type" not in usm_atoms.columns or usm_atoms["atom_type"].isna().all():
-        raise ValueError("no atom_type column in parsed CAR")
+    from iff_parameters.car_parser import load_car_atoms
+    atoms_df = load_car_atoms(car_path)
+    if "ff_type" not in atoms_df.columns or atoms_df["ff_type"].isna().all():
+        raise ValueError("no ff_type column in parsed CAR")
 
     # collect types (drop NaN / empty strings)
     types = set(
-        s for s in usm_atoms["atom_type"].astype(str).tolist()
+        s for s in atoms_df["ff_type"].astype(str).tolist()
         if s and s != "nan"
     )
     family = _detect_family(types, family_types)
@@ -203,8 +130,7 @@ def seed_one_car(
             return None
         shutil.rmtree(target_root)
 
-    atoms_df = _to_atoms_csv(usm_atoms)
-
+    # atoms_df already in canonical format from load_car_atoms
     # Copy .mdf companion alongside geometry/ if present (not parsed into topology yet)
     mdf_path = car_path.with_suffix(".mdf")
     geometry_text = car_path.read_text(encoding="utf-8", errors="replace")

@@ -6,7 +6,7 @@
     "sha256": "cfad2a6eb68ab942ba980b21854c0dd9677d99a3f3c70e1a100fd0b9f7244fd9"
   },
   "charges_source": "structure",
-  "created_utc": "2026-04-13T21:47:26Z",
+  "created_utc": "2026-04-13T22:28:13Z",
   "deprecated": false,
   "geometry": {
     "format": "car",
@@ -23,7 +23,7 @@
   "provenance": {
     "author": "Hendrik Heinz",
     "date_created": "2014-04-14",
-    "ingested_utc": "2026-04-13T21:47:26Z",
+    "ingested_utc": "2026-04-13T22:28:13Z",
     "lab": "Heinz Lab, CU Boulder",
     "materials": [
       "silica"

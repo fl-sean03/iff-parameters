@@ -1,12 +1,14 @@
 """Upload a pre-parameterized structure (.car / .mdf / .pdb)."""
 from __future__ import annotations
 
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
 import streamlit as st
 
+from iff_parameters.car_parser import load_car_atoms, parse_car_atoms_tolerant
 from utils.data import (
     get_data_dir, list_parameter_entries, load_bundle_tables,
 )
@@ -14,63 +16,25 @@ from utils.data import (
 st.title("Upload Structure")
 st.caption("Ingest a pre-parameterized structure that pins to one or more parameter entries.")
 
-# --- format detection + atom extraction ------------------------------------
-
-def _parse_car_fallback(text: str) -> pd.DataFrame:
-    rows = []
-    for line in text.splitlines():
-        if not line.strip() or line[:1] in ("!", "#"):
-            continue
-        if line.strip() in ("end", "END"):
-            continue
-        if line.startswith(("PBC", "Materials Studio", "!DATE")):
-            continue
-        parts = line.split()
-        if len(parts) < 9:
-            continue
-        try:
-            x = float(parts[1]); y = float(parts[2]); z = float(parts[3])
-            charge = float(parts[-1])
-        except ValueError:
-            continue
-        rows.append({
-            "id": len(rows) + 1,
-            "element": parts[7],
-            "ff_type": parts[6],
-            "charge": charge,
-            "x": x, "y": y, "z": z,
-        })
-    return pd.DataFrame(rows)
-
 
 def _parse_structure(content: str, filename: str) -> tuple[pd.DataFrame, str]:
     ext = Path(filename).suffix.lower().lstrip(".")
     if ext == "car":
+        # Write to a temp file so USM can try its parser; fall back to tolerant.
+        with tempfile.NamedTemporaryFile("w", suffix=".car", delete=False) as fh:
+            fh.write(content)
+            tmp_path = Path(fh.name)
         try:
-            from usm.io.car import load_car
-            tmp = Path(st.session_state.get("_upload_tmp", "/tmp/iff_upload.car"))
-            tmp.write_text(content, encoding="utf-8")
-            usm = load_car(str(tmp))
-            if len(usm.atoms) and "atom_type" in usm.atoms.columns:
-                atoms = pd.DataFrame({
-                    "id": usm.atoms["aid"].astype(int) + 1,
-                    "element": usm.atoms["element"].astype(str),
-                    "ff_type": usm.atoms["atom_type"].astype(str),
-                    "charge": usm.atoms["charge"].astype(float),
-                    "x": usm.atoms["x"].astype(float),
-                    "y": usm.atoms["y"].astype(float),
-                    "z": usm.atoms["z"].astype(float),
-                })
-                return atoms, "car"
+            return load_car_atoms(tmp_path), "car"
         except Exception:
-            pass
-        return _parse_car_fallback(content), "car"
+            return parse_car_atoms_tolerant(content), "car"
+        finally:
+            try:
+                tmp_path.unlink()
+            except OSError:
+                pass
     if ext == "pdb":
-        try:
-            from usm.io.pdb import load_pdb  # noqa: F401
-            st.warning("PDB parsing routed through USM — types + charges may be missing")
-        except Exception:
-            st.error("USM PDB parser unavailable in this environment")
+        st.error("PDB ingestion not yet supported in the dashboard. Upload a .car instead.")
         return pd.DataFrame(), "pdb"
     if ext == "mdf":
         st.error("MDF alone is not enough — upload a .car (and optional companion .mdf).")

@@ -99,6 +99,17 @@ def check_v1_v5(data_dir: Path, report: Report, manifests: list[dict]) -> None:
         if not (schema.startswith("upm-") or schema.startswith("0.")):
             report.warn("V-1", ref, f"unusual schema_version: {schema!r}")
 
+        # Inv 6: provenance required (author + source_sha256)
+        prov = m.get("provenance", {})
+        if not isinstance(prov, dict) or not prov.get("author"):
+            report.err("V-1", ref, "missing provenance.author (Inv 6)")
+        if not isinstance(prov, dict) or not prov.get("source_sha256"):
+            # Structure entries may legitimately have no source_sha256 since
+            # the geometry file hash is tracked separately; only require for
+            # parameter entries.
+            if m.get("type", "parameters") == "parameters":
+                report.err("V-1", ref, "missing provenance.source_sha256 (Inv 6)")
+
         # V-5: hashes
         for block_name in ("tables", "sources"):
             block = m.get(block_name)

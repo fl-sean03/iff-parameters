@@ -23,9 +23,9 @@ with tabs[0]:
         + (" 🚫" if e.get('deprecated') else "")
         for e in bundles
     ]
-    idx = st.selectbox("Select parameter set:", range(len(labels)),
-                       format_func=lambda i: labels[i], key="param_select")
-    entry = bundles[idx]
+    label_to_entry = dict(zip(labels, bundles))
+    chosen = st.selectbox("Select parameter set:", labels, key="param_select")
+    entry = label_to_entry[chosen]
     tables = load_bundle_tables(entry["path"])
     manifest = load_manifest(entry["path"])
 
@@ -102,9 +102,9 @@ with tabs[1]:
     in_class = [s for s in structs if s["material_class"] == sel_class]
     labels = [f"{s['name']}@{s['version']}  ({s['n_atoms']} atoms → {s['atom_type_family']})"
               for s in in_class]
-    idx = st.selectbox("Structure:", range(len(labels)),
-                       format_func=lambda i: labels[i], key="struct_select")
-    s = in_class[idx]
+    label_to_struct = dict(zip(labels, in_class))
+    chosen = st.selectbox("Structure:", labels, key="struct_select")
+    s = label_to_struct[chosen]
 
     # Summary
     c1, c2, c3 = st.columns(3)

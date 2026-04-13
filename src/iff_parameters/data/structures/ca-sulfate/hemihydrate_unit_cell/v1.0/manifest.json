@@ -6,7 +6,7 @@
     "sha256": "273fe77d0165b499b59238a85765d142e39aa7387abafe1f0401997f71c7df69"
   },
   "charges_source": "structure",
-  "created_utc": "2026-04-13T21:47:25Z",
+  "created_utc": "2026-04-13T22:28:11Z",
   "deprecated": false,
   "geometry": {
     "format": "car",
@@ -23,7 +23,7 @@
   "provenance": {
     "author": "Hendrik Heinz",
     "date_created": "2014-04-14",
-    "ingested_utc": "2026-04-13T21:47:25Z",
+    "ingested_utc": "2026-04-13T22:28:11Z",
     "lab": "Heinz Lab, CU Boulder",
     "materials": [
       "ca-sulfate"
