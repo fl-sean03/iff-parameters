@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "cvff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 300,
+    "sha256": "96d36b7adaf23d803078cac28e745dd9210f0737c86596ded193c5cfa4479d61"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:26Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "782a385c562aae17d4c4c4fbc9660ebfb21bc23e96a860ca94c90a6354c9c07e"
+  },
+  "name": "hap_020_pH10_HPO4",
+  "parameterized_with": [
+    {
+      "name": "cvff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:26Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "hydroxyapatite"
+    ],
+    "mdf_companion": "hap_020_pH10_HPO4.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/HYDROXYAPATITE",
+    "source_file": "hap_020_pH10_HPO4.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "782a385c562aae17d4c4c4fbc9660ebfb21bc23e96a860ca94c90a6354c9c07e"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "96d36b7adaf23d803078cac28e745dd9210f0737c86596ded193c5cfa4479d61"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

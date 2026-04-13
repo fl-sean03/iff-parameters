@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "cvff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 1200,
+    "sha256": "cd227d2ed0314d2ef4f96964a666a6da52fe6101d95fc71746c14ee8eb41e379"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:25Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "6d87d4777d91e65e90e6c734a065261ab7ecda9854eb587e70883987e93a4b46"
+  },
+  "name": "pyrophyllite30_cell",
+  "parameterized_with": [
+    {
+      "name": "cvff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:25Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "clay"
+    ],
+    "mdf_companion": "pyrophyllite30_cell.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/CLAY_MINERALS",
+    "source_file": "pyrophyllite30_cell.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "6d87d4777d91e65e90e6c734a065261ab7ecda9854eb587e70883987e93a4b46"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "cd227d2ed0314d2ef4f96964a666a6da52fe6101d95fc71746c14ee8eb41e379"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

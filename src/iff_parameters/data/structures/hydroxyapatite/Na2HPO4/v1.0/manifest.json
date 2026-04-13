@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "cvff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 8,
+    "sha256": "c8a0b05c7980ca4fb99f0c1ac01b01e83cd9c855c910ffd6a2e2158dd8191e60"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:25Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "ea3f3e939b8db57d64499598da0efbe86ebc1628a2acb7922e116bec83f87d66"
+  },
+  "name": "Na2HPO4",
+  "parameterized_with": [
+    {
+      "name": "cvff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:25Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "hydroxyapatite"
+    ],
+    "mdf_companion": "Na2HPO4.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/HYDROXYAPATITE",
+    "source_file": "Na2HPO4.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "ea3f3e939b8db57d64499598da0efbe86ebc1628a2acb7922e116bec83f87d66"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "c8a0b05c7980ca4fb99f0c1ac01b01e83cd9c855c910ffd6a2e2158dd8191e60"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "family": "cvff-interface",
+      "n_angles": 691,
+      "n_atom_types": 180,
+      "n_bonds": 827,
+      "n_torsions": 334,
+      "partial_roundtrip": false,
+      "path": "src/iff_parameters/data/parameters/cvff-interface/v1.5",
+      "source_file": "cvff_interface_v1_5.frc",
+      "source_sha256": "d64323ed1c6f0e399e5cff1ef74595477e8c4b3f4fadedf88b01f2e1eed7bc48",
+      "version": "v1.5"
+    },
+    {
+      "family": "pcff-interface",
+      "n_angles": 329,
+      "n_atom_types": 214,
+      "n_bonds": 627,
+      "n_torsions": 217,
+      "partial_roundtrip": true,
+      "path": "src/iff_parameters/data/parameters/pcff-interface/v1.5",
+      "source_file": "pcff_interface_v1_5.frc",
+      "source_sha256": "3ad5a1be7334c646ed6cb813b769d0e89a1aa03fe695013e940626b7df922693",
+      "version": "v1.5"
+    },
+    {
+      "family": "charmm27-interface",
+      "n_angles": 598,
+      "n_atom_types": 166,
+      "n_bonds": 234,
+      "n_torsions": 607,
+      "partial_roundtrip": false,
+      "path": "src/iff_parameters/data/parameters/charmm27-interface/v1.5",
+      "source_file": "charmm27_interface_v1_5.prm",
+      "source_sha256": "f327117faad8e14e8958187ae0b5a5acf94e97612fcae83ca0db7a31a4bf674b",
+      "version": "v1.5"
+    }
+  ],
+  "seeded_utc": "2026-04-13T21:48:28Z"
+}

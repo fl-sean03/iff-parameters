@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "cvff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 264,
+    "sha256": "71cdb1696b78922aa65ee75f0bdbaddc844e9ba1f8f881647ce4661fbe1316c9"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:25Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "149bb6029cda5b79550dc6c18b3e13e8c374d177823f19f343b2e782c7f38e02"
+  },
+  "name": "c3a_unit_cell_minimized",
+  "parameterized_with": [
+    {
+      "name": "cvff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:25Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "cement"
+    ],
+    "mdf_companion": "c3a_unit_cell_minimized.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/CEMENT_MINERALS",
+    "source_file": "c3a_unit_cell_minimized.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "149bb6029cda5b79550dc6c18b3e13e8c374d177823f19f343b2e782c7f38e02"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "71cdb1696b78922aa65ee75f0bdbaddc844e9ba1f8f881647ce4661fbe1316c9"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

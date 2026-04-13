@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "cvff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 42,
+    "sha256": "126709816b74d51c325608b883d8dafc663dcb89476b3e3ff29cdc36d5431412"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:26Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "56b686f85fae46d0d90133dea134f25c951141c6d058c7623de9e5ed0f3eed81"
+  },
+  "name": "hap_rectangular_cell",
+  "parameterized_with": [
+    {
+      "name": "cvff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:26Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "hydroxyapatite"
+    ],
+    "mdf_companion": "hap_rectangular_cell.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/HYDROXYAPATITE",
+    "source_file": "hap_rectangular_cell.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "56b686f85fae46d0d90133dea134f25c951141c6d058c7623de9e5ed0f3eed81"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "126709816b74d51c325608b883d8dafc663dcb89476b3e3ff29cdc36d5431412"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

@@ -1,0 +1,68 @@
+!BIOSYM molecular_data 4
+ 
+!Date: Fri May 02 18:11:46 2014   Materials Studio Generated MDF file
+ 
+#topology
+
+@column 1 element
+@column 2 atom_type
+@column 3 charge_group
+@column 4 isotope
+@column 5 formal_charge
+@column 6 charge
+@column 7 switching_atom
+@column 8 oop_flag
+@column 9 chirality_flag
+@column 10 occupancy
+@column 11 xray_temp_factor
+@column 12 connections
+ 
+@molecule PYRO1_H_64
+ 
+XXXX_1:AL1          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_2:O1 XXX_2:O6 XXX_2:O4 
+XXXX_1:AL2          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O2 O4 XXX_2:O3 O6%-100#1 XXX_2:O2%-100#1 XXX_2:O5%-100#1 
+XXXX_1:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O1 O9 O12%1-10#1 O8%0-10#1 
+XXXX_1:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_1:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 O7%100#1 
+XXXX_1:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_1:O1           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_2:AL1%0-10#1 
+XXXX_1:O2           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_2:AL2 
+XXXX_1:O3           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_2:AL2%100#1 
+XXXX_1:O4           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_2:AL1 
+XXXX_1:O5           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_2:AL2 XXX_2:H1 
+XXXX_1:O6           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_2:AL1 XXX_2:H2 AL2%100#1 
+XXXX_1:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3%-100#1 
+XXXX_1:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 SI1%010#1 
+XXXX_1:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_1:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_1:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_1:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 SI1%-110#1 
+XXX_2:AL1           Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_1:O4 XXXX_1:O6 O3 O5 XXXX_1:O1%010#1 O1%010#1 
+XXX_2:AL2           Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_1:O2 XXXX_1:O5 O6 XXXX_1:O3%-100#1 O4%-100#1 O2%-100#1 
+XXX_2:SI1           Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O1 O8 O9%0-10#1 O12%-100#1 
+XXX_2:SI2           Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_2:SI3           Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 O7%-100#1 
+XXX_2:SI4           Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_2:O1            O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_1:AL1 SI1 AL1%0-10#1 
+XXX_2:O2            O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI2 XXXX_1:AL2%100#1 AL2%100#1 
+XXX_2:O3            O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_1:AL2 AL1 SI3 
+XXX_2:O4            O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_1:AL1 SI4 AL2%100#1 
+XXX_2:O5            O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 H3 XXXX_1:AL2%100#1 
+XXX_2:O6            O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_1:AL1 AL2 H4 
+XXX_2:O7            O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3%100#1 
+XXX_2:O8            O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_2:O9            O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 SI1%010#1 
+XXX_2:O10           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_2:O11           O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_2:O12           O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 SI1%100#1 
+XXX_2:H1            H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_1:O5 
+XXX_2:H2            H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_1:O6 
+XXX_2:H3            H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_2:H4            H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+ 
+!
+#symmetry
+@periodicity 3 xyz
+@group (P1)
+
+#end

@@ -1,0 +1,52 @@
+!BIOSYM molecular_data 4
+ 
+!Date: Mon Apr 21 04:36:33 2014   Materials Studio Generated MDF file
+ 
+#topology
+
+@column 1 element
+@column 2 atom_type
+@column 3 charge_group
+@column 4 isotope
+@column 5 formal_charge
+@column 6 charge
+@column 7 switching_atom
+@column 8 oop_flag
+@column 9 chirality_flag
+@column 10 occupancy
+@column 11 xray_temp_factor
+@column 12 connections
+ 
+@molecule anhydrite
+ 
+XXXX_1:Ca1          Ca ca+g    ?     0  2+    1.5000 0 0 8 1.0000  0.0000 
+XXXX_1:Ca2          Ca ca+g    ?     0  2+    1.5000 0 0 8 1.0000  0.0000 
+XXXX_1:Ca3          Ca ca+g    ?     0  2+    1.5000 0 0 8 1.0000  0.0000 
+XXXX_1:Ca4          Ca ca+g    ?     0  2+    1.5000 0 0 8 1.0000  0.0000 
+XXXX_1:S1           S  s'      ?     0  0     0.5000 0 0 8 1.0000  0.0000 O1/1.5 O5/1.5 O9/1.5 O13/1.5 
+XXXX_1:S2           S  s'      ?     0  0     0.5000 0 0 8 1.0000  0.0000 O2/1.5 O6/1.5 O10/1.5 O14/1.5 
+XXXX_1:S3           S  s'      ?     0  0     0.5000 0 0 8 1.0000  0.0000 O3/1.5 O7/1.5 O11/1.5 O15/1.5 
+XXXX_1:S4           S  s'      ?     0  0     0.5000 0 0 8 1.0000  0.0000 O4/1.5 O8/1.5 O12/1.5 O16/1.5 
+XXXX_1:O1           O  oc11    ?     0  0    -0.5000 0 0 8 1.0000  0.0000 S1/1.5 
+XXXX_1:O2           O  oc11    ?     0  0    -0.5000 0 0 8 1.0000  0.0000 S2/1.5 
+XXXX_1:O3           O  oc11    ?     0  0    -0.5000 0 0 8 1.0000  0.0000 S3/1.5 
+XXXX_1:O4           O  oc11    ?     0  0    -0.5000 0 0 8 1.0000  0.0000 S4/1.5 
+XXXX_1:O5           O  oc11    ?     0  0    -0.5000 0 0 8 1.0000  0.0000 S1/1.5 
+XXXX_1:O6           O  oc11    ?     0  0    -0.5000 0 0 8 1.0000  0.0000 S2/1.5 
+XXXX_1:O7           O  oc11    ?     0  0    -0.5000 0 0 8 1.0000  0.0000 S3/1.5 
+XXXX_1:O8           O  oc11    ?     0  0    -0.5000 0 0 8 1.0000  0.0000 S4/1.5 
+XXXX_1:O9           O  oc11    ?     0  1-   -0.5000 0 0 8 1.0000  0.0000 S1/1.5 
+XXXX_1:O10          O  oc11    ?     0  1-   -0.5000 0 0 8 1.0000  0.0000 S2/1.5 
+XXXX_1:O11          O  oc11    ?     0  1-   -0.5000 0 0 8 1.0000  0.0000 S3/1.5 
+XXXX_1:O12          O  oc11    ?     0  1-   -0.5000 0 0 8 1.0000  0.0000 S4/1.5 
+XXXX_1:O13          O  oc11    ?     0  1-   -0.5000 0 0 8 1.0000  0.0000 S1/1.5 
+XXXX_1:O14          O  oc11    ?     0  1-   -0.5000 0 0 8 1.0000  0.0000 S2/1.5 
+XXXX_1:O15          O  oc11    ?     0  1-   -0.5000 0 0 8 1.0000  0.0000 S3/1.5 
+XXXX_1:O16          O  oc11    ?     0  1-   -0.5000 0 0 8 1.0000  0.0000 S4/1.5 
+ 
+!
+#symmetry
+@periodicity 3 xyz
+@group (P1)
+
+#end

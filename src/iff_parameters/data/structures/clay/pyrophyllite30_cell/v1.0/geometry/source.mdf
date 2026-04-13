@@ -1,0 +1,1228 @@
+!BIOSYM molecular_data 4
+ 
+!Date: Fri May 02 18:12:57 2014   Materials Studio Generated MDF file
+ 
+#topology
+
+@column 1 element
+@column 2 atom_type
+@column 3 charge_group
+@column 4 isotope
+@column 5 formal_charge
+@column 6 charge
+@column 7 switching_atom
+@column 8 oop_flag
+@column 9 chirality_flag
+@column 10 occupancy
+@column 11 xray_temp_factor
+@column 12 connections
+ 
+@molecule pyro1_cell
+ 
+XXXX_1:AL1          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_47:O6 XXX_47:O4 XXX_77:O1%0-10#1 
+XXXX_1:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_1:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_2:O7 
+XXXX_1:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_1:O1           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 XXXX_37:SI1%0-10#1 XXX_57:AL1%0-10#1 
+XXXX_1:O2           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI2 XXX_47:AL2 XXXX_31:AL2%-100#1 
+XXXX_1:O3           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_48:AL2 
+XXXX_1:O4           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI4 XXX_47:AL1 XXXX_31:AL2%-100#1 
+XXXX_1:O5           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_47:AL2 XXX_47:H1 
+XXXX_1:O6           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_47:AL1 XXX_47:H2 XXXX_2:AL2 
+XXXX_1:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXXX_5:SI3%-100#1 
+XXXX_1:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_6:SI1 
+XXXX_1:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXXX_37:SI1%0-10#1 
+XXXX_1:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_1:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_1:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_10:SI1%-100#1 
+XXXX_2:AL1          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_48:O6 XXX_48:O4 XXX_78:O1%0-10#1 
+XXXX_2:AL2          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_1:O6 O2 O4 XXX_48:O3 XXX_47:O2 XXX_47:O5 
+XXXX_2:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_2:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_3:O7 
+XXXX_2:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_2:O1           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 XXXX_38:SI1%0-10#1 XXX_58:AL1%0-10#1 
+XXXX_2:O2           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_48:AL2 
+XXXX_2:O3           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_49:AL2 
+XXXX_2:O4           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_48:AL1 
+XXXX_2:O5           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_48:AL2 XXX_48:H1 
+XXXX_2:O6           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_48:AL1 XXX_48:H2 XXXX_3:AL2 
+XXXX_2:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_1:SI3 SI2 
+XXXX_2:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_7:SI1 
+XXXX_2:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXXX_38:SI1%0-10#1 
+XXXX_2:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_2:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_2:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_6:SI1 
+XXXX_3:AL1          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_49:O6 XXX_49:O4 XXX_79:O1%0-10#1 
+XXXX_3:AL2          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_2:O6 O2 O4 XXX_49:O3 XXX_48:O2 XXX_48:O5 
+XXXX_3:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_3:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_4:O7 
+XXXX_3:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_3:O1           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 XXXX_39:SI1%0-10#1 XXX_59:AL1%0-10#1 
+XXXX_3:O2           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_49:AL2 
+XXXX_3:O3           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_50:AL2 
+XXXX_3:O4           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_49:AL1 
+XXXX_3:O5           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_49:AL2 XXX_49:H1 
+XXXX_3:O6           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_49:AL1 XXX_49:H2 XXXX_4:AL2 
+XXXX_3:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_2:SI3 SI2 
+XXXX_3:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_8:SI1 
+XXXX_3:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXXX_39:SI1%0-10#1 
+XXXX_3:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_3:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_3:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_7:SI1 
+XXXX_4:AL1          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_50:O6 XXX_50:O4 XXX_80:O1%0-10#1 
+XXXX_4:AL2          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_3:O6 O2 O4 XXX_50:O3 XXX_49:O2 XXX_49:O5 
+XXXX_4:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_4:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_5:O7 
+XXXX_4:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_4:O1           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 XXXX_40:SI1%0-10#1 XXX_60:AL1%0-10#1 
+XXXX_4:O2           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_50:AL2 
+XXXX_4:O3           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_51:AL2 
+XXXX_4:O4           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_50:AL1 
+XXXX_4:O5           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_50:AL2 XXX_50:H1 
+XXXX_4:O6           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_50:AL1 XXX_50:H2 XXXX_5:AL2 
+XXXX_4:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_3:SI3 SI2 
+XXXX_4:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_9:SI1 
+XXXX_4:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXXX_40:SI1%0-10#1 
+XXXX_4:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_4:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_4:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_8:SI1 
+XXXX_5:AL1          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_51:O6 XXX_51:O4 XXX_81:O1%0-10#1 
+XXXX_5:AL2          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_4:O6 O2 O4 XXX_51:O3 XXX_50:O2 XXX_50:O5 
+XXXX_5:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_5:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_1:O7%100#1 
+XXXX_5:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_5:O1           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 XXXX_41:SI1%0-10#1 XXX_61:AL1%0-10#1 
+XXXX_5:O2           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_51:AL2 
+XXXX_5:O3           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_47:AL2%100#1 
+XXXX_5:O4           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_51:AL1 
+XXXX_5:O5           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_51:AL2 XXX_51:H1 
+XXXX_5:O6           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_51:AL1 XXX_51:H2 XXXX_31:AL2 
+XXXX_5:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_4:SI3 SI2 
+XXXX_5:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_10:SI1 
+XXXX_5:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXXX_41:SI1%0-10#1 
+XXXX_5:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_5:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_5:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_9:SI1 
+XXXX_6:AL1          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_52:O1 XXX_52:O6 XXX_52:O4 
+XXXX_6:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_1:O8 XXXX_2:O12 O1 O9 
+XXXX_6:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_6:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_7:O7 
+XXXX_6:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_6:O1           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_47:AL1 
+XXXX_6:O2           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI2 XXX_52:AL2 XXXX_32:AL2%-100#1 
+XXXX_6:O3           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_53:AL2 
+XXXX_6:O4           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI4 XXX_52:AL1 XXXX_32:AL2%-100#1 
+XXXX_6:O5           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_52:AL2 XXX_52:H1 
+XXXX_6:O6           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_52:AL1 XXX_52:H2 XXXX_7:AL2 
+XXXX_6:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXXX_10:SI3%-100#1 
+XXXX_6:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_11:SI1 
+XXXX_6:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_6:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_6:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_6:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_15:SI1%-100#1 
+XXXX_7:AL1          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_53:O1 XXX_53:O6 XXX_53:O4 
+XXXX_7:AL2          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_6:O6 O2 O4 XXX_53:O3 XXX_52:O2 XXX_52:O5 
+XXXX_7:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_2:O8 XXXX_3:O12 O1 O9 
+XXXX_7:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_7:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_8:O7 
+XXXX_7:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_7:O1           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_48:AL1 
+XXXX_7:O2           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_53:AL2 
+XXXX_7:O3           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_54:AL2 
+XXXX_7:O4           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_53:AL1 
+XXXX_7:O5           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_53:AL2 XXX_53:H1 
+XXXX_7:O6           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_53:AL1 XXX_53:H2 XXXX_8:AL2 
+XXXX_7:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_6:SI3 SI2 
+XXXX_7:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_12:SI1 
+XXXX_7:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_7:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_7:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_7:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_11:SI1 
+XXXX_8:AL1          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_54:O1 XXX_54:O6 XXX_54:O4 
+XXXX_8:AL2          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_7:O6 O2 O4 XXX_54:O3 XXX_53:O2 XXX_53:O5 
+XXXX_8:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_3:O8 XXXX_4:O12 O1 O9 
+XXXX_8:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_8:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_9:O7 
+XXXX_8:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_8:O1           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_49:AL1 
+XXXX_8:O2           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_54:AL2 
+XXXX_8:O3           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_55:AL2 
+XXXX_8:O4           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_54:AL1 
+XXXX_8:O5           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_54:AL2 XXX_54:H1 
+XXXX_8:O6           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_54:AL1 XXX_54:H2 XXXX_9:AL2 
+XXXX_8:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_7:SI3 SI2 
+XXXX_8:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_13:SI1 
+XXXX_8:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_8:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_8:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_8:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_12:SI1 
+XXXX_9:AL1          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_55:O1 XXX_55:O6 XXX_55:O4 
+XXXX_9:AL2          Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_8:O6 O2 O4 XXX_55:O3 XXX_54:O2 XXX_54:O5 
+XXXX_9:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_4:O8 XXXX_5:O12 O1 O9 
+XXXX_9:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_9:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_10:O7 
+XXXX_9:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_9:O1           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_50:AL1 
+XXXX_9:O2           O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_55:AL2 
+XXXX_9:O3           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_56:AL2 
+XXXX_9:O4           O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_55:AL1 
+XXXX_9:O5           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_55:AL2 XXX_55:H1 
+XXXX_9:O6           O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_55:AL1 XXX_55:H2 XXXX_10:AL2 
+XXXX_9:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_8:SI3 SI2 
+XXXX_9:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_14:SI1 
+XXXX_9:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_9:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_9:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_9:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_13:SI1 
+XXXX_10:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_56:O1 XXX_56:O6 XXX_56:O4 
+XXXX_10:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_9:O6 O2 O4 XXX_56:O3 XXX_55:O2 XXX_55:O5 
+XXXX_10:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_5:O8 O1 O9 XXXX_1:O12%100#1 
+XXXX_10:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_10:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_6:O7%100#1 
+XXXX_10:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_10:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_51:AL1 
+XXXX_10:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_56:AL2 
+XXXX_10:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_52:AL2%100#1 
+XXXX_10:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_56:AL1 
+XXXX_10:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_56:AL2 XXX_56:H1 
+XXXX_10:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_56:AL1 XXX_56:H2 XXXX_32:AL2 
+XXXX_10:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_9:SI3 SI2 
+XXXX_10:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_15:SI1 
+XXXX_10:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_10:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_10:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_10:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_14:SI1 
+XXXX_11:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_57:O1 XXX_57:O6 XXX_57:O4 
+XXXX_11:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_6:O8 XXXX_7:O12 O1 O9 
+XXXX_11:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_11:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_12:O7 
+XXXX_11:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_11:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_52:AL1 
+XXXX_11:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI2 XXX_57:AL2 XXXX_33:AL2%-100#1 
+XXXX_11:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_58:AL2 
+XXXX_11:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI4 XXX_57:AL1 XXXX_33:AL2%-100#1 
+XXXX_11:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_57:AL2 XXX_57:H1 
+XXXX_11:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_57:AL1 XXX_57:H2 XXXX_12:AL2 
+XXXX_11:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXXX_15:SI3%-100#1 
+XXXX_11:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_37:SI1 
+XXXX_11:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_11:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_11:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_11:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_41:SI1%-100#1 
+XXXX_12:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_58:O1 XXX_58:O6 XXX_58:O4 
+XXXX_12:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_11:O6 O2 O4 XXX_58:O3 XXX_57:O2 XXX_57:O5 
+XXXX_12:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_7:O8 XXXX_8:O12 O1 O9 
+XXXX_12:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_12:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_13:O7 
+XXXX_12:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_12:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_53:AL1 
+XXXX_12:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_58:AL2 
+XXXX_12:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_59:AL2 
+XXXX_12:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_58:AL1 
+XXXX_12:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_58:AL2 XXX_58:H1 
+XXXX_12:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_58:AL1 XXX_58:H2 XXXX_13:AL2 
+XXXX_12:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_11:SI3 SI2 
+XXXX_12:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_38:SI1 
+XXXX_12:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_12:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_12:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_12:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_37:SI1 
+XXXX_13:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_59:O1 XXX_59:O6 XXX_59:O4 
+XXXX_13:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_12:O6 O2 O4 XXX_59:O3 XXX_58:O2 XXX_58:O5 
+XXXX_13:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_8:O8 XXXX_9:O12 O1 O9 
+XXXX_13:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_13:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_14:O7 
+XXXX_13:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_13:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_54:AL1 
+XXXX_13:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_59:AL2 
+XXXX_13:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_60:AL2 
+XXXX_13:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_59:AL1 
+XXXX_13:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_59:AL2 XXX_59:H1 
+XXXX_13:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_59:AL1 XXX_59:H2 XXXX_14:AL2 
+XXXX_13:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_12:SI3 SI2 
+XXXX_13:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_39:SI1 
+XXXX_13:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_13:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_13:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_13:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_38:SI1 
+XXXX_14:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_60:O1 XXX_60:O6 XXX_60:O4 
+XXXX_14:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_13:O6 O2 O4 XXX_60:O3 XXX_59:O2 XXX_59:O5 
+XXXX_14:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_9:O8 XXXX_10:O12 O1 O9 
+XXXX_14:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_14:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_15:O7 
+XXXX_14:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_14:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_55:AL1 
+XXXX_14:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_60:AL2 
+XXXX_14:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_61:AL2 
+XXXX_14:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_60:AL1 
+XXXX_14:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_60:AL2 XXX_60:H1 
+XXXX_14:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_60:AL1 XXX_60:H2 XXXX_15:AL2 
+XXXX_14:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_13:SI3 SI2 
+XXXX_14:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_40:SI1 
+XXXX_14:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_14:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_14:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_14:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_39:SI1 
+XXXX_15:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_61:O1 XXX_61:O6 XXX_61:O4 
+XXXX_15:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_14:O6 O2 O4 XXX_61:O3 XXX_60:O2 XXX_60:O5 
+XXXX_15:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_10:O8 O1 O9 XXXX_6:O12%100#1 
+XXXX_15:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_15:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_11:O7%100#1 
+XXXX_15:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_15:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_56:AL1 
+XXXX_15:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_61:AL2 
+XXXX_15:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_57:AL2%100#1 
+XXXX_15:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_61:AL1 
+XXXX_15:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_61:AL2 XXX_61:H1 
+XXXX_15:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_61:AL1 XXX_61:H2 XXXX_33:AL2 
+XXXX_15:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_14:SI3 SI2 
+XXXX_15:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_41:SI1 
+XXXX_15:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_15:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_15:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_15:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_40:SI1 
+XXXX_16:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_62:O6 XXX_62:O4 XXX_82:O1%0-10#1 
+XXXX_16:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_16:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_17:O7 
+XXXX_16:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_16:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 XXXX_42:SI1%0-10#1 XXX_72:AL1%0-10#1 
+XXXX_16:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI2 XXX_62:AL2 XXXX_34:AL2%-100#1 
+XXXX_16:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_63:AL2 
+XXXX_16:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI4 XXX_62:AL1 XXXX_34:AL2%-100#1 
+XXXX_16:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_62:AL2 XXX_62:H1 
+XXXX_16:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_62:AL1 XXX_62:H2 XXXX_17:AL2 
+XXXX_16:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXXX_20:SI3%-100#1 
+XXXX_16:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_21:SI1 
+XXXX_16:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXXX_42:SI1%0-10#1 
+XXXX_16:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_16:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_16:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_25:SI1%-100#1 
+XXXX_17:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_63:O6 XXX_63:O4 XXX_83:O1%0-10#1 
+XXXX_17:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_16:O6 O2 O4 XXX_63:O3 XXX_62:O2 XXX_62:O5 
+XXXX_17:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_17:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_18:O7 
+XXXX_17:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_17:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 XXXX_43:SI1%0-10#1 XXX_73:AL1%0-10#1 
+XXXX_17:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_63:AL2 
+XXXX_17:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_64:AL2 
+XXXX_17:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_63:AL1 
+XXXX_17:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_63:AL2 XXX_63:H1 
+XXXX_17:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_63:AL1 XXX_63:H2 XXXX_18:AL2 
+XXXX_17:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_16:SI3 SI2 
+XXXX_17:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_22:SI1 
+XXXX_17:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXXX_43:SI1%0-10#1 
+XXXX_17:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_17:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_17:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_21:SI1 
+XXXX_18:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_64:O6 XXX_64:O4 XXX_84:O1%0-10#1 
+XXXX_18:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_17:O6 O2 O4 XXX_64:O3 XXX_63:O2 XXX_63:O5 
+XXXX_18:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_18:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_19:O7 
+XXXX_18:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_18:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 XXXX_44:SI1%0-10#1 XXX_74:AL1%0-10#1 
+XXXX_18:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_64:AL2 
+XXXX_18:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_65:AL2 
+XXXX_18:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_64:AL1 
+XXXX_18:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_64:AL2 XXX_64:H1 
+XXXX_18:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_64:AL1 XXX_64:H2 XXXX_19:AL2 
+XXXX_18:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_17:SI3 SI2 
+XXXX_18:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_23:SI1 
+XXXX_18:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXXX_44:SI1%0-10#1 
+XXXX_18:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_18:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_18:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_22:SI1 
+XXXX_19:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_65:O6 XXX_65:O4 XXX_85:O1%0-10#1 
+XXXX_19:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_18:O6 O2 O4 XXX_65:O3 XXX_64:O2 XXX_64:O5 
+XXXX_19:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_19:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_20:O7 
+XXXX_19:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_19:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 XXXX_45:SI1%0-10#1 XXX_75:AL1%0-10#1 
+XXXX_19:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_65:AL2 
+XXXX_19:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_66:AL2 
+XXXX_19:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_65:AL1 
+XXXX_19:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_65:AL2 XXX_65:H1 
+XXXX_19:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_65:AL1 XXX_65:H2 XXXX_20:AL2 
+XXXX_19:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_18:SI3 SI2 
+XXXX_19:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_24:SI1 
+XXXX_19:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXXX_45:SI1%0-10#1 
+XXXX_19:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_19:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_19:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_23:SI1 
+XXXX_20:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_66:O6 XXX_66:O4 XXX_86:O1%0-10#1 
+XXXX_20:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_19:O6 O2 O4 XXX_66:O3 XXX_65:O2 XXX_65:O5 
+XXXX_20:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_20:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_16:O7%100#1 
+XXXX_20:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_20:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 XXXX_46:SI1%0-10#1 XXX_76:AL1%0-10#1 
+XXXX_20:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_66:AL2 
+XXXX_20:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_62:AL2%100#1 
+XXXX_20:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_66:AL1 
+XXXX_20:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_66:AL2 XXX_66:H1 
+XXXX_20:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_66:AL1 XXX_66:H2 XXXX_34:AL2 
+XXXX_20:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_19:SI3 SI2 
+XXXX_20:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_25:SI1 
+XXXX_20:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXXX_46:SI1%0-10#1 
+XXXX_20:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_20:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_20:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_24:SI1 
+XXXX_21:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_67:O1 XXX_67:O6 XXX_67:O4 
+XXXX_21:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_16:O8 XXXX_17:O12 O1 O9 
+XXXX_21:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_21:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_22:O7 
+XXXX_21:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_21:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_62:AL1 
+XXXX_21:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI2 XXX_67:AL2 XXXX_35:AL2%-100#1 
+XXXX_21:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_68:AL2 
+XXXX_21:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI4 XXX_67:AL1 XXXX_35:AL2%-100#1 
+XXXX_21:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_67:AL2 XXX_67:H1 
+XXXX_21:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_67:AL1 XXX_67:H2 XXXX_22:AL2 
+XXXX_21:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXXX_25:SI3%-100#1 
+XXXX_21:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_26:SI1 
+XXXX_21:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_21:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_21:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_21:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_30:SI1%-100#1 
+XXXX_22:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_68:O1 XXX_68:O6 XXX_68:O4 
+XXXX_22:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_21:O6 O2 O4 XXX_68:O3 XXX_67:O2 XXX_67:O5 
+XXXX_22:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_17:O8 XXXX_18:O12 O1 O9 
+XXXX_22:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_22:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_23:O7 
+XXXX_22:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_22:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_63:AL1 
+XXXX_22:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_68:AL2 
+XXXX_22:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_69:AL2 
+XXXX_22:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_68:AL1 
+XXXX_22:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_68:AL2 XXX_68:H1 
+XXXX_22:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_68:AL1 XXX_68:H2 XXXX_23:AL2 
+XXXX_22:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_21:SI3 SI2 
+XXXX_22:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_27:SI1 
+XXXX_22:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_22:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_22:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_22:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_26:SI1 
+XXXX_23:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_69:O1 XXX_69:O6 XXX_69:O4 
+XXXX_23:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_22:O6 O2 O4 XXX_69:O3 XXX_68:O2 XXX_68:O5 
+XXXX_23:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_18:O8 XXXX_19:O12 O1 O9 
+XXXX_23:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_23:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_24:O7 
+XXXX_23:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_23:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_64:AL1 
+XXXX_23:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_69:AL2 
+XXXX_23:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_70:AL2 
+XXXX_23:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_69:AL1 
+XXXX_23:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_69:AL2 XXX_69:H1 
+XXXX_23:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_69:AL1 XXX_69:H2 XXXX_24:AL2 
+XXXX_23:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_22:SI3 SI2 
+XXXX_23:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_28:SI1 
+XXXX_23:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_23:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_23:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_23:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_27:SI1 
+XXXX_24:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_70:O1 XXX_70:O6 XXX_70:O4 
+XXXX_24:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_23:O6 O2 O4 XXX_70:O3 XXX_69:O2 XXX_69:O5 
+XXXX_24:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_19:O8 XXXX_20:O12 O1 O9 
+XXXX_24:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_24:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_25:O7 
+XXXX_24:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_24:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_65:AL1 
+XXXX_24:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_70:AL2 
+XXXX_24:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_71:AL2 
+XXXX_24:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_70:AL1 
+XXXX_24:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_70:AL2 XXX_70:H1 
+XXXX_24:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_70:AL1 XXX_70:H2 XXXX_25:AL2 
+XXXX_24:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_23:SI3 SI2 
+XXXX_24:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_29:SI1 
+XXXX_24:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_24:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_24:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_24:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_28:SI1 
+XXXX_25:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_71:O1 XXX_71:O6 XXX_71:O4 
+XXXX_25:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_24:O6 O2 O4 XXX_71:O3 XXX_70:O2 XXX_70:O5 
+XXXX_25:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_20:O8 O1 O9 XXXX_16:O12%100#1 
+XXXX_25:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_25:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_21:O7%100#1 
+XXXX_25:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_25:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_66:AL1 
+XXXX_25:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_71:AL2 
+XXXX_25:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_67:AL2%100#1 
+XXXX_25:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_71:AL1 
+XXXX_25:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_71:AL2 XXX_71:H1 
+XXXX_25:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_71:AL1 XXX_71:H2 XXXX_35:AL2 
+XXXX_25:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_24:SI3 SI2 
+XXXX_25:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_30:SI1 
+XXXX_25:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_25:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_25:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_25:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_29:SI1 
+XXXX_26:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_72:O1 XXX_72:O6 XXX_72:O4 
+XXXX_26:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_21:O8 XXXX_22:O12 O1 O9 
+XXXX_26:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_26:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_27:O7 
+XXXX_26:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_26:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_67:AL1 
+XXXX_26:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI2 XXX_72:AL2 XXXX_36:AL2%-100#1 
+XXXX_26:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_73:AL2 
+XXXX_26:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 SI4 XXX_72:AL1 XXXX_36:AL2%-100#1 
+XXXX_26:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_72:AL2 XXX_72:H1 
+XXXX_26:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_72:AL1 XXX_72:H2 XXXX_27:AL2 
+XXXX_26:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXXX_30:SI3%-100#1 
+XXXX_26:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_42:SI1 
+XXXX_26:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_26:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_26:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_26:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_46:SI1%-100#1 
+XXXX_27:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_73:O1 XXX_73:O6 XXX_73:O4 
+XXXX_27:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_26:O6 O2 O4 XXX_73:O3 XXX_72:O2 XXX_72:O5 
+XXXX_27:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_22:O8 XXXX_23:O12 O1 O9 
+XXXX_27:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_27:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_28:O7 
+XXXX_27:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_27:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_68:AL1 
+XXXX_27:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_73:AL2 
+XXXX_27:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_74:AL2 
+XXXX_27:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_73:AL1 
+XXXX_27:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_73:AL2 XXX_73:H1 
+XXXX_27:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_73:AL1 XXX_73:H2 XXXX_28:AL2 
+XXXX_27:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_26:SI3 SI2 
+XXXX_27:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_43:SI1 
+XXXX_27:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_27:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_27:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_27:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_42:SI1 
+XXXX_28:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_74:O1 XXX_74:O6 XXX_74:O4 
+XXXX_28:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_27:O6 O2 O4 XXX_74:O3 XXX_73:O2 XXX_73:O5 
+XXXX_28:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_23:O8 XXXX_24:O12 O1 O9 
+XXXX_28:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_28:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_29:O7 
+XXXX_28:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_28:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_69:AL1 
+XXXX_28:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_74:AL2 
+XXXX_28:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_75:AL2 
+XXXX_28:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_74:AL1 
+XXXX_28:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_74:AL2 XXX_74:H1 
+XXXX_28:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_74:AL1 XXX_74:H2 XXXX_29:AL2 
+XXXX_28:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_27:SI3 SI2 
+XXXX_28:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_44:SI1 
+XXXX_28:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_28:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_28:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_28:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_43:SI1 
+XXXX_29:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_75:O1 XXX_75:O6 XXX_75:O4 
+XXXX_29:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_28:O6 O2 O4 XXX_75:O3 XXX_74:O2 XXX_74:O5 
+XXXX_29:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_24:O8 XXXX_25:O12 O1 O9 
+XXXX_29:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_29:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_30:O7 
+XXXX_29:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_29:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_70:AL1 
+XXXX_29:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_75:AL2 
+XXXX_29:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_76:AL2 
+XXXX_29:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_75:AL1 
+XXXX_29:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_75:AL2 XXX_75:H1 
+XXXX_29:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_75:AL1 XXX_75:H2 XXXX_30:AL2 
+XXXX_29:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_28:SI3 SI2 
+XXXX_29:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_45:SI1 
+XXXX_29:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_29:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_29:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_29:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_44:SI1 
+XXXX_30:AL1         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 O5 O1 O3 XXX_76:O1 XXX_76:O6 XXX_76:O4 
+XXXX_30:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_29:O6 O2 O4 XXX_76:O3 XXX_75:O2 XXX_75:O5 
+XXXX_30:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_25:O8 O1 O9 XXXX_21:O12%100#1 
+XXXX_30:SI2         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXXX_30:SI3         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXXX_26:O7%100#1 
+XXXX_30:SI4         Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXXX_30:O1          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI1 XXX_71:AL1 
+XXXX_30:O2          O  oy5     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI2 XXX_76:AL2 
+XXXX_30:O3          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXX_72:AL2%100#1 
+XXXX_30:O4          O  oy4     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL2 SI4 XXX_76:AL1 
+XXXX_30:O5          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 AL1 XXX_76:AL2 XXX_76:H1 
+XXXX_30:O6          O  oy6     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXX_76:AL1 XXX_76:H2 XXXX_36:AL2 
+XXXX_30:O7          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_29:SI3 SI2 
+XXXX_30:O8          O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_46:SI1 
+XXXX_30:O9          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI3 
+XXXX_30:O10         O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXXX_30:O11         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXXX_30:O12         O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXXX_45:SI1 
+XXXX_31:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_5:O6 XXX_51:O2 XXX_51:O5 XXXX_1:O2%100#1 XXXX_1:O4%100#1 XXX_47:O3%100#1 
+XXXX_32:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_10:O6 XXX_56:O2 XXX_56:O5 XXXX_6:O2%100#1 XXXX_6:O4%100#1 XXX_52:O3%100#1 
+XXXX_33:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_15:O6 XXX_61:O2 XXX_61:O5 XXXX_11:O2%100#1 XXXX_11:O4%100#1 XXX_57:O3%100#1 
+XXXX_34:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_20:O6 XXX_66:O2 XXX_66:O5 XXXX_16:O2%100#1 XXXX_16:O4%100#1 XXX_62:O3%100#1 
+XXXX_35:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_25:O6 XXX_71:O2 XXX_71:O5 XXXX_21:O2%100#1 XXXX_21:O4%100#1 XXX_67:O3%100#1 
+XXXX_36:AL2         Al ay2     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_30:O6 XXX_76:O2 XXX_76:O5 XXXX_26:O2%100#1 XXXX_26:O4%100#1 XXX_72:O3%100#1 
+XXXX_37:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_11:O8 XXXX_12:O12 XXXX_1:O1%010#1 XXXX_1:O9%010#1 
+XXXX_38:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_12:O8 XXXX_13:O12 XXXX_2:O1%010#1 XXXX_2:O9%010#1 
+XXXX_39:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_13:O8 XXXX_14:O12 XXXX_3:O1%010#1 XXXX_3:O9%010#1 
+XXXX_40:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_14:O8 XXXX_15:O12 XXXX_4:O1%010#1 XXXX_4:O9%010#1 
+XXXX_41:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_15:O8 XXXX_5:O1%010#1 XXXX_5:O9%010#1 XXXX_11:O12%100#1 
+XXXX_42:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_26:O8 XXXX_27:O12 XXXX_16:O1%010#1 XXXX_16:O9%010#1 
+XXXX_43:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_27:O8 XXXX_28:O12 XXXX_17:O1%010#1 XXXX_17:O9%010#1 
+XXXX_44:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_28:O8 XXXX_29:O12 XXXX_18:O1%010#1 XXXX_18:O9%010#1 
+XXXX_45:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_29:O8 XXXX_30:O12 XXXX_19:O1%010#1 XXXX_19:O9%010#1 
+XXXX_46:SI1         Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXXX_30:O8 XXXX_20:O1%010#1 XXXX_20:O9%010#1 XXXX_26:O12%100#1 
+XXX_47:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_1:O4 XXXX_1:O6 XXXX_6:O1 O3 O5 XXX_52:O1 
+XXX_47:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_1:O2 XXXX_1:O5 O6 XXXX_5:O3%-100#1 XXX_51:O4%-100#1 XXX_51:O2%-100#1 
+XXX_47:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O8 XXX_77:O1%0-10#1 XXX_57:O9%0-10#1 XXX_51:O12%-100#1 
+XXX_47:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_47:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXX_51:O7%-100#1 
+XXX_47:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_47:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_2:AL2 SI2 XXX_48:AL2 
+XXX_47:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXXX_31:AL2%-100#1 
+XXX_47:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_1:AL1 SI4 XXX_48:AL2 
+XXX_47:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_2:AL2 AL1 H3 
+XXX_47:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_1:AL1 AL2 H4 
+XXX_47:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_48:SI3 
+XXX_47:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_47:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_52:SI1 
+XXX_47:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_47:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_47:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_48:SI1 
+XXX_47:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_1:O5 
+XXX_47:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_1:O6 
+XXX_47:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_47:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_48:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_2:O4 XXXX_2:O6 XXXX_7:O1 O3 O5 XXX_53:O1 
+XXX_48:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_1:O3 XXXX_2:O2 XXXX_2:O5 XXX_47:O2 XXX_47:O4 O6 
+XXX_48:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_47:O12 O8 XXX_78:O1%0-10#1 XXX_58:O9%0-10#1 
+XXX_48:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_48:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_47:O7 O9 O3 O11 
+XXX_48:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_48:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_3:AL2 SI2 XXX_49:AL2 
+XXX_48:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_2:AL2 AL1 SI3 
+XXX_48:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_2:AL1 SI4 XXX_49:AL2 
+XXX_48:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_3:AL2 AL1 H3 
+XXX_48:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_2:AL1 AL2 H4 
+XXX_48:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_49:SI3 
+XXX_48:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_48:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_53:SI1 
+XXX_48:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_48:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_48:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_49:SI1 
+XXX_48:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_2:O5 
+XXX_48:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_2:O6 
+XXX_48:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_48:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_49:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_3:O4 XXXX_3:O6 XXXX_8:O1 O3 O5 XXX_54:O1 
+XXX_49:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_2:O3 XXXX_3:O2 XXXX_3:O5 XXX_48:O2 XXX_48:O4 O6 
+XXX_49:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_48:O12 O8 XXX_79:O1%0-10#1 XXX_59:O9%0-10#1 
+XXX_49:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_49:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_48:O7 O9 O3 O11 
+XXX_49:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_49:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_4:AL2 SI2 XXX_50:AL2 
+XXX_49:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_3:AL2 AL1 SI3 
+XXX_49:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_3:AL1 SI4 XXX_50:AL2 
+XXX_49:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_4:AL2 AL1 H3 
+XXX_49:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_3:AL1 AL2 H4 
+XXX_49:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_50:SI3 
+XXX_49:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_49:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_54:SI1 
+XXX_49:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_49:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_49:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_50:SI1 
+XXX_49:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_3:O5 
+XXX_49:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_3:O6 
+XXX_49:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_49:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_50:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_4:O4 XXXX_4:O6 XXXX_9:O1 O3 O5 XXX_55:O1 
+XXX_50:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_3:O3 XXXX_4:O2 XXXX_4:O5 XXX_49:O2 XXX_49:O4 O6 
+XXX_50:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_49:O12 O8 XXX_80:O1%0-10#1 XXX_60:O9%0-10#1 
+XXX_50:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_50:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_49:O7 O9 O3 O11 
+XXX_50:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_50:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_5:AL2 SI2 XXX_51:AL2 
+XXX_50:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_4:AL2 AL1 SI3 
+XXX_50:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_4:AL1 SI4 XXX_51:AL2 
+XXX_50:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_5:AL2 AL1 H3 
+XXX_50:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_4:AL1 AL2 H4 
+XXX_50:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_51:SI3 
+XXX_50:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_50:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_55:SI1 
+XXX_50:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_50:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_50:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_51:SI1 
+XXX_50:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_4:O5 
+XXX_50:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_4:O6 
+XXX_50:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_50:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_51:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_5:O4 XXXX_5:O6 XXXX_10:O1 O3 O5 XXX_56:O1 
+XXX_51:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_4:O3 XXXX_5:O2 XXXX_5:O5 XXX_50:O2 XXX_50:O4 O6 
+XXX_51:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_50:O12 O8 XXX_81:O1%0-10#1 XXX_61:O9%0-10#1 
+XXX_51:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_51:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_50:O7 O9 O3 O11 
+XXX_51:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_51:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_31:AL2 SI2 XXX_47:AL2%100#1 
+XXX_51:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_5:AL2 AL1 SI3 
+XXX_51:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_5:AL1 SI4 XXX_47:AL2%100#1 
+XXX_51:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_31:AL2 AL1 H3 
+XXX_51:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_5:AL1 AL2 H4 
+XXX_51:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_47:SI3%100#1 
+XXX_51:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_51:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_56:SI1 
+XXX_51:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_51:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_51:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_47:SI1%100#1 
+XXX_51:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_5:O5 
+XXX_51:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_5:O6 
+XXX_51:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_51:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_52:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_6:O4 XXXX_6:O6 XXXX_11:O1 O3 O5 XXX_57:O1 
+XXX_52:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_6:O2 XXXX_6:O5 O6 XXXX_10:O3%-100#1 XXX_56:O4%-100#1 XXX_56:O2%-100#1 
+XXX_52:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_47:O9 O1 O8 XXX_56:O12%-100#1 
+XXX_52:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_52:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXX_56:O7%-100#1 
+XXX_52:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_52:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_6:AL1 XXX_47:AL1 SI1 
+XXX_52:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_7:AL2 SI2 XXX_53:AL2 
+XXX_52:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXXX_32:AL2%-100#1 
+XXX_52:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_6:AL1 SI4 XXX_53:AL2 
+XXX_52:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_7:AL2 AL1 H3 
+XXX_52:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_6:AL1 AL2 H4 
+XXX_52:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_53:SI3 
+XXX_52:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_52:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_57:SI1 
+XXX_52:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_52:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_52:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_53:SI1 
+XXX_52:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_6:O5 
+XXX_52:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_6:O6 
+XXX_52:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_52:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_53:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_7:O4 XXXX_7:O6 XXXX_12:O1 O3 O5 XXX_58:O1 
+XXX_53:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_6:O3 XXXX_7:O2 XXXX_7:O5 XXX_52:O2 XXX_52:O4 O6 
+XXX_53:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_48:O9 XXX_52:O12 O1 O8 
+XXX_53:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_53:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_52:O7 O9 O3 O11 
+XXX_53:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_53:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_7:AL1 XXX_48:AL1 SI1 
+XXX_53:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_8:AL2 SI2 XXX_54:AL2 
+XXX_53:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_7:AL2 AL1 SI3 
+XXX_53:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_7:AL1 SI4 XXX_54:AL2 
+XXX_53:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_8:AL2 AL1 H3 
+XXX_53:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_7:AL1 AL2 H4 
+XXX_53:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_54:SI3 
+XXX_53:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_53:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_58:SI1 
+XXX_53:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_53:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_53:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_54:SI1 
+XXX_53:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_7:O5 
+XXX_53:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_7:O6 
+XXX_53:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_53:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_54:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_8:O4 XXXX_8:O6 XXXX_13:O1 O3 O5 XXX_59:O1 
+XXX_54:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_7:O3 XXXX_8:O2 XXXX_8:O5 XXX_53:O2 XXX_53:O4 O6 
+XXX_54:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_49:O9 XXX_53:O12 O1 O8 
+XXX_54:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_54:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_53:O7 O9 O3 O11 
+XXX_54:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_54:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_8:AL1 XXX_49:AL1 SI1 
+XXX_54:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_9:AL2 SI2 XXX_55:AL2 
+XXX_54:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_8:AL2 AL1 SI3 
+XXX_54:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_8:AL1 SI4 XXX_55:AL2 
+XXX_54:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_9:AL2 AL1 H3 
+XXX_54:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_8:AL1 AL2 H4 
+XXX_54:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_55:SI3 
+XXX_54:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_54:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_59:SI1 
+XXX_54:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_54:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_54:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_55:SI1 
+XXX_54:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_8:O5 
+XXX_54:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_8:O6 
+XXX_54:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_54:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_55:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_9:O4 XXXX_9:O6 XXXX_14:O1 O3 O5 XXX_60:O1 
+XXX_55:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_8:O3 XXXX_9:O2 XXXX_9:O5 XXX_54:O2 XXX_54:O4 O6 
+XXX_55:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_50:O9 XXX_54:O12 O1 O8 
+XXX_55:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_55:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_54:O7 O9 O3 O11 
+XXX_55:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_55:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_9:AL1 XXX_50:AL1 SI1 
+XXX_55:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_10:AL2 SI2 XXX_56:AL2 
+XXX_55:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_9:AL2 AL1 SI3 
+XXX_55:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_9:AL1 SI4 XXX_56:AL2 
+XXX_55:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_10:AL2 AL1 H3 
+XXX_55:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_9:AL1 AL2 H4 
+XXX_55:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_56:SI3 
+XXX_55:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_55:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_60:SI1 
+XXX_55:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_55:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_55:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_56:SI1 
+XXX_55:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_9:O5 
+XXX_55:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_9:O6 
+XXX_55:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_55:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_56:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_10:O4 XXXX_10:O6 XXXX_15:O1 O3 O5 XXX_61:O1 
+XXX_56:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_9:O3 XXXX_10:O2 XXXX_10:O5 XXX_55:O2 XXX_55:O4 O6 
+XXX_56:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_51:O9 XXX_55:O12 O1 O8 
+XXX_56:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_56:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_55:O7 O9 O3 O11 
+XXX_56:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_56:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_10:AL1 XXX_51:AL1 SI1 
+XXX_56:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_32:AL2 SI2 XXX_52:AL2%100#1 
+XXX_56:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_10:AL2 AL1 SI3 
+XXX_56:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_10:AL1 SI4 XXX_52:AL2%100#1 
+XXX_56:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_32:AL2 AL1 H3 
+XXX_56:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_10:AL1 AL2 H4 
+XXX_56:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_52:SI3%100#1 
+XXX_56:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_56:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_61:SI1 
+XXX_56:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_56:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_56:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_52:SI1%100#1 
+XXX_56:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_10:O5 
+XXX_56:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_10:O6 
+XXX_56:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_56:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_57:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_11:O4 XXXX_11:O6 O3 O5 XXX_77:O1 XXXX_1:O1%010#1 
+XXX_57:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_11:O2 XXXX_11:O5 O6 XXXX_15:O3%-100#1 XXX_61:O4%-100#1 XXX_61:O2%-100#1 
+XXX_57:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_52:O9 O1 O8 XXX_61:O12%-100#1 
+XXX_57:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_57:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXX_61:O7%-100#1 
+XXX_57:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_57:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_11:AL1 XXX_52:AL1 SI1 
+XXX_57:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_12:AL2 SI2 XXX_58:AL2 
+XXX_57:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXXX_33:AL2%-100#1 
+XXX_57:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_11:AL1 SI4 XXX_58:AL2 
+XXX_57:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_12:AL2 AL1 H3 
+XXX_57:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_11:AL1 AL2 H4 
+XXX_57:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_58:SI3 
+XXX_57:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_57:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_47:SI1%010#1 
+XXX_57:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_57:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_57:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_58:SI1 
+XXX_57:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_11:O5 
+XXX_57:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_11:O6 
+XXX_57:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_57:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_58:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_12:O4 XXXX_12:O6 O3 O5 XXX_78:O1 XXXX_2:O1%010#1 
+XXX_58:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_11:O3 XXXX_12:O2 XXXX_12:O5 XXX_57:O2 XXX_57:O4 O6 
+XXX_58:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_53:O9 XXX_57:O12 O1 O8 
+XXX_58:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_58:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_57:O7 O9 O3 O11 
+XXX_58:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_58:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_12:AL1 XXX_53:AL1 SI1 
+XXX_58:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_13:AL2 SI2 XXX_59:AL2 
+XXX_58:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_12:AL2 AL1 SI3 
+XXX_58:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_12:AL1 SI4 XXX_59:AL2 
+XXX_58:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_13:AL2 AL1 H3 
+XXX_58:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_12:AL1 AL2 H4 
+XXX_58:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_59:SI3 
+XXX_58:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_58:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_48:SI1%010#1 
+XXX_58:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_58:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_58:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_59:SI1 
+XXX_58:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_12:O5 
+XXX_58:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_12:O6 
+XXX_58:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_58:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_59:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_13:O4 XXXX_13:O6 O3 O5 XXX_79:O1 XXXX_3:O1%010#1 
+XXX_59:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_12:O3 XXXX_13:O2 XXXX_13:O5 XXX_58:O2 XXX_58:O4 O6 
+XXX_59:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_54:O9 XXX_58:O12 O1 O8 
+XXX_59:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_59:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_58:O7 O9 O3 O11 
+XXX_59:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_59:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_13:AL1 XXX_54:AL1 SI1 
+XXX_59:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_14:AL2 SI2 XXX_60:AL2 
+XXX_59:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_13:AL2 AL1 SI3 
+XXX_59:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_13:AL1 SI4 XXX_60:AL2 
+XXX_59:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_14:AL2 AL1 H3 
+XXX_59:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_13:AL1 AL2 H4 
+XXX_59:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_60:SI3 
+XXX_59:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_59:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_49:SI1%010#1 
+XXX_59:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_59:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_59:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_60:SI1 
+XXX_59:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_13:O5 
+XXX_59:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_13:O6 
+XXX_59:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_59:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_60:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_14:O4 XXXX_14:O6 O3 O5 XXX_80:O1 XXXX_4:O1%010#1 
+XXX_60:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_13:O3 XXXX_14:O2 XXXX_14:O5 XXX_59:O2 XXX_59:O4 O6 
+XXX_60:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_55:O9 XXX_59:O12 O1 O8 
+XXX_60:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_60:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_59:O7 O9 O3 O11 
+XXX_60:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_60:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_14:AL1 XXX_55:AL1 SI1 
+XXX_60:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_15:AL2 SI2 XXX_61:AL2 
+XXX_60:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_14:AL2 AL1 SI3 
+XXX_60:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_14:AL1 SI4 XXX_61:AL2 
+XXX_60:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_15:AL2 AL1 H3 
+XXX_60:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_14:AL1 AL2 H4 
+XXX_60:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_61:SI3 
+XXX_60:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_60:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_50:SI1%010#1 
+XXX_60:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_60:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_60:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_61:SI1 
+XXX_60:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_14:O5 
+XXX_60:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_14:O6 
+XXX_60:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_60:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_61:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_15:O4 XXXX_15:O6 O3 O5 XXX_81:O1 XXXX_5:O1%010#1 
+XXX_61:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_14:O3 XXXX_15:O2 XXXX_15:O5 XXX_60:O2 XXX_60:O4 O6 
+XXX_61:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_56:O9 XXX_60:O12 O1 O8 
+XXX_61:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_61:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_60:O7 O9 O3 O11 
+XXX_61:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_61:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_15:AL1 XXX_56:AL1 SI1 
+XXX_61:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_33:AL2 SI2 XXX_57:AL2%100#1 
+XXX_61:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_15:AL2 AL1 SI3 
+XXX_61:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_15:AL1 SI4 XXX_57:AL2%100#1 
+XXX_61:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_33:AL2 AL1 H3 
+XXX_61:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_15:AL1 AL2 H4 
+XXX_61:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_57:SI3%100#1 
+XXX_61:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_61:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_51:SI1%010#1 
+XXX_61:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_61:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_61:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_57:SI1%100#1 
+XXX_61:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_15:O5 
+XXX_61:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_15:O6 
+XXX_61:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_61:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_62:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_16:O4 XXXX_16:O6 XXXX_21:O1 O3 O5 XXX_67:O1 
+XXX_62:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_16:O2 XXXX_16:O5 O6 XXXX_20:O3%-100#1 XXX_66:O4%-100#1 XXX_66:O2%-100#1 
+XXX_62:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O8 XXX_82:O1%0-10#1 XXX_72:O9%0-10#1 XXX_66:O12%-100#1 
+XXX_62:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_62:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXX_66:O7%-100#1 
+XXX_62:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_62:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_17:AL2 SI2 XXX_63:AL2 
+XXX_62:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXXX_34:AL2%-100#1 
+XXX_62:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_16:AL1 SI4 XXX_63:AL2 
+XXX_62:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_17:AL2 AL1 H3 
+XXX_62:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_16:AL1 AL2 H4 
+XXX_62:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_63:SI3 
+XXX_62:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_62:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_67:SI1 
+XXX_62:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_62:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_62:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_63:SI1 
+XXX_62:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_16:O5 
+XXX_62:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_16:O6 
+XXX_62:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_62:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_63:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_17:O4 XXXX_17:O6 XXXX_22:O1 O3 O5 XXX_68:O1 
+XXX_63:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_16:O3 XXXX_17:O2 XXXX_17:O5 XXX_62:O2 XXX_62:O4 O6 
+XXX_63:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_62:O12 O8 XXX_83:O1%0-10#1 XXX_73:O9%0-10#1 
+XXX_63:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_63:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_62:O7 O9 O3 O11 
+XXX_63:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_63:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_18:AL2 SI2 XXX_64:AL2 
+XXX_63:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_17:AL2 AL1 SI3 
+XXX_63:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_17:AL1 SI4 XXX_64:AL2 
+XXX_63:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_18:AL2 AL1 H3 
+XXX_63:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_17:AL1 AL2 H4 
+XXX_63:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_64:SI3 
+XXX_63:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_63:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_68:SI1 
+XXX_63:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_63:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_63:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_64:SI1 
+XXX_63:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_17:O5 
+XXX_63:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_17:O6 
+XXX_63:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_63:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_64:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_18:O4 XXXX_18:O6 XXXX_23:O1 O3 O5 XXX_69:O1 
+XXX_64:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_17:O3 XXXX_18:O2 XXXX_18:O5 XXX_63:O2 XXX_63:O4 O6 
+XXX_64:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_63:O12 O8 XXX_84:O1%0-10#1 XXX_74:O9%0-10#1 
+XXX_64:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_64:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_63:O7 O9 O3 O11 
+XXX_64:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_64:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_19:AL2 SI2 XXX_65:AL2 
+XXX_64:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_18:AL2 AL1 SI3 
+XXX_64:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_18:AL1 SI4 XXX_65:AL2 
+XXX_64:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_19:AL2 AL1 H3 
+XXX_64:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_18:AL1 AL2 H4 
+XXX_64:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_65:SI3 
+XXX_64:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_64:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_69:SI1 
+XXX_64:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_64:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_64:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_65:SI1 
+XXX_64:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_18:O5 
+XXX_64:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_18:O6 
+XXX_64:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_64:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_65:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_19:O4 XXXX_19:O6 XXXX_24:O1 O3 O5 XXX_70:O1 
+XXX_65:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_18:O3 XXXX_19:O2 XXXX_19:O5 XXX_64:O2 XXX_64:O4 O6 
+XXX_65:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_64:O12 O8 XXX_85:O1%0-10#1 XXX_75:O9%0-10#1 
+XXX_65:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_65:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_64:O7 O9 O3 O11 
+XXX_65:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_65:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_20:AL2 SI2 XXX_66:AL2 
+XXX_65:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_19:AL2 AL1 SI3 
+XXX_65:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_19:AL1 SI4 XXX_66:AL2 
+XXX_65:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_20:AL2 AL1 H3 
+XXX_65:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_19:AL1 AL2 H4 
+XXX_65:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_66:SI3 
+XXX_65:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_65:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_70:SI1 
+XXX_65:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_65:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_65:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_66:SI1 
+XXX_65:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_19:O5 
+XXX_65:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_19:O6 
+XXX_65:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_65:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_66:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_20:O4 XXXX_20:O6 XXXX_25:O1 O3 O5 XXX_71:O1 
+XXX_66:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_19:O3 XXXX_20:O2 XXXX_20:O5 XXX_65:O2 XXX_65:O4 O6 
+XXX_66:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_65:O12 O8 XXX_86:O1%0-10#1 XXX_76:O9%0-10#1 
+XXX_66:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_66:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_65:O7 O9 O3 O11 
+XXX_66:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_66:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_34:AL2 SI2 XXX_62:AL2%100#1 
+XXX_66:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_20:AL2 AL1 SI3 
+XXX_66:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_20:AL1 SI4 XXX_62:AL2%100#1 
+XXX_66:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_34:AL2 AL1 H3 
+XXX_66:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_20:AL1 AL2 H4 
+XXX_66:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_62:SI3%100#1 
+XXX_66:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_66:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_71:SI1 
+XXX_66:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_66:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_66:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_62:SI1%100#1 
+XXX_66:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_20:O5 
+XXX_66:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_20:O6 
+XXX_66:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_66:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_67:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_21:O4 XXXX_21:O6 XXXX_26:O1 O3 O5 XXX_72:O1 
+XXX_67:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_21:O2 XXXX_21:O5 O6 XXXX_25:O3%-100#1 XXX_71:O4%-100#1 XXX_71:O2%-100#1 
+XXX_67:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_62:O9 O1 O8 XXX_71:O12%-100#1 
+XXX_67:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_67:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXX_71:O7%-100#1 
+XXX_67:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_67:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_21:AL1 XXX_62:AL1 SI1 
+XXX_67:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_22:AL2 SI2 XXX_68:AL2 
+XXX_67:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXXX_35:AL2%-100#1 
+XXX_67:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_21:AL1 SI4 XXX_68:AL2 
+XXX_67:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_22:AL2 AL1 H3 
+XXX_67:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_21:AL1 AL2 H4 
+XXX_67:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_68:SI3 
+XXX_67:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_67:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_72:SI1 
+XXX_67:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_67:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_67:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_68:SI1 
+XXX_67:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_21:O5 
+XXX_67:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_21:O6 
+XXX_67:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_67:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_68:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_22:O4 XXXX_22:O6 XXXX_27:O1 O3 O5 XXX_73:O1 
+XXX_68:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_21:O3 XXXX_22:O2 XXXX_22:O5 XXX_67:O2 XXX_67:O4 O6 
+XXX_68:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_63:O9 XXX_67:O12 O1 O8 
+XXX_68:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_68:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_67:O7 O9 O3 O11 
+XXX_68:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_68:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_22:AL1 XXX_63:AL1 SI1 
+XXX_68:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_23:AL2 SI2 XXX_69:AL2 
+XXX_68:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_22:AL2 AL1 SI3 
+XXX_68:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_22:AL1 SI4 XXX_69:AL2 
+XXX_68:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_23:AL2 AL1 H3 
+XXX_68:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_22:AL1 AL2 H4 
+XXX_68:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_69:SI3 
+XXX_68:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_68:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_73:SI1 
+XXX_68:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_68:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_68:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_69:SI1 
+XXX_68:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_22:O5 
+XXX_68:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_22:O6 
+XXX_68:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_68:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_69:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_23:O4 XXXX_23:O6 XXXX_28:O1 O3 O5 XXX_74:O1 
+XXX_69:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_22:O3 XXXX_23:O2 XXXX_23:O5 XXX_68:O2 XXX_68:O4 O6 
+XXX_69:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_64:O9 XXX_68:O12 O1 O8 
+XXX_69:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_69:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_68:O7 O9 O3 O11 
+XXX_69:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_69:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_23:AL1 XXX_64:AL1 SI1 
+XXX_69:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_24:AL2 SI2 XXX_70:AL2 
+XXX_69:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_23:AL2 AL1 SI3 
+XXX_69:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_23:AL1 SI4 XXX_70:AL2 
+XXX_69:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_24:AL2 AL1 H3 
+XXX_69:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_23:AL1 AL2 H4 
+XXX_69:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_70:SI3 
+XXX_69:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_69:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_74:SI1 
+XXX_69:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_69:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_69:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_70:SI1 
+XXX_69:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_23:O5 
+XXX_69:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_23:O6 
+XXX_69:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_69:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_70:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_24:O4 XXXX_24:O6 XXXX_29:O1 O3 O5 XXX_75:O1 
+XXX_70:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_23:O3 XXXX_24:O2 XXXX_24:O5 XXX_69:O2 XXX_69:O4 O6 
+XXX_70:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_65:O9 XXX_69:O12 O1 O8 
+XXX_70:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_70:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_69:O7 O9 O3 O11 
+XXX_70:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_70:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_24:AL1 XXX_65:AL1 SI1 
+XXX_70:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_25:AL2 SI2 XXX_71:AL2 
+XXX_70:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_24:AL2 AL1 SI3 
+XXX_70:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_24:AL1 SI4 XXX_71:AL2 
+XXX_70:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_25:AL2 AL1 H3 
+XXX_70:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_24:AL1 AL2 H4 
+XXX_70:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_71:SI3 
+XXX_70:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_70:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_75:SI1 
+XXX_70:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_70:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_70:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_71:SI1 
+XXX_70:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_24:O5 
+XXX_70:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_24:O6 
+XXX_70:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_70:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_71:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_25:O4 XXXX_25:O6 XXXX_30:O1 O3 O5 XXX_76:O1 
+XXX_71:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_24:O3 XXXX_25:O2 XXXX_25:O5 XXX_70:O2 XXX_70:O4 O6 
+XXX_71:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_66:O9 XXX_70:O12 O1 O8 
+XXX_71:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_71:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_70:O7 O9 O3 O11 
+XXX_71:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_71:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_25:AL1 XXX_66:AL1 SI1 
+XXX_71:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_35:AL2 SI2 XXX_67:AL2%100#1 
+XXX_71:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_25:AL2 AL1 SI3 
+XXX_71:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_25:AL1 SI4 XXX_67:AL2%100#1 
+XXX_71:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_35:AL2 AL1 H3 
+XXX_71:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_25:AL1 AL2 H4 
+XXX_71:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_67:SI3%100#1 
+XXX_71:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_71:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_76:SI1 
+XXX_71:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_71:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_71:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_67:SI1%100#1 
+XXX_71:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_25:O5 
+XXX_71:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_25:O6 
+XXX_71:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_71:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_72:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_26:O4 XXXX_26:O6 O3 O5 XXX_82:O1 XXXX_16:O1%010#1 
+XXX_72:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_26:O2 XXXX_26:O5 O6 XXXX_30:O3%-100#1 XXX_76:O4%-100#1 XXX_76:O2%-100#1 
+XXX_72:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_67:O9 O1 O8 XXX_76:O12%-100#1 
+XXX_72:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_72:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O9 O3 O11 XXX_76:O7%-100#1 
+XXX_72:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_72:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_26:AL1 XXX_67:AL1 SI1 
+XXX_72:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_27:AL2 SI2 XXX_73:AL2 
+XXX_72:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 AL1 SI3 XXXX_36:AL2%-100#1 
+XXX_72:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_26:AL1 SI4 XXX_73:AL2 
+XXX_72:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_27:AL2 AL1 H3 
+XXX_72:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_26:AL1 AL2 H4 
+XXX_72:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_73:SI3 
+XXX_72:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_72:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_62:SI1%010#1 
+XXX_72:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_72:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_72:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_73:SI1 
+XXX_72:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_26:O5 
+XXX_72:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_26:O6 
+XXX_72:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_72:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_73:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_27:O4 XXXX_27:O6 O3 O5 XXX_83:O1 XXXX_17:O1%010#1 
+XXX_73:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_26:O3 XXXX_27:O2 XXXX_27:O5 XXX_72:O2 XXX_72:O4 O6 
+XXX_73:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_68:O9 XXX_72:O12 O1 O8 
+XXX_73:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_73:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_72:O7 O9 O3 O11 
+XXX_73:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_73:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_27:AL1 XXX_68:AL1 SI1 
+XXX_73:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_28:AL2 SI2 XXX_74:AL2 
+XXX_73:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_27:AL2 AL1 SI3 
+XXX_73:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_27:AL1 SI4 XXX_74:AL2 
+XXX_73:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_28:AL2 AL1 H3 
+XXX_73:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_27:AL1 AL2 H4 
+XXX_73:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_74:SI3 
+XXX_73:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_73:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_63:SI1%010#1 
+XXX_73:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_73:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_73:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_74:SI1 
+XXX_73:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_27:O5 
+XXX_73:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_27:O6 
+XXX_73:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_73:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_74:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_28:O4 XXXX_28:O6 O3 O5 XXX_84:O1 XXXX_18:O1%010#1 
+XXX_74:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_27:O3 XXXX_28:O2 XXXX_28:O5 XXX_73:O2 XXX_73:O4 O6 
+XXX_74:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_69:O9 XXX_73:O12 O1 O8 
+XXX_74:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_74:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_73:O7 O9 O3 O11 
+XXX_74:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_74:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_28:AL1 XXX_69:AL1 SI1 
+XXX_74:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_29:AL2 SI2 XXX_75:AL2 
+XXX_74:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_28:AL2 AL1 SI3 
+XXX_74:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_28:AL1 SI4 XXX_75:AL2 
+XXX_74:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_29:AL2 AL1 H3 
+XXX_74:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_28:AL1 AL2 H4 
+XXX_74:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_75:SI3 
+XXX_74:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_74:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_64:SI1%010#1 
+XXX_74:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_74:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_74:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_75:SI1 
+XXX_74:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_28:O5 
+XXX_74:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_28:O6 
+XXX_74:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_74:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_75:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_29:O4 XXXX_29:O6 O3 O5 XXX_85:O1 XXXX_19:O1%010#1 
+XXX_75:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_28:O3 XXXX_29:O2 XXXX_29:O5 XXX_74:O2 XXX_74:O4 O6 
+XXX_75:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_70:O9 XXX_74:O12 O1 O8 
+XXX_75:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_75:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_74:O7 O9 O3 O11 
+XXX_75:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_75:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_29:AL1 XXX_70:AL1 SI1 
+XXX_75:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_30:AL2 SI2 XXX_76:AL2 
+XXX_75:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_29:AL2 AL1 SI3 
+XXX_75:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_29:AL1 SI4 XXX_76:AL2 
+XXX_75:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_30:AL2 AL1 H3 
+XXX_75:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_29:AL1 AL2 H4 
+XXX_75:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_76:SI3 
+XXX_75:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_75:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_65:SI1%010#1 
+XXX_75:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_75:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_75:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_76:SI1 
+XXX_75:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_29:O5 
+XXX_75:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_29:O6 
+XXX_75:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_75:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_76:AL1          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_30:O4 XXXX_30:O6 O3 O5 XXX_86:O1 XXXX_20:O1%010#1 
+XXX_76:AL2          Al ay1     ?     0  3+    1.4490 0 0 8 1.0000  0.0000 XXXX_29:O3 XXXX_30:O2 XXXX_30:O5 XXX_75:O2 XXX_75:O4 O6 
+XXX_76:SI1          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_71:O9 XXX_75:O12 O1 O8 
+XXX_76:SI2          Si sy2     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O2 O7 O10 O11 
+XXX_76:SI3          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 XXX_75:O7 O9 O3 O11 
+XXX_76:SI4          Si sy1     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O4 O10 O12 O8 
+XXX_76:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_30:AL1 XXX_71:AL1 SI1 
+XXX_76:O2           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_36:AL2 SI2 XXX_72:AL2%100#1 
+XXX_76:O3           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_30:AL2 AL1 SI3 
+XXX_76:O4           O  oy7     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXXX_30:AL1 SI4 XXX_72:AL2%100#1 
+XXX_76:O5           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_36:AL2 AL1 H3 
+XXX_76:O6           O  oy9     ?     0  1-   -0.6830 0 0 8 1.0000  0.0000 XXXX_30:AL1 AL2 H4 
+XXX_76:O7           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 XXX_72:SI3%100#1 
+XXX_76:O8           O  oy3     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI1 SI4 
+XXX_76:O9           O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI3 XXX_66:SI1%010#1 
+XXX_76:O10          O  oy1     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI4 
+XXX_76:O11          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI2 SI3 
+XXX_76:O12          O  oy2     ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI4 XXX_72:SI1%100#1 
+XXX_76:H1           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_30:O5 
+XXX_76:H2           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 XXXX_30:O6 
+XXX_76:H3           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O5 
+XXX_76:H4           H  hoy     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O6 
+XXX_77:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXX_57:AL1 XXXX_1:AL1%010#1 XXX_47:SI1%010#1 
+XXX_78:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXX_58:AL1 XXXX_2:AL1%010#1 XXX_48:SI1%010#1 
+XXX_79:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXX_59:AL1 XXXX_3:AL1%010#1 XXX_49:SI1%010#1 
+XXX_80:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXX_60:AL1 XXXX_4:AL1%010#1 XXX_50:SI1%010#1 
+XXX_81:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXX_61:AL1 XXXX_5:AL1%010#1 XXX_51:SI1%010#1 
+XXX_82:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXX_72:AL1 XXXX_16:AL1%010#1 XXX_62:SI1%010#1 
+XXX_83:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXX_73:AL1 XXXX_17:AL1%010#1 XXX_63:SI1%010#1 
+XXX_84:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXX_74:AL1 XXXX_18:AL1%010#1 XXX_64:SI1%010#1 
+XXX_85:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXX_75:AL1 XXXX_19:AL1%010#1 XXX_65:SI1%010#1 
+XXX_86:O1           O  oy8     ?     0  1-   -0.7580 0 0 8 1.0000  0.0000 XXX_76:AL1 XXXX_20:AL1%010#1 XXX_66:SI1%010#1 
+ 
+!
+#symmetry
+@periodicity 3 xyz
+@group (P1)
+
+#end

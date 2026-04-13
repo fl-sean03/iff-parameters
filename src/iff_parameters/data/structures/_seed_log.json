@@ -1,0 +1,1073 @@
+{
+  "failures": [],
+  "n_failed": 0,
+  "n_ingested": 133,
+  "n_skipped": 0,
+  "results": [
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "ca-sulfate",
+      "model_name": "anhydrite_unit_cell",
+      "n_atoms": 24,
+      "path": "src/iff_parameters/data/structures/ca-sulfate/anhydrite_unit_cell/v1.0",
+      "source_file": "anhydrite_unit_cell.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "ca-sulfate",
+      "model_name": "gypsum_unit_cell",
+      "n_atoms": 48,
+      "path": "src/iff_parameters/data/structures/ca-sulfate/gypsum_unit_cell/v1.0",
+      "source_file": "gypsum_unit_cell.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "ca-sulfate",
+      "model_name": "hemihydrate_unit_cell",
+      "n_atoms": 90,
+      "path": "src/iff_parameters/data/structures/ca-sulfate/hemihydrate_unit_cell/v1.0",
+      "source_file": "hemihydrate_unit_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3a_010_surface_hydrated_h2o",
+      "n_atoms": 264,
+      "path": "src/iff_parameters/data/structures/cement/c3a_010_surface_hydrated_h2o/v1.0",
+      "source_file": "c3a_010_surface_hydrated_h2o.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3a_010_surface_hydrated_large",
+      "n_atoms": 264,
+      "path": "src/iff_parameters/data/structures/cement/c3a_010_surface_hydrated_large/v1.0",
+      "source_file": "c3a_010_surface_hydrated_large.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3a_010_surface_hydrated_small",
+      "n_atoms": 263,
+      "path": "src/iff_parameters/data/structures/cement/c3a_010_surface_hydrated_small/v1.0",
+      "source_file": "c3a_010_surface_hydrated_small.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3a_010_surface_separated",
+      "n_atoms": 264,
+      "path": "src/iff_parameters/data/structures/cement/c3a_010_surface_separated/v1.0",
+      "source_file": "c3a_010_surface_separated.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3a_010_surface_together",
+      "n_atoms": 264,
+      "path": "src/iff_parameters/data/structures/cement/c3a_010_surface_together/v1.0",
+      "source_file": "c3a_010_surface_together.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3a_unit_cell",
+      "n_atoms": 264,
+      "path": "src/iff_parameters/data/structures/cement/c3a_unit_cell/v1.0",
+      "source_file": "c3a_unit_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3a_unit_cell_minimized",
+      "n_atoms": 264,
+      "path": "src/iff_parameters/data/structures/cement/c3a_unit_cell_minimized/v1.0",
+      "source_file": "c3a_unit_cell_minimized.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3s_040_surface",
+      "n_atoms": 457,
+      "path": "src/iff_parameters/data/structures/cement/c3s_040_surface/v1.0",
+      "source_file": "c3s_040_surface.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3s_040_surface_hydroxylated",
+      "n_atoms": 454,
+      "path": "src/iff_parameters/data/structures/cement/c3s_040_surface_hydroxylated/v1.0",
+      "source_file": "c3s_040_surface_hydroxylated.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3s_rectangular_cell_minimized",
+      "n_atoms": 162,
+      "path": "src/iff_parameters/data/structures/cement/c3s_rectangular_cell_minimized/v1.0",
+      "source_file": "c3s_rectangular_cell_minimized.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3s_unit_cell",
+      "n_atoms": 54,
+      "path": "src/iff_parameters/data/structures/cement/c3s_unit_cell/v1.0",
+      "source_file": "c3s_unit_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "cement",
+      "model_name": "c3s_unit_cell_minimized",
+      "n_atoms": 54,
+      "path": "src/iff_parameters/data/structures/cement/c3s_unit_cell_minimized/v1.0",
+      "source_file": "c3s_unit_cell_minimized.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "ettr_008_surface",
+      "n_atoms": 4096,
+      "path": "src/iff_parameters/data/structures/cement/ettr_008_surface/v1.0",
+      "source_file": "ettr_008_surface.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "ettr_200_surface",
+      "n_atoms": 4096,
+      "path": "src/iff_parameters/data/structures/cement/ettr_200_surface/v1.0",
+      "source_file": "ettr_200_surface.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "ettr_rectangular_cell",
+      "n_atoms": 512,
+      "path": "src/iff_parameters/data/structures/cement/ettr_rectangular_cell/v1.0",
+      "source_file": "ettr_rectangular_cell.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "ettr_unit_cell",
+      "n_atoms": 256,
+      "path": "src/iff_parameters/data/structures/cement/ettr_unit_cell/v1.0",
+      "source_file": "ettr_unit_cell.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "monosulfate_002_surface",
+      "n_atoms": 424,
+      "path": "src/iff_parameters/data/structures/cement/monosulfate_002_surface/v1.0",
+      "source_file": "monosulfate_002_surface.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "monosulfate_cell_221",
+      "n_atoms": 318,
+      "path": "src/iff_parameters/data/structures/cement/monosulfate_cell_221/v1.0",
+      "source_file": "monosulfate_cell_221.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "monosulfate_rectangular_cell_421",
+      "n_atoms": 636,
+      "path": "src/iff_parameters/data/structures/cement/monosulfate_rectangular_cell_421/v1.0",
+      "source_file": "monosulfate_rectangular_cell_421.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "tob11_004_surface",
+      "n_atoms": 1584,
+      "path": "src/iff_parameters/data/structures/cement/tob11_004_surface/v1.0",
+      "source_file": "tob11_004_surface.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "tob11_100_surface",
+      "n_atoms": 1539,
+      "path": "src/iff_parameters/data/structures/cement/tob11_100_surface/v1.0",
+      "source_file": "tob11_100_surface.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "tob11_rectangular_cell",
+      "n_atoms": 176,
+      "path": "src/iff_parameters/data/structures/cement/tob11_rectangular_cell/v1.0",
+      "source_file": "tob11_rectangular_cell.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "tob11_unit_cell",
+      "n_atoms": 88,
+      "path": "src/iff_parameters/data/structures/cement/tob11_unit_cell/v1.0",
+      "source_file": "tob11_unit_cell.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "tob14_001_surface",
+      "n_atoms": 1248,
+      "path": "src/iff_parameters/data/structures/cement/tob14_001_surface/v1.0",
+      "source_file": "tob14_001_surface.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "tob14_004_surface",
+      "n_atoms": 1248,
+      "path": "src/iff_parameters/data/structures/cement/tob14_004_surface/v1.0",
+      "source_file": "tob14_004_surface.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "tob14_100_surface",
+      "n_atoms": 1248,
+      "path": "src/iff_parameters/data/structures/cement/tob14_100_surface/v1.0",
+      "source_file": "tob14_100_surface.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "tob14_avg_cell",
+      "n_atoms": 104,
+      "path": "src/iff_parameters/data/structures/cement/tob14_avg_cell/v1.0",
+      "source_file": "tob14_avg_cell.car"
+    },
+    {
+      "detected_family": "pcff-interface",
+      "material_class": "cement",
+      "model_name": "tob14_avg_rectangular_cell",
+      "n_atoms": 208,
+      "path": "src/iff_parameters/data/structures/cement/tob14_avg_rectangular_cell/v1.0",
+      "source_file": "tob14_avg_rectangular_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "kaolinite15_single_layer",
+      "n_atoms": 510,
+      "path": "src/iff_parameters/data/structures/clay/kaolinite15_single_layer/v1.0",
+      "source_file": "kaolinite15_single_layer.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "kaolinite30_cell",
+      "n_atoms": 1020,
+      "path": "src/iff_parameters/data/structures/clay/kaolinite30_cell/v1.0",
+      "source_file": "kaolinite30_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "kaolinite_unit_cell",
+      "n_atoms": 34,
+      "path": "src/iff_parameters/data/structures/clay/kaolinite_unit_cell/v1.0",
+      "source_file": "kaolinite_unit_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mica15_cell",
+      "n_atoms": 1260,
+      "path": "src/iff_parameters/data/structures/clay/mica15_cell/v1.0",
+      "source_file": "mica15_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mica15_double_layer",
+      "n_atoms": 1260,
+      "path": "src/iff_parameters/data/structures/clay/mica15_double_layer/v1.0",
+      "source_file": "mica15_double_layer.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mica15_single_layer",
+      "n_atoms": 630,
+      "path": "src/iff_parameters/data/structures/clay/mica15_single_layer/v1.0",
+      "source_file": "mica15_single_layer.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mica1_cell",
+      "n_atoms": 84,
+      "path": "src/iff_parameters/data/structures/clay/mica1_cell/v1.0",
+      "source_file": "mica1_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_321_K_28_cell",
+      "n_atoms": 2276,
+      "path": "src/iff_parameters/data/structures/clay/mont0_321_K_28_cell/v1.0",
+      "source_file": "mont0_321_K_28_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_321_K_28_single_layer",
+      "n_atoms": 1138,
+      "path": "src/iff_parameters/data/structures/clay/mont0_321_K_28_single_layer/v1.0",
+      "source_file": "mont0_321_K_28_single_layer.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_321_Na_28_cell",
+      "n_atoms": 2276,
+      "path": "src/iff_parameters/data/structures/clay/mont0_321_Na_28_cell/v1.0",
+      "source_file": "mont0_321_Na_28_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_333_K_15_cell",
+      "n_atoms": 1220,
+      "path": "src/iff_parameters/data/structures/clay/mont0_333_K_15_cell/v1.0",
+      "source_file": "mont0_333_K_15_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_333_K_15_single_layer",
+      "n_atoms": 610,
+      "path": "src/iff_parameters/data/structures/clay/mont0_333_K_15_single_layer/v1.0",
+      "source_file": "mont0_333_K_15_single_layer.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_333_Na_15_cell",
+      "n_atoms": 1220,
+      "path": "src/iff_parameters/data/structures/clay/mont0_333_Na_15_cell/v1.0",
+      "source_file": "mont0_333_Na_15_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_333_layer_2_5nm_neutral_edges_pH3",
+      "n_atoms": 676,
+      "path": "src/iff_parameters/data/structures/clay/mont0_333_layer_2_5nm_neutral_edges_pH3/v1.0",
+      "source_file": "mont0_333_layer_2_5nm_neutral_edges_pH3.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_333_layer_5nm_neutral_edges_pH3",
+      "n_atoms": 2572,
+      "path": "src/iff_parameters/data/structures/clay/mont0_333_layer_5nm_neutral_edges_pH3/v1.0",
+      "source_file": "mont0_333_layer_5nm_neutral_edges_pH3.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_400_K_15_cell",
+      "n_atoms": 1224,
+      "path": "src/iff_parameters/data/structures/clay/mont0_400_K_15_cell/v1.0",
+      "source_file": "mont0_400_K_15_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_400_K_15_single_layer",
+      "n_atoms": 612,
+      "path": "src/iff_parameters/data/structures/clay/mont0_400_K_15_single_layer/v1.0",
+      "source_file": "mont0_400_K_15_single_layer.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_400_Na_15_cell",
+      "n_atoms": 1224,
+      "path": "src/iff_parameters/data/structures/clay/mont0_400_Na_15_cell/v1.0",
+      "source_file": "mont0_400_Na_15_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_533_K_15_cell",
+      "n_atoms": 1232,
+      "path": "src/iff_parameters/data/structures/clay/mont0_533_K_15_cell/v1.0",
+      "source_file": "mont0_533_K_15_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_533_K_15_single_layer",
+      "n_atoms": 616,
+      "path": "src/iff_parameters/data/structures/clay/mont0_533_K_15_single_layer/v1.0",
+      "source_file": "mont0_533_K_15_single_layer.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "mont0_533_Na_15_cell",
+      "n_atoms": 1232,
+      "path": "src/iff_parameters/data/structures/clay/mont0_533_Na_15_cell/v1.0",
+      "source_file": "mont0_533_Na_15_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "pyrophyllite15_single_layer",
+      "n_atoms": 600,
+      "path": "src/iff_parameters/data/structures/clay/pyrophyllite15_single_layer/v1.0",
+      "source_file": "pyrophyllite15_single_layer.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "pyrophyllite30_cell",
+      "n_atoms": 1200,
+      "path": "src/iff_parameters/data/structures/clay/pyrophyllite30_cell/v1.0",
+      "source_file": "pyrophyllite30_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "clay",
+      "model_name": "pyrophyllite_unit_cell",
+      "n_atoms": 40,
+      "path": "src/iff_parameters/data/structures/clay/pyrophyllite_unit_cell/v1.0",
+      "source_file": "pyrophyllite_unit_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "Na2HPO4",
+      "n_atoms": 8,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/Na2HPO4/v1.0",
+      "source_file": "Na2HPO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "NaH2PO4",
+      "n_atoms": 8,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/NaH2PO4/v1.0",
+      "source_file": "NaH2PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_001_pH10_HPO4",
+      "n_atoms": 2784,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_001_pH10_HPO4/v1.0",
+      "source_file": "hap_001_pH10_HPO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_001_pH14_PO4",
+      "n_atoms": 2816,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_001_pH14_PO4/v1.0",
+      "source_file": "hap_001_pH14_PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_001_pH5_H2PO4",
+      "n_atoms": 2832,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_001_pH5_H2PO4/v1.0",
+      "source_file": "hap_001_pH5_H2PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_010_pH10_HPO4",
+      "n_atoms": 288,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_010_pH10_HPO4/v1.0",
+      "source_file": "hap_010_pH10_HPO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_010_pH14_PO4",
+      "n_atoms": 288,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_010_pH14_PO4/v1.0",
+      "source_file": "hap_010_pH14_PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_010_pH5_H2PO4",
+      "n_atoms": 288,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_010_pH5_H2PO4/v1.0",
+      "source_file": "hap_010_pH5_H2PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_020_pH10_HPO4",
+      "n_atoms": 300,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_020_pH10_HPO4/v1.0",
+      "source_file": "hap_020_pH10_HPO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_020_pH14_PO4",
+      "n_atoms": 288,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_020_pH14_PO4/v1.0",
+      "source_file": "hap_020_pH14_PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_020_pH5_H2PO4",
+      "n_atoms": 312,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_020_pH5_H2PO4/v1.0",
+      "source_file": "hap_020_pH5_H2PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_101_pH10_HPO4",
+      "n_atoms": 33,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_101_pH10_HPO4/v1.0",
+      "source_file": "hap_101_pH10_HPO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_101_pH14_PO4",
+      "n_atoms": 34,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_101_pH14_PO4/v1.0",
+      "source_file": "hap_101_pH14_PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_101_pH5_H2PO4",
+      "n_atoms": 34,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_101_pH5_H2PO4/v1.0",
+      "source_file": "hap_101_pH5_H2PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_nanorod_3nm_pH14_PO4",
+      "n_atoms": 528,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_nanorod_3nm_pH14_PO4/v1.0",
+      "source_file": "hap_nanorod_3nm_pH14_PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_nanorod_3nm_pH5_H2PO4",
+      "n_atoms": 524,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_nanorod_3nm_pH5_H2PO4/v1.0",
+      "source_file": "hap_nanorod_3nm_pH5_H2PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_nanorod_5nm_pH14_PO4",
+      "n_atoms": 4224,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_nanorod_5nm_pH14_PO4/v1.0",
+      "source_file": "hap_nanorod_5nm_pH14_PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_nanorod_5nm_pH5_H2PO4",
+      "n_atoms": 4145,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_nanorod_5nm_pH5_H2PO4/v1.0",
+      "source_file": "hap_nanorod_5nm_pH5_H2PO4.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_rectangular_cell",
+      "n_atoms": 42,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_rectangular_cell/v1.0",
+      "source_file": "hap_rectangular_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "hydroxyapatite",
+      "model_name": "hap_unit_cell",
+      "n_atoms": 44,
+      "path": "src/iff_parameters/data/structures/hydroxyapatite/hap_unit_cell/v1.0",
+      "source_file": "hap_unit_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "ag_cell_Fm3m",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/ag_cell_Fm3m/v1.0",
+      "source_file": "ag_cell_Fm3m.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "ag_cell_P1_100",
+      "n_atoms": 4,
+      "path": "src/iff_parameters/data/structures/metals/ag_cell_P1_100/v1.0",
+      "source_file": "ag_cell_P1_100.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "ag_cell_P1_110",
+      "n_atoms": 2,
+      "path": "src/iff_parameters/data/structures/metals/ag_cell_P1_110/v1.0",
+      "source_file": "ag_cell_P1_110.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "ag_cell_P1_111",
+      "n_atoms": 6,
+      "path": "src/iff_parameters/data/structures/metals/ag_cell_P1_111/v1.0",
+      "source_file": "ag_cell_P1_111.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "al_cell_Fm3m",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/al_cell_Fm3m/v1.0",
+      "source_file": "al_cell_Fm3m.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "al_cell_P1_100",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/al_cell_P1_100/v1.0",
+      "source_file": "al_cell_P1_100.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "al_cell_P1_110",
+      "n_atoms": 2,
+      "path": "src/iff_parameters/data/structures/metals/al_cell_P1_110/v1.0",
+      "source_file": "al_cell_P1_110.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "al_cell_P1_111",
+      "n_atoms": 6,
+      "path": "src/iff_parameters/data/structures/metals/al_cell_P1_111/v1.0",
+      "source_file": "al_cell_P1_111.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "au_cell_Fm3m",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/au_cell_Fm3m/v1.0",
+      "source_file": "au_cell_Fm3m.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "au_cell_P1_100",
+      "n_atoms": 4,
+      "path": "src/iff_parameters/data/structures/metals/au_cell_P1_100/v1.0",
+      "source_file": "au_cell_P1_100.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "au_cell_P1_110",
+      "n_atoms": 2,
+      "path": "src/iff_parameters/data/structures/metals/au_cell_P1_110/v1.0",
+      "source_file": "au_cell_P1_110.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "au_cell_P1_111",
+      "n_atoms": 6,
+      "path": "src/iff_parameters/data/structures/metals/au_cell_P1_111/v1.0",
+      "source_file": "au_cell_P1_111.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "cu_cell_Fm3m",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/cu_cell_Fm3m/v1.0",
+      "source_file": "cu_cell_Fm3m.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "cu_cell_P1_100",
+      "n_atoms": 4,
+      "path": "src/iff_parameters/data/structures/metals/cu_cell_P1_100/v1.0",
+      "source_file": "cu_cell_P1_100.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "cu_cell_P1_110",
+      "n_atoms": 2,
+      "path": "src/iff_parameters/data/structures/metals/cu_cell_P1_110/v1.0",
+      "source_file": "cu_cell_P1_110.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "cu_cell_P1_111",
+      "n_atoms": 6,
+      "path": "src/iff_parameters/data/structures/metals/cu_cell_P1_111/v1.0",
+      "source_file": "cu_cell_P1_111.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "ni_cell_Fm3m",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/ni_cell_Fm3m/v1.0",
+      "source_file": "ni_cell_Fm3m.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "ni_cell_P1_100",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/ni_cell_P1_100/v1.0",
+      "source_file": "ni_cell_P1_100.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "ni_cell_P1_110",
+      "n_atoms": 2,
+      "path": "src/iff_parameters/data/structures/metals/ni_cell_P1_110/v1.0",
+      "source_file": "ni_cell_P1_110.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "ni_cell_P1_111",
+      "n_atoms": 6,
+      "path": "src/iff_parameters/data/structures/metals/ni_cell_P1_111/v1.0",
+      "source_file": "ni_cell_P1_111.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pb_cell_Fm3m",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/pb_cell_Fm3m/v1.0",
+      "source_file": "pb_cell_Fm3m.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pb_cell_P1_100",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/pb_cell_P1_100/v1.0",
+      "source_file": "pb_cell_P1_100.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pb_cell_P1_110",
+      "n_atoms": 2,
+      "path": "src/iff_parameters/data/structures/metals/pb_cell_P1_110/v1.0",
+      "source_file": "pb_cell_P1_110.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pb_cell_P1_111",
+      "n_atoms": 6,
+      "path": "src/iff_parameters/data/structures/metals/pb_cell_P1_111/v1.0",
+      "source_file": "pb_cell_P1_111.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pd_cell_Fm3m",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/pd_cell_Fm3m/v1.0",
+      "source_file": "pd_cell_Fm3m.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pd_cell_P1_100",
+      "n_atoms": 4,
+      "path": "src/iff_parameters/data/structures/metals/pd_cell_P1_100/v1.0",
+      "source_file": "pd_cell_P1_100.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pd_cell_P1_110",
+      "n_atoms": 2,
+      "path": "src/iff_parameters/data/structures/metals/pd_cell_P1_110/v1.0",
+      "source_file": "pd_cell_P1_110.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pd_cell_P1_111",
+      "n_atoms": 6,
+      "path": "src/iff_parameters/data/structures/metals/pd_cell_P1_111/v1.0",
+      "source_file": "pd_cell_P1_111.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pt_cell_Fm3m",
+      "n_atoms": 1,
+      "path": "src/iff_parameters/data/structures/metals/pt_cell_Fm3m/v1.0",
+      "source_file": "pt_cell_Fm3m.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pt_cell_P1_100",
+      "n_atoms": 4,
+      "path": "src/iff_parameters/data/structures/metals/pt_cell_P1_100/v1.0",
+      "source_file": "pt_cell_P1_100.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pt_cell_P1_110",
+      "n_atoms": 2,
+      "path": "src/iff_parameters/data/structures/metals/pt_cell_P1_110/v1.0",
+      "source_file": "pt_cell_P1_110.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "metals",
+      "model_name": "pt_cell_P1_111",
+      "n_atoms": 6,
+      "path": "src/iff_parameters/data/structures/metals/pt_cell_P1_111/v1.0",
+      "source_file": "pt_cell_P1_111.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "peo",
+      "model_name": "peo46_h2o4394_pcff",
+      "n_atoms": 324,
+      "path": "src/iff_parameters/data/structures/peo/peo46_h2o4394_pcff/v1.0",
+      "source_file": "peo46_h2o4394_pcff.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "peo",
+      "model_name": "peo_cell_pcff",
+      "n_atoms": 98,
+      "path": "src/iff_parameters/data/structures/peo/peo_cell_pcff/v1.0",
+      "source_file": "peo_cell_pcff.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "a_cristobalite_20m2_cell",
+      "n_atoms": 36,
+      "path": "src/iff_parameters/data/structures/silica/a_cristobalite_20m2_cell/v1.0",
+      "source_file": "a_cristobalite_20m2_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "a_cristobalite_unit_cell",
+      "n_atoms": 12,
+      "path": "src/iff_parameters/data/structures/silica/a_cristobalite_unit_cell/v1.0",
+      "source_file": "a_cristobalite_unit_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "a_quartz_001_rectangular_cell",
+      "n_atoms": 18,
+      "path": "src/iff_parameters/data/structures/silica/a_quartz_001_rectangular_cell/v1.0",
+      "source_file": "a_quartz_001_rectangular_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "a_quartz_unit_cell",
+      "n_atoms": 9,
+      "path": "src/iff_parameters/data/structures/silica/a_quartz_unit_cell/v1.0",
+      "source_file": "a_quartz_unit_cell.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q2_9_4OH_0pct_ion",
+      "n_atoms": 1848,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q2_9_4OH_0pct_ion/v1.0",
+      "source_file": "silica_Q2_9_4OH_0pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q2_9_4OH_18pct_ion",
+      "n_atoms": 1848,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q2_9_4OH_18pct_ion/v1.0",
+      "source_file": "silica_Q2_9_4OH_18pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q2_9_4OH_9pct_ion",
+      "n_atoms": 1848,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q2_9_4OH_9pct_ion/v1.0",
+      "source_file": "silica_Q2_9_4OH_9pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q2_Q3_6_9OH_0pct_ion",
+      "n_atoms": 2256,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q2_Q3_6_9OH_0pct_ion/v1.0",
+      "source_file": "silica_Q2_Q3_6_9OH_0pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q2_Q3_6_9OH_18pct_ion",
+      "n_atoms": 2256,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q2_Q3_6_9OH_18pct_ion/v1.0",
+      "source_file": "silica_Q2_Q3_6_9OH_18pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q2_Q3_6_9OH_9pct_ion",
+      "n_atoms": 2256,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q2_Q3_6_9OH_9pct_ion/v1.0",
+      "source_file": "silica_Q2_Q3_6_9OH_9pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_4_7OH_0pct_ion",
+      "n_atoms": 2184,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_4_7OH_0pct_ion/v1.0",
+      "source_file": "silica_Q3_4_7OH_0pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_4_7OH_14pct_ion",
+      "n_atoms": 2184,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_4_7OH_14pct_ion/v1.0",
+      "source_file": "silica_Q3_4_7OH_14pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_4_7OH_18pct_ion",
+      "n_atoms": 2184,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_4_7OH_18pct_ion/v1.0",
+      "source_file": "silica_Q3_4_7OH_18pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_4_7OH_27pct_ion",
+      "n_atoms": 2184,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_4_7OH_27pct_ion/v1.0",
+      "source_file": "silica_Q3_4_7OH_27pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_4_7OH_50pct_ion",
+      "n_atoms": 2184,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_4_7OH_50pct_ion/v1.0",
+      "source_file": "silica_Q3_4_7OH_50pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_4_7OH_5pct_ion",
+      "n_atoms": 2178,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_4_7OH_5pct_ion/v1.0",
+      "source_file": "silica_Q3_4_7OH_5pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_4_7OH_9pct_ion",
+      "n_atoms": 2184,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_4_7OH_9pct_ion/v1.0",
+      "source_file": "silica_Q3_4_7OH_9pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_Q4_2_4OH_0pct_ion",
+      "n_atoms": 2100,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_Q4_2_4OH_0pct_ion/v1.0",
+      "source_file": "silica_Q3_Q4_2_4OH_0pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_Q4_2_4OH_15pct_ion",
+      "n_atoms": 2100,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_Q4_2_4OH_15pct_ion/v1.0",
+      "source_file": "silica_Q3_Q4_2_4OH_15pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_Q4_2_4OH_30pct_ion",
+      "n_atoms": 2096,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_Q4_2_4OH_30pct_ion/v1.0",
+      "source_file": "silica_Q3_Q4_2_4OH_30pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_amorph_4_7OH_0pct_ion",
+      "n_atoms": 2928,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_amorph_4_7OH_0pct_ion/v1.0",
+      "source_file": "silica_Q3_amorph_4_7OH_0pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_amorph_4_7OH_18pct_ion",
+      "n_atoms": 2928,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_amorph_4_7OH_18pct_ion/v1.0",
+      "source_file": "silica_Q3_amorph_4_7OH_18pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q3_amorph_4_7OH_9pct_ion",
+      "n_atoms": 2928,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q3_amorph_4_7OH_9pct_ion/v1.0",
+      "source_file": "silica_Q3_amorph_4_7OH_9pct_ion.car"
+    },
+    {
+      "detected_family": "cvff-interface",
+      "material_class": "silica",
+      "model_name": "silica_Q4_0_0OH",
+      "n_atoms": 2016,
+      "path": "src/iff_parameters/data/structures/silica/silica_Q4_0_0OH/v1.0",
+      "source_file": "silica_Q4_0_0OH.car"
+    }
+  ],
+  "seeded_utc": "2026-04-13T21:47:26Z"
+}

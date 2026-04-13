@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "pcff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 24,
+    "sha256": "0ac7347087703aa770caaab430affd4b643fcb75e88b562cfd2a8ed961990e0e"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:25Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "c8b96294f28d6f8e64f84c7f5d7e6968be038bae8377be3a3eab91377e5a800a"
+  },
+  "name": "anhydrite_unit_cell",
+  "parameterized_with": [
+    {
+      "name": "pcff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:25Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "ca-sulfate"
+    ],
+    "mdf_companion": "anhydrite_unit_cell.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/CA_SULFATE",
+    "source_file": "anhydrite_unit_cell.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "c8b96294f28d6f8e64f84c7f5d7e6968be038bae8377be3a3eab91377e5a800a"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "0ac7347087703aa770caaab430affd4b643fcb75e88b562cfd2a8ed961990e0e"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

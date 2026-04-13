@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "pcff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 90,
+    "sha256": "273fe77d0165b499b59238a85765d142e39aa7387abafe1f0401997f71c7df69"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:25Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "90dc237d11f943e58080cc9ad962e379a923e44f0d8210c3ce28c936338d83a8"
+  },
+  "name": "hemihydrate_unit_cell",
+  "parameterized_with": [
+    {
+      "name": "pcff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:25Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "ca-sulfate"
+    ],
+    "mdf_companion": "hemihydrate_unit_cell.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/CA_SULFATE",
+    "source_file": "hemihydrate_unit_cell.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "90dc237d11f943e58080cc9ad962e379a923e44f0d8210c3ce28c936338d83a8"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "273fe77d0165b499b59238a85765d142e39aa7387abafe1f0401997f71c7df69"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

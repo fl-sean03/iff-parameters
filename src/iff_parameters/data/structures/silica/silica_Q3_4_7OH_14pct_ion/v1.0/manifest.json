@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "cvff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 2184,
+    "sha256": "e3514d95f28bfb2dbff582bec8d4de53eaf9d05b0ea0538146be7457046e7383"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:26Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "a7b59e71f56d8e28bb1adc4176ddedcb169708cd32befdcf6884188f8ae537c7"
+  },
+  "name": "silica_Q3_4_7OH_14pct_ion",
+  "parameterized_with": [
+    {
+      "name": "cvff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:26Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "silica"
+    ],
+    "mdf_companion": "silica_Q3_4_7OH_14pct_ion.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/SILICA",
+    "source_file": "silica_Q3_4_7OH_14pct_ion.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "a7b59e71f56d8e28bb1adc4176ddedcb169708cd32befdcf6884188f8ae537c7"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "e3514d95f28bfb2dbff582bec8d4de53eaf9d05b0ea0538146be7457046e7383"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

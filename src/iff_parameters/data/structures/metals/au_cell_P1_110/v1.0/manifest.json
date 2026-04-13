@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "cvff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 2,
+    "sha256": "5d0804786f3faf2fea260d305973d04bbfb21625aec95038d7655e49cbe979b4"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:26Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "535bce65f173bdfb07845086ded7b264c4d2e50ee357ff58388e4a875fe413c3"
+  },
+  "name": "au_cell_P1_110",
+  "parameterized_with": [
+    {
+      "name": "cvff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:26Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "metals"
+    ],
+    "mdf_companion": "au_cell_P1_110.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/METALS",
+    "source_file": "au_cell_P1_110.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "535bce65f173bdfb07845086ded7b264c4d2e50ee357ff58388e4a875fe413c3"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "5d0804786f3faf2fea260d305973d04bbfb21625aec95038d7655e49cbe979b4"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

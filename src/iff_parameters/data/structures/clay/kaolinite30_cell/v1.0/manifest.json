@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "cvff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 1020,
+    "sha256": "2377b011478d4888b5b8d1f4ed15527645a6e81ac0672bcc89f6ab1fb7d89f41"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:25Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "2408c08f9b051d9087ee510b8fdb691f49a70e0c47d7ba45c17a68e98270d85f"
+  },
+  "name": "kaolinite30_cell",
+  "parameterized_with": [
+    {
+      "name": "cvff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:25Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "clay"
+    ],
+    "mdf_companion": "kaolinite30_cell.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/CLAY_MINERALS",
+    "source_file": "kaolinite30_cell.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "2408c08f9b051d9087ee510b8fdb691f49a70e0c47d7ba45c17a68e98270d85f"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "2377b011478d4888b5b8d1f4ed15527645a6e81ac0672bcc89f6ab1fb7d89f41"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

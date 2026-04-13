@@ -1,0 +1,215 @@
+atom_type,element,mass_amu,vdw_style,lj_a,lj_b,notes
+Ag,Ag,107.86799621582031,lj_ab_12_6,,,0 Silver metal
+Al,Al,26.982000350952148,lj_ab_12_6,,,0 Aluminium metal
+Au,Au,196.96699523925781,lj_ab_12_6,,,0 Gold metal
+Br,Br,79.90899658203125,lj_ab_12_6,,,1 bromine ion
+Cl,Cl,35.452999114990234,lj_ab_12_6,,,1 chlorine ion
+Cr,Cr,51.995998382568359,lj_ab_12_6,,,0 Chromium metal
+Cu,Cu,63.546001434326172,lj_ab_12_6,,,0 Copper metal
+Fe,Fe,55.847000122070312,lj_ab_12_6,,,0 Iron metal
+K,K,39.102001190185547,lj_ab_12_6,,,0 Potassium metal
+Li,Li,6.940000057220459,lj_ab_12_6,,,0 Lithium metal
+Mo,Mo,95.94000244140625,lj_ab_12_6,,,0 Molybdenum metal
+Na,Na,22.989999771118164,lj_ab_12_6,,,0 Sodium metal
+Ni,Ni,58.709999084472656,lj_ab_12_6,,,0 Nickel metal
+Pb,Pb,207.19999694824219,lj_ab_12_6,,,0 Lead metal
+Pd,Pd,106.40000152587891,lj_ab_12_6,,,0 Palladium metal
+Pt,Pt,195.08999633789062,lj_ab_12_6,,,0 Platinum metal
+Sn,Sn,118.69000244140625,lj_ab_12_6,,,0 Tin metal
+W,W,183.85000610351562,lj_ab_12_6,,,0 Tungsten metal
+ac1,Al,26.981529235839844,lj_ab_12_6,,,4 Aluminum atom in aluminate ring in Ca3Al2O6 (+1.2
+ac2,Al,26.981529235839844,lj_ab_12_6,,,"6 Aluminum atom in ettringite, octahedrally coordinated (+1.6)"
+ac3,Al,26.981529235839844,lj_ab_12_6,,,"6 Aluminum atom in monosulfate, octahedrally coordinated (+1.5)"
+ar,Ar,39.944000244140625,lj_ab_12_6,,,0 Argon
+ay1,Al,26.981529235839844,lj_ab_12_6,,,6 Aluminum atom (+1.45) or magnesium defect (+1.1) in octahedral aluminate sheet
+ay2,Al,26.981529235839844,lj_ab_12_6,,,6 Aluminum atom (+1.45) or magnesium defect (+1.1) in octahedral aluminate sheet
+ayt1,Al,26.981529235839844,lj_ab_12_6,,,4 Aluminum defect of sy1 (+0.8)
+ayt2,Al,26.981529235839844,lj_ab_12_6,,,4 Aluminum defect of sy2 (+0.8)
+az,Al,26.982000350952148,lj_ab_12_6,,,4 aluminium atom in zeolites
+br,Br,79.90899658203125,lj_ab_12_6,,,1 bromine atom
+c,C,12.011150360107422,lj_ab_12_6,,,4 generic SP3 carbon
+c+,C,12.011150360107422,lj_ab_12_6,,,3 C in guanidinium group
+c-,C,12.011150360107422,lj_ab_12_6,,,3 C in charged carboxylate
+c1,C,12.011150360107422,lj_ab_12_6,,,4 sp3 carbon with 1 H 3 heavies
+c2,C,12.011150360107422,lj_ab_12_6,,,"4 sp3 carbon with 2 H's, 2 Heavy's"
+c3,C,12.011150360107422,lj_ab_12_6,,,4 sp3 carbon with 3 hHs 1 heavy
+c3h,C,12.011150360107422,lj_ab_12_6,,,4 sp3 carbon in 3-membered ring with hydrogens
+c3m,C,12.011150360107422,lj_ab_12_6,,,4 sp3 carbon in 3-membered ring
+c4,C,12.011150360107422,lj_ab_12_6,,,"4 Carbon atom, sp3, generic, 4 bonds (compass)"
+c4h,C,12.011150360107422,lj_ab_12_6,,,4 sp3 carbon in 4-membered ring with hydrogens
+c4m,C,12.011150360107422,lj_ab_12_6,,,4 sp3 carbon in 4-membered ring
+c4o,C,12.011150360107422,lj_ab_12_6,,,"4 Carbon atom, sp3, bonded to oxygen (+0.054, compass)"
+c5,C,12.011150360107422,lj_ab_12_6,,,3 sp2 aromatic carbon in 5-membered ring
+c=,C,12.011150360107422,lj_ab_12_6,,,3 non aromatic end doubly bonded carbon
+c=1,C,12.011150360107422,lj_ab_12_6,,,"3 non aromatic, next to end doubly bonded carbon"
+c=2,C,12.011150360107422,lj_ab_12_6,,,3 non aromatic doubly bonded carbon
+c_0,C,12.011150360107422,lj_ab_12_6,,,"3 carbonyl carbon of aldehydes, ketones"
+c_1,C,12.011150360107422,lj_ab_12_6,,,"3 carbonyl carbon of acid, ester, amide"
+c_2,C,12.01099967956543,lj_ab_12_6,,,"3 carbonyl carbon of carbamate, urea"
+c_a,C,12.011150360107422,lj_ab_12_6,,,4 general amino acid alpha carbon (sp3)
+ca+,Ca,40.080001831054688,lj_ab_12_6,,,1 calcium ion
+ca++,Ca,40.080001831054688,lj_ab_12_6,,,0 Calcium ion in Ca3SiO5 (+1.5) and organic salts
+ca+a,Ca,40.080001831054688,lj_ab_12_6,,,0 Calcium ion in Ca3Al2O6 (+1.5)
+ca+e,Ca,40.080001831054688,lj_ab_12_6,,,0 Calcium ion in ettringite (+1.6)
+ca+g,Ca,40.080001831054688,lj_ab_12_6,,,"0 Calcium ion in gypsum, hemihydrate, and anhydrite (+1.5)"
+ca+h,Ca,40.080001831054688,lj_ab_12_6,,,0 Calcium ion in hydroxyapatite (+1.5)
+ca+m,Ca,40.080001831054688,lj_ab_12_6,,,0 Calcium ion in monosulfate (+1.4)
+ca+t,Ca,40.080001831054688,lj_ab_12_6,,,0 Calcium ion in tobermorite (+1.5)
+ce1,C,12.011150360107422,lj_ab_12_6,,,4 Carbon atom in backbone or terminal group in PEO
+cg,C,12.011150360107422,lj_ab_12_6,,,4 sp3 alpha carbon in glycine
+ci,C,12.011150360107422,lj_ab_12_6,,,3 sp2 aromatic carbon in charged imidazole ring (His+)
+cl,Cl,35.452999114990234,lj_ab_12_6,,,1 chlorine atom
+co,C,12.011150360107422,lj_ab_12_6,,,4 sp3 carbon in acetals
+coh,C,12.011150360107422,lj_ab_12_6,,,4 sp3 carbon in acetals with hydrogen
+cp,C,12.011150360107422,lj_ab_12_6,,,3 sp2 aromatic carbon
+cr,C,12.011150360107422,lj_ab_12_6,,,3 C in neutral arginine
+cs,C,12.011150360107422,lj_ab_12_6,,,3 sp2 aromatic carbon in 5 membered ring next to S
+ct,C,12.011150360107422,lj_ab_12_6,,,2 sp carbon involved in a triple bond
+cz,C,12.01099967956543,lj_ab_12_6,,,3 carbonyl carbon of carbonate
+dw,D,2.0139999389648438,lj_ab_12_6,,,1 deuterium in heivy water
+et5,Lp,0.5,lj_ab_12_6,,,1 Electron pair in TIP5P water/ether model (shown as He)
+f,F,18.99839973449707,lj_ab_12_6,,,1 fluorine atom
+h,H,1.0079699754714966,lj_ab_12_6,,,"1 generic hydrogen bound to C, Si,or H"
+h*,H,1.0079699754714966,lj_ab_12_6,,,"1 hydrogen bonded to nitrogen, Oxygen"
+h+,H,1.0079699754714966,lj_ab_12_6,,,1 charged hydrogen in cations
+h1,H,1.0079699754714966,lj_ab_12_6,,,"1 Hydrogen atom, nonpolar (compass)"
+h1o,H,1.0079699754714966,lj_ab_12_6,,,"1 Hydrogen atom bonded to oxygen, nitrogen (compass)"
+ha1,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen atom in terminal OH group in PEO (+0.4)
+hb,H,1.0078200101852417,lj_ab_12_6,,,1 hydrogen atom in bridging hydroxyl group
+hc,H,1.0079699754714966,lj_ab_12_6,,,1 hydrogen bonded to carbon
+he,He,4.0029997825622559,lj_ab_12_6,,,0 Helium
+he1,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen atom in backbone or terminal group in PEO
+hi,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen in charged imidazole ring
+hn,H,1.0079699754714966,lj_ab_12_6,,,1 hydrogen bonded to nitrogen
+hn2,H,1.0080000162124634,lj_ab_12_6,,,1 amino hydrogen
+ho,H,1.0079699754714966,lj_ab_12_6,,,1 hydrogen bonded to oxygen
+ho2,H,1.0080000162124634,lj_ab_12_6,,,1 hydroxyl hydrogen
+hoa,H,1.0078200101852417,lj_ab_12_6,,,1 hydrogen atom in terminal hydroxyl group on aluminium
+hoc,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen atom in OH group of ettringite (+0.35) and in superficial hydroxide ions (+0.3)
+hok,H,1.0080000162124634,lj_ab_12_6,,,1 Hydrogen atom in AlOH surface group in kaolinite (+0.2)
+hop,H,1.0080000162124634,lj_ab_12_6,,,1 Hydrogen atom in hydrogenphosphate and in hydroxide ion in apatite (+0.4 and +0.2)
+hos,H,1.0078200101852417,lj_ab_12_6,,,1 hydrogen atom in terminal hydroxyl group on silicon
+hoy,H,1.0080000162124634,lj_ab_12_6,,,"1 Hydrogen atom in (Al,Mg,Si)OH and OH- groups in clay, silica, cement (excl. ettr)"
+hp,H,1.0079699754714966,lj_ab_12_6,,,1 hydrogen bonded to phosphorus
+hs,H,1.0079699754714966,lj_ab_12_6,,,1 hydrogen bonded to sulfur
+hsi,H,1.0080000162124634,lj_ab_12_6,,,1 silane hydrogen
+ht5,H,1.0079699754714966,lj_ab_12_6,,,1 Hydrogen atom in TIP5P water model
+hw,H,1.0079699754714966,lj_ab_12_6,,,1 hydrogen in water (+0.41 in this model !)
+i,I,126.90440368652344,lj_ab_12_6,,,1 iodine atom
+k+,K,39.098300933837891,lj_ab_12_6,,,"0 Potassium ion in mica, montmorillonite, and other clays (+1.0)"
+kr,Kr,83.800003051757812,lj_ab_12_6,,,0 Krypton
+n,N,14.006699562072754,lj_ab_12_6,,,3 generic sp2 nitrogen (in amids))
+n+,N,14.006699562072754,lj_ab_12_6,,,4 sp3 nitrogen in protonated amines
+n1,N,14.006699562072754,lj_ab_12_6,,,3 sp2 nitrogen in charged arginine
+n2,N,14.006699562072754,lj_ab_12_6,,,3 sp2 nitrogen (NH2) in guanidinium group (HN=C(NH2)2)
+n3m,N,14.006699562072754,lj_ab_12_6,,,3 sp3 nitrogen in 3- membered ring
+n3n,N,14.006699562072754,lj_ab_12_6,,,3 sp2 nitrogen in 3- membered ring
+n4,N,14.006699562072754,lj_ab_12_6,,,4 sp3 nitrogen in protonated amines
+n4m,N,14.006699562072754,lj_ab_12_6,,,3 sp3 nitrogen in 4- membered ring
+n4n,N,14.006699562072754,lj_ab_12_6,,,3 sp2 nitrogen in 4- membered ring
+n=,N,14.006699562072754,lj_ab_12_6,,,2 non aromatic end doubly bonded nitrogen
+n=1,N,14.006699562072754,lj_ab_12_6,,,"2 non aromatic, next to end doubly bonded carbon"
+n=2,N,14.006699562072754,lj_ab_12_6,,,2 non aromatic doubly bonded nitrogen
+n_2,N,14.010000228881836,lj_ab_12_6,,,3 nitrogen of urethane
+na,N,14.006699562072754,lj_ab_12_6,,,3 sp3 nitrogen in amines
+na+,Na,22.989770889282227,lj_ab_12_6,,,"1 Sodium ion in silica, clays, and organic salts"
+nb,N,14.006699562072754,lj_ab_12_6,,,3 sp2 nitrogen in aromatic amines
+ne,Ne,20.183000564575195,lj_ab_12_6,,,0 Neon
+nh,N,14.006699562072754,lj_ab_12_6,,,3 sp2 nitrogen in 5 or 6 membered ring
+nh+,N,14.006699562072754,lj_ab_12_6,,,3 protonated nitrogen in 6 membered ring
+nho,N,14.006699562072754,lj_ab_12_6,,,3 sp2 nitrogen in 6 membered ring next to a carbonyl
+ni,N,14.006699562072754,lj_ab_12_6,,,3 nitrogen in charged imidazole ring
+nn,N,14.006699562072754,lj_ab_12_6,,,3 sp2 nitrogen in aromatic amines
+np,N,14.006699562072754,lj_ab_12_6,,,2 sp2 nitrogen in 5- or 6- membered ring
+npc,N,14.006699562072754,lj_ab_12_6,,,3 sp2 nitrogen in 5- or 6- membered ring and with a heavy atom
+nr,N,14.006699562072754,lj_ab_12_6,,,3 sp2 nitrogen (NH2) in guanidinium group (HN=C(NH2)2)
+nt,N,14.006699562072754,lj_ab_12_6,,,1 sp nitrogen involved in a triple bond
+nz,N,14.006699562072754,lj_ab_12_6,,,1 sp3 nitrogen bonded to two atoms
+o,O,15.99940013885498,lj_ab_12_6,,,2 generic SP3 oxygen
+o*,O,15.99940013885498,lj_ab_12_6,,,2 oxygen in water (-0.82 in this moddel !)
+o-,O,15.99940013885498,lj_ab_12_6,,,1 partial double oxygen
+o2*,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in water (-0.82, compass)"
+o2e,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in ether (-0.32, compass)"
+o2h,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in hydroxyl group (-0.57, compass)"
+o3e,O,15.99940013885498,lj_ab_12_6,,,2 sp3 oxygen in three membered ring
+o4e,O,15.99940013885498,lj_ab_12_6,,,2 sp3 oxygen in four membered ring
+o=,O,15.99940013885498,lj_ab_12_6,,,"1 oxygen double bonded to O, C, S, N, P"
+o_1,O,15.99940013885498,lj_ab_12_6,,,1 oxygen in carbonyl group
+o_2,O,15.99940013885498,lj_ab_12_6,,,2 ester oxygen
+oa1,O,15.99940013885498,lj_ab_12_6,,,2 Oxygen atom in terminal OH group in PEO (-0.6)
+oah,O,15.99491024017334,lj_ab_12_6,,,2 oxygen atom in terminal hydroxyl group on aluminium
+oap1,O,15.99940013885498,lj_ab_12_6,,,1 Oxygen atom in (hydrogen)phosphate ion in hydroxyapatite (-0.8 to -0.6)
+oap2,O,15.99940013885498,lj_ab_12_6,,,1 Oxygen atom in hydroxide ion in hydroxyapatite (-1.1)
+oas,O,15.99491024017334,lj_ab_12_6,,,2 oxygen atom between aluminium and silicon
+oat5,O,14.99940013885498,lj_ab_12_6,,,2 Oxygen atom in terminal OH group in PEO with lone pairs et5 attached (et5=-0.18)
+ob,O,15.99491024017334,lj_ab_12_6,,,3 oxygen atom in bridging hydroxyl group
+oc,O,15.99940013885498,lj_ab_12_6,,,2 sp3 oxygen in ether or acetals
+oc1,O,15.99940013885498,lj_ab_12_6,,,1 Oxygen atom silicate ion in Ca3SiO5 (-1.0)
+oc10,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in ettringite, Al(OH)6 unit (-0.9)"
+oc11,O,15.99940013885498,lj_ab_12_6,,,"1 Oxygen atom in ettringite, sulfate unit (-0.6)"
+oc12,O,15.99940013885498,lj_ab_12_6,,,2 Oxygen atom in tobermorite ring (-0.6 and -0.5)
+oc13,O,15.99940013885498,lj_ab_12_6,,,"1 Oxygen atom in tobermorite in apical position (-0.925 in tob 11A, -1.0 in tob 14A)"
+oc14,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in tobermorite, SiOH unit (-0.66)"
+oc15,O,15.99940013885498,lj_ab_12_6,,,"1 Oxygen atom in monosulfate, sulfate unit (-0.6)"
+oc16,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in monosulfate, Al(OH)6 unit (-0.8)"
+oc17,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in monosulfate, Al(OH)6 unit (-0.8)"
+oc18,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in monosulfate, Al(OH)6 unit (-0.8)"
+oc19,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in monosulfate, Al(OH)6 unit (-0.8)"
+oc2,O,15.99940013885498,lj_ab_12_6,,,0 Oxide ion in Ca3SiO5 (-1.5)
+oc20,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in monosulfate, Al(OH)6 unit (-0.8)"
+oc21,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in monosulfate, Al(OH)6 unit (-0.8)"
+oc22,O,15.99940013885498,lj_ab_12_6,,,"1 Oxygen atom in tobermorite 14A, apical (-1.0)"
+oc23,O,15.99940013885498,lj_ab_12_6,,,2 Oxygen atom in bulk silica (-0.55)
+oc24,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom on silica surface and clay edge (-0.675 in Si-OH, -0.9 in SiO-)"
+oc25,O,15.99940013885498,lj_ab_12_6,,,"1 Oxygen atom in sulfate ion (gypsum, -0.65)"
+oc3,O,15.99940013885498,lj_ab_12_6,,,2 Oxygen atom in aluminate ring in Ca3Al2O6 (-0.75)
+oc4,O,15.99940013885498,lj_ab_12_6,,,1 Oxygen atom in apical position in Ca3Al2O6 (-1.35)
+oc5,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in ettringite, Al(OH)6 unit (-0.9) and in superficial hydroxide ions (-1.05)"
+oc6,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in ettringite, Al(OH)6 unit (-0.9)"
+oc7,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in ettringite, Al(OH)6 unit (-0.9)"
+oc8,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in ettringite, Al(OH)6 unit (-0.9)"
+oc9,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in ettringite, Al(OH)6 unit (-0.9)"
+oe,O,15.99940013885498,lj_ab_12_6,,,2 sp3 oxygen in ester
+oe1,O,15.99940013885498,lj_ab_12_6,,,2 Oxygen atom in PEO backbone
+oet5,O,14.99940013885498,lj_ab_12_6,,,2 Oxygen atom in PEO backbone with lone pairs et5 attached (et5=-0.12)
+oh,O,15.99940013885498,lj_ab_12_6,,,2 oxygen bonded to hydrogen
+oo,O,15.99940013885498,lj_ab_12_6,,,"1 oxygen in carbonyl group, carbonate only"
+op,O,15.99940013885498,lj_ab_12_6,,,2 sp2 aromatic in 5 membered ring
+osh,O,15.99491024017334,lj_ab_12_6,,,2 oxygen atom in terminal hydroxyl group on silicon
+osi,O,16,lj_ab_12_6,,,2 siloxane oxygen
+oss,O,15.99491024017334,lj_ab_12_6,,,2 oxygen atom betweem two silicons
+ot5,O,14.99940013885498,lj_ab_12_6,,,2 Oxygen atom in TIP5P water model
+oy1,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)"
+oy2,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)"
+oy3,O,15.99940013885498,lj_ab_12_6,,,"2 Oxygen atom in silicate sheet, surface (-0.55, -0.783 if next to Al defect)"
+oy4,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)"
+oy5,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)"
+oy6,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.683, -0.792 if next to Mg defect)"
+oy7,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)"
+oy8,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.758, -0.867 if next to Mg defect)"
+oy9,O,15.99940013885498,lj_ab_12_6,,,"3 Oxygen atom in octahedral aluminate sheet (-0.683, -0.792 if next to Mg defect)"
+oz,O,15.99940013885498,lj_ab_12_6,,,2 ester oxygen in carbonate
+p,P,30.973800659179688,lj_ab_12_6,,,4 general phosphorous atom
+p=,P,30.973800659179688,lj_ab_12_6,,,5 phosphazene phosphorous atom
+pap,P,30.973800659179688,lj_ab_12_6,,,4 Phosphorus atom in (hydrogen)phosphate ion in hydroxyapatite (+1.0)
+s,S,32.063999176025391,lj_ab_12_6,,,2 sp3 sulfur
+s',S,32.063999176025391,lj_ab_12_6,,,1 S in thioketone group
+s-,S,32.063999176025391,lj_ab_12_6,,,1 partial double sulfur
+s1,S,32.063999176025391,lj_ab_12_6,,,2 sp3 sulfur involved in (S-S) group of disulfides
+s3e,S,32.063999176025391,lj_ab_12_6,,,2 sulfur in three membered ring
+s4e,S,32.063999176025391,lj_ab_12_6,,,2 sulfur in four membered ring
+s_m,S,32.063999176025391,lj_ab_12_6,,,4 Sulfur atom in sulfate ion in monosulfate (+1.0
+sc,S,32.063999176025391,lj_ab_12_6,,,2 sp3 sulfur in methionines (C-S-C) group
+sc1,Si,28.086000442504883,lj_ab_12_6,,,4 Silicon atom in silicate ion in Ca3SiO5 (+1.0)
+sc2,Si,28.086000442504883,lj_ab_12_6,,,4 Silicon atom in tobermorite ring (+1.0)
+sc3,Si,28.086000442504883,lj_ab_12_6,,,4 Silicon atom in tobermorite ring junction (+1.0)
+sc4,Si,28.086000442504883,lj_ab_12_6,,,"4 Silicon atom in silica (+1.1 in bulk SiO2 or SiOH, +0.725 in SiO-)"
+sf,S,32.063999176025391,lj_ab_12_6,,,1 S in sulfonate group
+sh,S,32.063999176025391,lj_ab_12_6,,,2 sp3 sulfur in sulfhydryl (-SH) group (e.g. cysteine)
+si,Si,28.086000442504883,lj_ab_12_6,,,4 silicon atom
+sio,Si,28.086000442504883,lj_ab_12_6,,,4 siloxane silicon
+sp,S,32.063999176025391,lj_ab_12_6,,,2 sulfur in an aromatic ring (e.g. thiophene)
+sy1,Si,28.086000442504883,lj_ab_12_6,,,4 Silicon atom in tetrahedral silicate sheet (+1.1)
+sy2,Si,28.086000442504883,lj_ab_12_6,,,4 Silicon atom in tetrahedral silicate sheet (+1.1)
+sz,Si,28.086000442504883,lj_ab_12_6,,,4 silicon atom in zeolites
+xe,Xe,131.30000305175781,lj_ab_12_6,,,0 Xenon

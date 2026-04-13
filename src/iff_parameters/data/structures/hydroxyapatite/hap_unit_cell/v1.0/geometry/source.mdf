@@ -1,0 +1,72 @@
+!BIOSYM molecular_data 4
+ 
+!Date: Tue Apr 15 10:10:13 2014   Materials Studio Generated MDF file
+ 
+#topology
+
+@column 1 element
+@column 2 atom_type
+@column 3 charge_group
+@column 4 isotope
+@column 5 formal_charge
+@column 6 charge
+@column 7 switching_atom
+@column 8 oop_flag
+@column 9 chirality_flag
+@column 10 occupancy
+@column 11 xray_temp_factor
+@column 12 connections
+ 
+@molecule Molecule
+ 
+XXXX_1:O1           O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P1 
+XXXX_1:O2           O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P2 
+XXXX_1:O3           O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P3 
+XXXX_1:O4           O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P4 
+XXXX_1:O5           O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P5 
+XXXX_1:O6           O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P6 
+XXXX_1:O7           O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P4 
+XXXX_1:O8           O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P5 
+XXXX_1:O9           O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P6 
+XXXX_1:O10          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P1 
+XXXX_1:O11          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P2 
+XXXX_1:O12          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0199 P3 
+XXXX_1:Ca1          Ca ca+h    ?     0  2+    1.5000 0 0 8 1.0000  0.0118 
+XXXX_1:Ca2          Ca ca+h    ?     0  2+    1.5000 0 0 8 1.0000  0.0118 
+XXXX_1:Ca3          Ca ca+h    ?     0  2+    1.5000 0 0 8 1.0000  0.0118 
+XXXX_1:Ca4          Ca ca+h    ?     0  2+    1.5000 0 0 8 1.0000  0.0118 
+XXXX_1:Ca5          Ca ca+h    ?     0  2+    1.5000 0 0 8 1.0000  0.0109 
+XXXX_1:P1           P  pap     ?     0  1+    1.0000 0 0 8 1.0000  0.0109 O1 O10 O13 O14 
+XXXX_1:O13          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0158 P1 
+XXXX_1:O14          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0127 P1 
+XXXX_1:Ca6          Ca ca+h    ?     0  2+    1.5000 0 0 8 1.0000  0.0109 
+XXXX_1:P2           P  pap     ?     0  1+    1.0000 0 0 8 1.0000  0.0109 O2 O11 O15 O16 
+XXXX_1:O15          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0158 P2 
+XXXX_1:O16          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0127 P2 
+XXXX_1:Ca7          Ca ca+h    ?     0  2+    1.5000 0 0 8 1.0000  0.0109 
+XXXX_1:P3           P  pap     ?     0  1+    1.0000 0 0 8 1.0000  0.0109 O3 O12 O17 O18 
+XXXX_1:O17          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0158 P3 
+XXXX_1:O18          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0127 P3 
+XXXX_1:Ca8          Ca ca+h    ?     0  2+    1.5000 0 0 8 1.0000  0.0109 
+XXXX_1:P4           P  pap     ?     0  1+    1.0000 0 0 8 1.0000  0.0109 O4 O7 O19 O20 
+XXXX_1:O19          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0158 P4 
+XXXX_1:O20          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0127 P4 
+XXXX_1:Ca9          Ca ca+h    ?     0  2+    1.5000 0 0 8 1.0000  0.0109 
+XXXX_1:P5           P  pap     ?     0  1+    1.0000 0 0 8 1.0000  0.0109 O5 O8 O21 O22 
+XXXX_1:O21          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0158 P5 
+XXXX_1:O22          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0127 P5 
+XXXX_1:Ca10         Ca ca+h    ?     0  2+    1.5000 0 0 8 1.0000  0.0109 
+XXXX_1:P6           P  pap     ?     0  1+    1.0000 0 0 8 1.0000  0.0109 O6 O9 O23 O24 
+XXXX_1:O23          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0158 P6 
+XXXX_1:O24          O  oap1    ?     0  1-   -0.8000 0 0 8 1.0000  0.0127 P6 
+XXXX_1:O25          O  oap2    ?     0  1-   -1.1000 0 0 8 1.0000  0.0166 H1 
+XXXX_1:O26          O  oap2    ?     0  1-   -1.1000 0 0 8 1.0000  0.0166 H2 
+XXXX_1:H1           H  hop     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O25 
+XXXX_1:H2           H  hop     ?     0  0     0.2000 0 0 8 1.0000  0.0000 O26 
+ 
+!
+#symmetry
+@periodicity 3 xyz
+@group (P1)
+
+#end

@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "cvff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 1220,
+    "sha256": "77c16817f177424eb1063f13a74fae0ef6b1f6b05b7d23f3db8c846ba05c8bb7"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:25Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "a1a6b6fc11db16d22872358aa2d802084ed68a9e1bb8e3657be71243229f2d74"
+  },
+  "name": "mont0_333_K_15_cell",
+  "parameterized_with": [
+    {
+      "name": "cvff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:25Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "clay"
+    ],
+    "mdf_companion": "mont0_333_K_15_cell.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/CLAY_MINERALS",
+    "source_file": "mont0_333_K_15_cell.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "a1a6b6fc11db16d22872358aa2d802084ed68a9e1bb8e3657be71243229f2d74"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "77c16817f177424eb1063f13a74fae0ef6b1f6b05b7d23f3db8c846ba05c8bb7"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

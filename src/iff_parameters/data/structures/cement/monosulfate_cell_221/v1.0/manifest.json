@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "pcff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 318,
+    "sha256": "58dbe1a732dbae79edf178a2e729f9c66673fa68b186a1cfa69900e5a5d7caf9"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:25Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "359cd4b786f23dd62595d15e0d1f274a8975069dd9605f580e9c478533308a88"
+  },
+  "name": "monosulfate_cell_221",
+  "parameterized_with": [
+    {
+      "name": "pcff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:25Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "cement"
+    ],
+    "mdf_companion": "monosulfate_cell_221.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/CEMENT_MINERALS",
+    "source_file": "monosulfate_cell_221.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "359cd4b786f23dd62595d15e0d1f274a8975069dd9605f580e9c478533308a88"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "58dbe1a732dbae79edf178a2e729f9c66673fa68b186a1cfa69900e5a5d7caf9"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

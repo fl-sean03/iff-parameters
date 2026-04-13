@@ -1,0 +1,50 @@
+{
+  "atom_type_family": "cvff-interface",
+  "atoms_csv": {
+    "path": "atoms.csv",
+    "rows": 36,
+    "sha256": "1937173a77c4791c01eb1ebea20e3265d0013067f08360fcae5c4c052a2782c3"
+  },
+  "charges_source": "structure",
+  "created_utc": "2026-04-13T21:47:26Z",
+  "deprecated": false,
+  "geometry": {
+    "format": "car",
+    "path": "geometry/source.car",
+    "sha256": "36fd3a6f467309a6ff397dbc699b29bc96cbe91bdea02c31308b05a060338151"
+  },
+  "name": "a_cristobalite_20m2_cell",
+  "parameterized_with": [
+    {
+      "name": "cvff-interface",
+      "version": "v1.5"
+    }
+  ],
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:47:26Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "silica"
+    ],
+    "mdf_companion": "a_cristobalite_20m2_cell.mdf",
+    "notes": "Pre-parameterized structure from INTERFACE_FF_1_5/MODEL_DATABASE/SILICA",
+    "source_file": "a_cristobalite_20m2_cell.car",
+    "source_sha256": ""
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "geometry/source.car",
+      "sha256": "36fd3a6f467309a6ff397dbc699b29bc96cbe91bdea02c31308b05a060338151"
+    },
+    {
+      "path": "atoms.csv",
+      "sha256": "1937173a77c4791c01eb1ebea20e3265d0013067f08360fcae5c4c052a2782c3"
+    }
+  ],
+  "tables": {},
+  "type": "structure",
+  "version": "v1.0"
+}

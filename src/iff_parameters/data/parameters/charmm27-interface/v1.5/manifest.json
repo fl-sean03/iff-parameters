@@ -1,0 +1,124 @@
+{
+  "created_utc": "2026-04-13T21:48:28Z",
+  "deprecated": false,
+  "features": [],
+  "name": "charmm27-interface",
+  "nonbonded": {
+    "form": "12-6",
+    "mixing": "arithmetic",
+    "style": "eps-rmin"
+  },
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:48:28Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "silica",
+      "clay",
+      "metals",
+      "cement",
+      "hydroxyapatite",
+      "Ca sulfate",
+      "PEO"
+    ],
+    "notes": "Canonical INTERFACE Force Field v1.5 (April 2014). Distribution documented at http://bionanostructures.com/.",
+    "publication_doi": null,
+    "source_file": "charmm27_interface_v1_5.prm",
+    "source_sha256": "f327117faad8e14e8958187ae0b5a5acf94e97612fcae83ca0db7a31a4bf674b"
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "raw/source.prm",
+      "sha256": "f327117faad8e14e8958187ae0b5a5acf94e97612fcae83ca0db7a31a4bf674b"
+    },
+    {
+      "path": "raw/unknown_sections.json",
+      "sha256": "b6f8943e6310c92e723560ebb59ecd9f2dc01e8af6638d383d739af983598573"
+    }
+  ],
+  "tables": {
+    "angles": {
+      "dtypes": {
+        "k": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "theta0_deg": "Float64"
+      },
+      "path": "tables/angles.csv",
+      "rows": 598,
+      "sha256": "aed505c5c36176e5277343402aa3195587e50704b515c74bae41c32b5a3d93b6"
+    },
+    "atom_types": {
+      "dtypes": {
+        "atom_type": "string",
+        "element": "string",
+        "lj_a": "Float64",
+        "lj_b": "Float64",
+        "mass_amu": "Float32",
+        "notes": "string",
+        "vdw_style": "string"
+      },
+      "path": "tables/atom_types.csv",
+      "rows": 166,
+      "sha256": "a59bad477df0c15cf5076e3db8769f329331bde1f97313d275da0cf95a4821bb"
+    },
+    "bonds": {
+      "dtypes": {
+        "k": "Float64",
+        "r0": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string"
+      },
+      "path": "tables/bonds.csv",
+      "rows": 234,
+      "sha256": "42a7abf0c02b86d14cd5658c1d1c13530ba70d885bc0370176769563b5c7c3df"
+    },
+    "out_of_plane": {
+      "dtypes": {
+        "chi0": "Float64",
+        "kchi": "Float64",
+        "n": "Int32",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "t4": "string"
+      },
+      "path": "tables/out_of_plane.csv",
+      "rows": 96,
+      "sha256": "73daac9febacbb8beecfa86f948484b38701688a9a588c84a5f766432e7a7eb9"
+    },
+    "torsions": {
+      "dtypes": {
+        "kphi": "Float64",
+        "n": "Int32",
+        "phi0": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "t4": "string"
+      },
+      "path": "tables/torsions.csv",
+      "rows": 607,
+      "sha256": "11eae2391ca9871852be1025ed61337a9c31de9edbdea8c5f6fd2de95683ea2c"
+    }
+  },
+  "type": "parameters",
+  "units": {
+    "angle": "degree",
+    "energy": "kcal/mol",
+    "length": "angstrom",
+    "mass": "amu"
+  },
+  "version": "v1.5"
+}

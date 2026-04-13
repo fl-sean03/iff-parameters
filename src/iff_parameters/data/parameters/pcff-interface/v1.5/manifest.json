@@ -1,0 +1,134 @@
+{
+  "created_utc": "2026-04-13T21:48:28Z",
+  "deprecated": false,
+  "features": [],
+  "name": "pcff-interface",
+  "nonbonded": {
+    "form": "9-6",
+    "mixing": "sixth-power",
+    "note": "9-6 nonbond not fully parseable; see raw/source.frc",
+    "style": "A-B"
+  },
+  "partial_roundtrip": true,
+  "provenance": {
+    "author": "Hendrik Heinz",
+    "date_created": "2014-04-14",
+    "ingested_utc": "2026-04-13T21:48:28Z",
+    "lab": "Heinz Lab, CU Boulder",
+    "materials": [
+      "silica",
+      "clay",
+      "metals",
+      "cement",
+      "hydroxyapatite",
+      "Ca sulfate",
+      "PEO"
+    ],
+    "notes": "Canonical INTERFACE Force Field v1.5 (April 2014). Distribution documented at http://bionanostructures.com/. Partial roundtrip: 9-6 nonbond / cross-terms preserved as raw only.",
+    "publication_doi": null,
+    "source_file": "pcff_interface_v1_5.frc",
+    "source_sha256": "3ad5a1be7334c646ed6cb813b769d0e89a1aa03fe695013e940626b7df922693"
+  },
+  "schema_version": "upm-2.1",
+  "sources": [
+    {
+      "path": "raw/source.frc",
+      "sha256": "3ad5a1be7334c646ed6cb813b769d0e89a1aa03fe695013e940626b7df922693"
+    },
+    {
+      "path": "raw/unknown_sections.json",
+      "sha256": "3d57924c3ecf8f7f93c06fbb5ddd65286838c0e310f8dff0de2137549da1b7fa"
+    }
+  ],
+  "tables": {
+    "angles": {
+      "dtypes": {
+        "k": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "theta0_deg": "Float64"
+      },
+      "path": "tables/angles.csv",
+      "rows": 329,
+      "sha256": "537113afd3203e300babfb2d3564e59e0ca11f55eb678fdcdf960f076d1e56df"
+    },
+    "atom_types": {
+      "dtypes": {
+        "atom_type": "string",
+        "element": "string",
+        "lj_a": "Float64",
+        "lj_b": "Float64",
+        "mass_amu": "Float32",
+        "notes": "string",
+        "vdw_style": "string"
+      },
+      "path": "tables/atom_types.csv",
+      "rows": 214,
+      "sha256": "bad9b78b836cb122943c7e4f603ce10314d2bd6440d467e545c84632f4b68e7e"
+    },
+    "bond_increments": {
+      "dtypes": {
+        "delta_ij": "float64",
+        "delta_ji": "float64",
+        "t1": "object",
+        "t2": "object"
+      },
+      "path": "tables/bond_increments.csv",
+      "rows": 566,
+      "sha256": "bbf9d0072ff860b90613079ec1b1e23f63437af0dda1a7448b8551bd0b24e1c4"
+    },
+    "bonds": {
+      "dtypes": {
+        "k": "Float64",
+        "r0": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string"
+      },
+      "path": "tables/bonds.csv",
+      "rows": 627,
+      "sha256": "fdf8460fbd1a1ec9a509b23b94a7d7e405d52dbb75ef55fa3c7e9ca95c104e44"
+    },
+    "equivalences": {
+      "dtypes": {
+        "angle": "string",
+        "atom_type": "string",
+        "bond": "string",
+        "nonb": "string",
+        "oop": "string",
+        "torsion": "string"
+      },
+      "path": "tables/equivalences.csv",
+      "rows": 215,
+      "sha256": "cc75cf19995c4c90d75792ab17718c8e20cf640c9bd91c44eda3c896ac5c5f52"
+    },
+    "torsions": {
+      "dtypes": {
+        "kphi": "Float64",
+        "n": "Int32",
+        "phi0": "Float64",
+        "source": "string",
+        "style": "string",
+        "t1": "string",
+        "t2": "string",
+        "t3": "string",
+        "t4": "string"
+      },
+      "path": "tables/torsions.csv",
+      "rows": 217,
+      "sha256": "6de7fca5c0582442e5a27be14bff3ce7733eec09b2ecf598244745b005920604"
+    }
+  },
+  "type": "parameters",
+  "units": {
+    "angle": "degree",
+    "energy": "kcal/mol",
+    "length": "angstrom",
+    "mass": "amu"
+  },
+  "version": "v1.5"
+}

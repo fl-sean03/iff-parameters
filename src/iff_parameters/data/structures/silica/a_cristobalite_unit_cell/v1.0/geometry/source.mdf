@@ -1,0 +1,40 @@
+!BIOSYM molecular_data 4
+ 
+!Date: Thu May 31 03:51:33 2012   Materials Studio Generated MDF file
+ 
+#topology
+
+@column 1 element
+@column 2 atom_type
+@column 3 charge_group
+@column 4 isotope
+@column 5 formal_charge
+@column 6 charge
+@column 7 switching_atom
+@column 8 oop_flag
+@column 9 chirality_flag
+@column 10 occupancy
+@column 11 xray_temp_factor
+@column 12 connections
+ 
+@molecule a_crist_unit_cell
+ 
+XXXX_1:O            O  oc23    ?     0  0    -0.5500 0 0 8 1.0000  0.0000 SI XXXX_3:Si1%0-10#1 
+XXXX_1:SI           Si sc4     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O XXXX_3:O2 XXXX_4:O1%00-1#1 XXXX_5:O%-10-1#1 
+XXXX_2:O1           O  oc23    ?     0  0    -0.5500 0 0 8 1.0000  0.0000 Si1 XXXX_4:Si1%010#1 
+XXXX_2:O2           O  oc23    ?     0  0    -0.5500 0 0 8 1.0000  0.0000 Si1 XXXX_3:Si1%100#1 
+XXXX_2:Si1          Si sc4     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O1 O2 XXXX_3:O1 XXXX_4:O2 
+XXXX_3:O1           O  oc23    ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_2:Si1 Si1 
+XXXX_3:O2           O  oc23    ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_1:SI Si1 
+XXXX_3:Si1          Si sc4     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O1 O2 XXXX_1:O%010#1 XXXX_2:O2%-100#1 
+XXXX_4:O1           O  oc23    ?     0  0    -0.5500 0 0 8 1.0000  0.0000 Si1 XXXX_1:SI%001#1 
+XXXX_4:O2           O  oc23    ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_2:Si1 Si1 
+XXXX_4:Si1          Si sc4     ?     0  0     1.1000 0 0 8 1.0000  0.0000 O1 O2 XXXX_5:O XXXX_2:O1%0-10#1 
+XXXX_5:O            O  oc23    ?     0  0    -0.5500 0 0 8 1.0000  0.0000 XXXX_4:Si1 XXXX_1:SI%101#1 
+ 
+!
+#symmetry
+@periodicity 3 xyz
+@group (P1)
+
+#end
