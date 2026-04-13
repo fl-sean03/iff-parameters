@@ -17,7 +17,12 @@ from functools import total_ordering
 from pathlib import Path
 from typing import Any, Iterator
 
-from . import get_data_dir
+import iff_parameters as _iff_root
+
+
+def get_data_dir() -> Path:
+    """Indirect lookup so monkeypatching ``iff_parameters.get_data_dir`` takes effect."""
+    return _iff_root.get_data_dir()
 
 _ARCHIVE_DIRNAME = "archive"
 
