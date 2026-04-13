@@ -48,7 +48,6 @@ def _compare_against_existing(
     Returns list of similarity reports sorted by overlap (highest first).
     Each report: {name, version, path, overlap_pct, added, removed, changed}
     """
-    import pandas as pd
     from upm.bundle.io import load_package
     from upm.registry.diff import diff_tables
 
@@ -130,7 +129,7 @@ def _print_similarity_report(reports: list[dict]) -> None:
 
         # Recommendation
         if r["overlap_pct"] > 95 and r["added_types"] == 0:
-            print(f"    → RECOMMENDATION: This looks like a parameter update.")
+            print("    → RECOMMENDATION: This looks like a parameter update.")
             print(f"      Consider: --name {r['name']} --version v{_next_version(r['version'])}")
         elif r["overlap_pct"] > 80:
             print(f"    → RECOMMENDATION: This extends {r['name']}.")
@@ -231,7 +230,7 @@ Examples:
     from upm.bundle.io import load_package
     bundle = load_package(root)
     assert len(bundle.tables.get("atom_types", [])) > 0, "Roundtrip failed: no atom_types"
-    print(f"  Roundtrip: PASS")
+    print("  Roundtrip: PASS")
     print(f"\nDone. Bundle at: {root}")
 
 

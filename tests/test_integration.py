@@ -1,7 +1,6 @@
 """Cross-package integration tests: USM → UPM → iff-parameters pipeline."""
 from __future__ import annotations
 
-from pathlib import Path
 
 import pandas as pd
 import pytest

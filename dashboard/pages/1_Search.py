@@ -1,6 +1,5 @@
 """Search force field parameters across all bundles."""
 import streamlit as st
-import pandas as pd
 
 from utils.data import get_all_atom_types, list_bundles
 

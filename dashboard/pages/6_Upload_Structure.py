@@ -1,7 +1,6 @@
 """Upload a pre-parameterized structure (.car / .mdf / .pdb)."""
 from __future__ import annotations
 
-import io
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -9,8 +8,7 @@ import pandas as pd
 import streamlit as st
 
 from utils.data import (
-    get_data_dir, list_parameter_entries, list_structure_entries,
-    load_bundle_tables,
+    get_data_dir, list_parameter_entries, load_bundle_tables,
 )
 
 st.title("Upload Structure")

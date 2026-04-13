@@ -115,4 +115,4 @@ with tabs[2]:
     """)
 
 st.markdown("---")
-st.caption(f"Powered by UPM v2.1 • Library schema v0.2")
+st.caption("Powered by UPM v2.1 • Library schema v0.2")

@@ -4,7 +4,6 @@ from __future__ import annotations
 import io
 import json
 import zipfile
-from pathlib import Path
 
 import streamlit as st
 
@@ -88,7 +87,7 @@ with tabs[1]:
                        format_func=lambda i: labels[i], key="dl_struct_sel")
     s = in_class[idx]
 
-    st.write(f"**Pinned:** " + ", ".join(f"`{p['name']}@{p['version']}`"
+    st.write("**Pinned:** " + ", ".join(f"`{p['name']}@{p['version']}`"
                                           for p in s.get("parameterized_with", [])))
     if s.get("lock_to_original"):
         st.warning("Structure is locked to original. `pull_latest` will return the original.")
@@ -101,7 +100,7 @@ with tabs[1]:
     )
 
     # Run the pull
-    from iff_parameters.entries import Entry, list_structure_entries as list_structure_entries_backend
+    from iff_parameters.entries import list_structure_entries as list_structure_entries_backend
     # Re-find the matching Entry by path
     backend_entries = list_structure_entries_backend()
     structure_entry = next((e for e in backend_entries if str(e.path) == s["path"]), None)

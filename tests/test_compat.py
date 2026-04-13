@@ -6,7 +6,7 @@ Covers edge cases EC-1, EC-2, EC-3, EC-4, EC-14, EC-20 from USE_CASES.md.
 from __future__ import annotations
 
 from iff_parameters.compat import compatibility_check, compose_renames
-from iff_parameters.entries import find_parameter_entry, index_family_versions
+from iff_parameters.entries import index_family_versions
 
 
 def test_same_version_pin_is_ok(library):
